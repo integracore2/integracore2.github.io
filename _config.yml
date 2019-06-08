@@ -5,7 +5,7 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
 
-saif:
+author:
     name: Saif (integracore2)
     email: integracore2@gmail.com
     web: http://www.twitter.com/integracore2
