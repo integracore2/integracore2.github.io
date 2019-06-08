@@ -3,7 +3,7 @@ logo: /assets/img/logo.png
 description: Full-Stack Data Scientist & Quant Trader @ Darwinex (www.darwinex.com)
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-minimal
+theme: jekyll-theme-hacker
 
 author:
     name: Saif (integracore2)
