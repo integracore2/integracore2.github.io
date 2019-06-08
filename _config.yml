@@ -1,11 +1,5 @@
-title: Saif (integracore2)
-logo: /assets/img/logo.png
-description: Full-Stack Data Scientist & Quant Trader @ Darwinex (www.darwinex.com)
-show_downloads: false
+title: Midnight theme
+description: Midnight is a theme for GitHub Pages.
+show_downloads: true
 google_analytics:
-theme: jekyll-theme-minimal
-
-author:
-    name: Saif (integracore2)
-    email: integracore2@gmail.com
-    web: http://www.twitter.com/integracore2
+theme: jekyll-theme-midnight
