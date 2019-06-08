@@ -1,25 +1,31 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
-# Permalinks
-permalink:        pretty
+markdown:         kramdown
+highlighter:      rouge
 
 # Setup
-title:            Saif
-tagline:          'Quant by day, guitarist by night..'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              https://integracore2.github.io
+title:            BlackDoc
+tagline:          Black Theme for Jekyll
+description:      "A two-column black theme with a scrolling sidebar. Ideal for sites requiring a master-detail layout, e.g. documentation, cheatsheets, lyrics, notes..."
+url:              https://github.com/karloespiritu/blackdoc
 baseurl:          /
+                  # the optional subpath of your site, e.g. "/my-jekyll-site/"
+                  # This will apply to all pages in your Jekyll site.
 
 author:
-  name:           'integracore2'
-  url:            https://twitter.com/integracore2
+  name:           Karlo Espiritu
+  url:            https://twitter.com/karloespiritu
 
 paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/my-jekyll-site/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 
 # Custom vars
-version:          2.1.0
+version:            2.0.1
 
 github:
-  repo:           https://github.com/integracore2
+  repo:             https://github.com/karloespiritu/blackdoc
