@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "It's been a while.."
+tags:
+	- Randomness
 ---
 
 .. since I blogged about anything.. primarily due to time constraints.
