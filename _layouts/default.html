@@ -39,6 +39,16 @@
 
 		<hr />
 		
+		<h2>My ramblings..</h2>
+		
+		<ul>
+		  {% for post in site.posts %}
+			<li>
+			  <a href="{{ post.url }}">{{ post.title }}</a>
+			</li>
+		  {% endfor %}
+		</ul>
+
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
