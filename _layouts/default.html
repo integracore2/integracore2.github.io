@@ -29,14 +29,25 @@
         {% if site.github.is_user_page %}
         <p class="view">
 			<ul>
-				<li><a href="{{ site.author.twitter }}">Follow me on Twitter</a></li>
-				<li><a href="{{ site.author.linkedin }}">Connect via LinkedIn</a></li>
-				<li><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></li>
+				<li><a href="{{ site.author.twitter }}" target="_blank">Follow me on Twitter</a></li>
+				<li><a href="{{ site.author.linkedin }}" target="_blank">Connect via LinkedIn</a></li>
+				<li><a href="{{ site.github.owner_url }}" target="_blank">View My GitHub Profile</a></li>
 			</ul>
 		</p>
 		
         {% endif %}
 
+		<hr />
+		
+		<h2>Verified Track Record</h2>
+		<p class="view">
+			<ul>
+				<li><a href="{{ site.author.darwin_lzl }}" target="_blank">DARWIN $LZL (6+ years)</a></li>
+				<li><a href="{{ site.author.darwin_plf }}" target="_blank">DARWIN $PLF (4+ years)</a></li>
+				<li><a href="{{ site.github.darwin_icx }}" target="_blank">DARWIN $ICX (4+ years)</a></li>
+			</ul>
+		</p>
+		
 		<hr />
 		
 		<h2>My ramblings..</h2>
