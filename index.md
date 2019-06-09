@@ -2,6 +2,19 @@
 layout: default
 ---
 
+{% for post in site.posts limit:1 %}
+	<small>{{ page.date | date: "%-d %B %Y" }}</small>
+	<h1>{{ post.title }}</h1>
+
+	<p class="view">by {{ post.author | default: site.author.name }}</p>
+
+	{{post.content}}
+
+	{% if post.tags %}
+	  <small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small>
+	{% endif %}
+{% endfor %}
+
 ```python
 class integracore2_blog():
 	
