@@ -22,9 +22,9 @@ If they don’t, then I want to be the one who takes the heat for their publicat
 Apart from the above, blogging again is exciting for several other reasons:
 
 1. I do have a life outside Quant R&D.. believe it or not ;)
-2. I compose music in my spare time, am an amateur but passionate cyclist, and would love to be able to share moments from a jam session, a mountain bike ride, etc every once in a while..
-3. I’m a passionate supporter of demonstrated talent and initiative over "labels".. it grates me to see several PhD’s publishing their latest papers with little in the way of practical experience in the trenches, something that is reflected in the contents of their publications.
-4. I’d hence also like to use this blog to publish my own "non peer-reviewed" research, making you the readers my peers and reviewers.
+1. I compose music in my spare time, am an amateur but passionate cyclist, and would love to be able to share moments from a jam session, a mountain bike ride, etc every once in a while..
+1. I’m a passionate supporter of demonstrated talent and initiative over "labels".. it grates me to see several PhD’s publishing their latest papers with little in the way of practical experience in the trenches, something that is reflected in the contents of their publications.
+1. I’d hence also like to use this blog to publish my own "non peer-reviewed" research, making you the readers my peers and reviewers.
 
 I also have a treasure trove of code I’ve written but not organized thoroughly enough over the past two decades, that I’d love to structure into open source packages for both the public’s benefit and my own.. so there’s that.
 
