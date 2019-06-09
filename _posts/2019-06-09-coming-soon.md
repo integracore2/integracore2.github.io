@@ -5,6 +5,8 @@ categories: [randomness]
 tags: []
 ---
 
+Inspiration gleaned from my wife, who always encourages me to take some time and space for myself, amidst the chaos of parenthood and profession.
+
 It’s been a while since I last blogged about anything.. personally, I mean for myself, wherein I express my own views, ideas, experience, and anything in between.
 
 I’ve had (and thankfully still do) the opportunity and privilege of being immersed in projects that I love contributing to, from both a personal and professional standpoint.
