@@ -12,3 +12,8 @@ author:
     darwin_icx: https://www.darwinex.com/darwin/ICX.4.2/
     twitter: http://twitter.com/integracore2
     linkedin: https://www.linkedin.com/in/ali-saif/
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: integracore-io
