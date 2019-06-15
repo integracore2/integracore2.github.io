@@ -2,7 +2,8 @@
 layout: post
 title: Motivations for blogging again..
 categories: [randomness]
-tags: []
+tags: [research, cycling, music, blogging]
+comments: true
 ---
 
 Inspiration gleaned from my wife, who always encourages me to take some time and space for myself, amidst the chaos of parenthood and profession.
