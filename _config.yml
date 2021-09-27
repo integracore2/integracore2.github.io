@@ -7,9 +7,10 @@ google_analytics:
 theme: jekyll-theme-minimal
 author:
     name: Saif (integracore2)
-    darwin_plf: https://www.darwinex.com/darwin/PLF.4.1/
-    darwin_lzl: https://www.darwinex.com/darwin/LZL.4.23/
-    darwin_icx: https://www.darwinex.com/darwin/ICX.4.2/
+    darwin_plf: https://www.darwinex.com/darwin/PLF?detail_view=true
+    darwin_lzl: https://www.darwinex.com/darwin/LZL?detail_view=true
+    darwin_icx: https://www.darwinex.com/darwin/ICX?detail_view=true
+    darwin_nfx: https://www.darwinex.com/darwin/NFX?detail_view=true
     twitter: http://twitter.com/integracore2
     linkedin: https://www.linkedin.com/in/ali-saif/
 # Disqus Comments
