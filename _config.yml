@@ -2,7 +2,7 @@ title: Ali Saif
 logo: /assets/img/profile-picture.jpg
 description: Full-Stack Decision Scientist, Quant & Algorithmic Trader. R&D Stack | C++, Rust, Java, Python, R, Go and Julia.
 show_downloads: false
-paginate: 5
+#paginate: 5
 google_analytics:
 # theme: jekyll-theme-integracore2-light
 author:

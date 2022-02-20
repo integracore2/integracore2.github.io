@@ -1,0 +1,6 @@
+I"í<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">integracore2_blog</span><span class="p">():</span>
+	
+	<span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="k">print</span><span class="p">(</span><span class="s">'Coming soon.. stay tuned ;)'</span><span class="p">)</span>
+</code></pre></div></div>
+:ET
