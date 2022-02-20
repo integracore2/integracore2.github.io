@@ -5,3 +5,4 @@ docs
 .sass-cache
 Gemfile.lock
 *.gem
+_layouts/orig_default.html
