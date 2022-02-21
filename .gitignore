@@ -6,3 +6,4 @@ docs
 Gemfile.lock
 *.gem
 _layouts/orig_default.html
+another-page.md
