@@ -16,5 +16,6 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.add_runtime_dependency 'jekyll', '> 3.5', '< 5.0'
   s.add_development_dependency 'html-proofer', '~> 3.0'
+  s.add_development_dependency 'rubocop', '~> 0.5'
   s.add_development_dependency 'w3c_validators', '~> 1.3'
 end
