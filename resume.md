@@ -93,7 +93,7 @@ permalink: /resume/
                     <a href="//lmpixels.com/wp/leven-wp/wp-content/uploads/2019/11/1.jpg" class="lightbox">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
-                          <img src="./img/clients/client-7.png" alt="logo">
+                          <img src="{{ site.baseurl }}/assets/img/clients/client-7.png" alt="logo">
                         </div>
 
                         <div class="certi-content">
