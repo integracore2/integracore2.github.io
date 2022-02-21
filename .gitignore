@@ -6,4 +6,6 @@ docs
 Gemfile.lock
 *.gem
 _layouts/orig_default.html
+_layouts/portfolio.html
+_layouts/portfolio-4-columns.html
 another-page.md
