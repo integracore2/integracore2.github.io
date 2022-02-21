@@ -76,7 +76,7 @@ permalink: /evolution/
                         <!-- Portfolio Item 2 -->
                         <figure class="item lbvideo" data-groups='["category_all", "category_video", "category_youtube-video"]'>
                             <div class="portfolio-item-img">
-                              <img src="{{ site.baseurl }}/assets/img/portfolio/2.jpg" alt="YouTube Video 2" title="" />
+                              <img src="https://img.youtube.com/vi/F-1weFCiYBA/maxresdefault.jpg" alt="YouTube Video 2" title="" />
                               <a href="https://www.youtube.com/embed/F-1weFCiYBA" class="lightbox mfp-iframe" title="YouTube Video 2"></a>
                             </div>
 
