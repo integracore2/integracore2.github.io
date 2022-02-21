@@ -6,7 +6,8 @@ show_downloads: false
 google_analytics:
 # theme: jekyll-theme-integracore2-light
 author:
-    name: Saif (integracore2)
+    name: Ali Saif
+    bio: Passionate lifetime learner and problem-solver who loves being thrown in the deep end, thrives on continuous improvement, eliminating inefficiencies and enabling ideal outcomes.
     darwin_plf: https://www.darwinex.com/darwin/PLF?detail_view=true
     darwin_lzl: https://www.darwinex.com/darwin/LZL?detail_view=true
     darwin_icx: https://www.darwinex.com/darwin/ICX?detail_view=true
