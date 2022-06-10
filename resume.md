@@ -11,7 +11,7 @@ permalink: /resume/
               <div class="page-title">
                 <h1>Resume</h1>
                 <div class="page-subtitle">
-                    <h4> <i>~ evolving since 1996 ~</i></h4>
+                    <h4> <i>~ evolving relentlessly since 1996 ~</i></h4>
                 </div>
               </div>
 
@@ -25,17 +25,17 @@ permalink: /resume/
 
                     <div id="timeline_1" class="timeline clearfix">
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period ">2009</h5>
-                        <span class="item-company">University of Studies</span>
-                        <h4 class="item-title">UI Design</h4>
-                        <p>Duis posuere, quam non imperdiet egestas, eros enim mattis mauris, in posuere lacus arcu quis felis. Etiam interdum erat non enim venenatis fermentum.</p>
+                        <h5 class="item-period ">2011</h5>
+                        <span class="item-company">Queen Mary, University of London</span>
+                        <h4 class="item-title">Computer Science with Industrial Experience</h4>
+                        <p></p>
                       </div>
 
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period ">2008</h5>
-                        <span class="item-company">University of Studies</span>
-                        <h4 class="item-title">Graphic Design</h4>
-                        <p>Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat risus quis, aliquet urna. Quisque fringilla mollis risus, eu pulvinar dolor.</p>
+                        <h5 class="item-period ">2007</h5>
+                        <span class="item-company">Middlesex University</span>
+                        <h4 class="item-title">Computing</h4>
+                        <p></p>
                       </div>
 
                       <div class="timeline-item clearfix">
@@ -90,22 +90,22 @@ permalink: /resume/
 
                 <div class="row">
                   <div class=" col-xs-12 col-sm-6 ">
-                    <a href="//lmpixels.com/wp/leven-wp/wp-content/uploads/2019/11/1.jpg" class="lightbox">
+                    <a href="https://www.credly.com/badges/bb4a9846-1b3d-4df1-a104-ba62e2835386?source=linked_in_profile" target="_blank">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
-                          <img src="{{ site.baseurl }}/assets/img/clients/client-7.png" alt="logo">
+                          <img src="{{ site.baseurl }}/assets/img/aws-certified-cloud-practitioner.png" alt="logo">
                         </div>
 
                         <div class="certi-content">
                           <div class="certi-title">
-                            <h4>Psyhology of Intertnation Design</h4>
+                            <h4>AWS Certified Cloud Practitioner</h4>
                           </div>
 
                           <div class="certi-id">
-                            <span>Membership ID: XXXX</span>
+                            <span>Click to Verify Achievement</span>
                           </div>
                           <div class="certi-date">
-                            <span>19 April 2018</span>
+                            <span>2022 - 2025</span>
                           </div>
 
                           <div class="certi-company">
