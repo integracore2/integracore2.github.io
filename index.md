@@ -24,25 +24,25 @@ permalink: /
                           <div class="home-text hp-left">
                             <div class="owl-carousel text-rotation">                                    
                               <div class="item">
-                                <h4>Big Data Solutions Architect</h4>
+                                <h4>Multi-Cloud Technical Architect</h4>
                               </div>
                               <div class="item">
-                                <h4>Active Buy-Side Quant</h4>
+                                <h4>Builder of High Performance Teams</h4>
                               </div>
                               <div class="item">
-                                <h4>Versatile Technology Lead</h4>
+                                <h4>Passionate Developer Advocate</h4>
                               </div>
                               <div class="item">
                                 <h4>Experienced Public Speaker</h4>
                               </div>
                               <div class="item">
-                                <h4>C++, Python & Kdb+/q Developer</h4>
+                                <h4>C++, Java, and Python Developer</h4>
                               </div>
                               <div class="item">
-                                <h4>Evangelist for Meritocracy</h4>
+                                <h4>Solutions Architect</h4>
                               </div>
                               <div class="item">
-                                <h4>Tech Entrepreneur</h4>
+                                <h4>Active Buy-Side Quant</h4>
                               </div>
                               <div class="item">
                                 <h4>Angel Investor</h4>
