@@ -15,7 +15,7 @@ permalink: /
                         
                         <div class="col-sm-12 col-md-5 col-lg-5">
                           <div class="home-photo">
-                            <div class="hp-inner" style="background-image: url(./assets/img/profile-picture.jpg);">
+                            <div class="hp-inner" style="background-image: url(./assets/img/ali-saif-profile-pic-new.jpg);">
                             </div>
                           </div>
                         </div>
@@ -24,28 +24,19 @@ permalink: /
                           <div class="home-text hp-left">
                             <div class="owl-carousel text-rotation">                                    
                               <div class="item">
-                                <h4>Multi-Cloud Technical Architect</h4>
+                                <h4>Technical Architect</h4>
                               </div>
                               <div class="item">
-                                <h4>Builder of High Performance Teams</h4>
+                                <h4>Software Engineer (20+ years)</h4>
                               </div>
                               <div class="item">
-                                <h4>Passionate Developer Advocate</h4>
+                                <h4>Multi-Cloud Solutions Architect</h4>
                               </div>
                               <div class="item">
-                                <h4>Experienced Public Speaker</h4>
+                                <h4>Developer Advocate</h4>
                               </div>
                               <div class="item">
-                                <h4>C++, Java, and Python Developer</h4>
-                              </div>
-                              <div class="item">
-                                <h4>Solutions Architect</h4>
-                              </div>
-                              <div class="item">
-                                <h4>Active Buy-Side Quant</h4>
-                              </div>
-                              <div class="item">
-                                <h4>Angel Investor</h4>
+                                <h4>Startup Advisor</h4>
                               </div>
                             </div>
                               

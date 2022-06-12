@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Resume
-permalink: /resume/
+title: Experience
+permalink: /experience/
 ---
 
 <div id="main" class="site-main">
@@ -9,73 +9,132 @@ permalink: /resume/
             <div id="primary" class="content-area">
 
               <div class="page-title">
-                <h1>Resume</h1>
+                <h1>Experience</h1>
                 <div class="page-subtitle">
-                    <h4> <i>~ evolving relentlessly since 1996 ~</i></h4>
+                    <h4> <i>~ evolving relentlessly since 1997 ~</i></h4>
                 </div>
               </div>
 
               <div id="content" class="page-content site-content single-post" role="main">
                 <div class="row">
-  
+
+                <div class=" col-xs-12 col-sm-6 ">
+                    <div class="block-title">
+                      <h2>Engagements</h2>
+                    </div>
+
+                    <div id="timeline_2" class="timeline clearfix">
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period current">2020 - 2022</h5>
+                        <span class="item-company">Tradeslide Trading Tech Ltd (<a href="www.darwinex.com" target="_blank">Darwinex</a>)</span>
+                        <h4 class="item-title">Senior Solutions Architect | Quant R&D Tech Lead</h4>
+                        <!-- <p></p> -->
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period current">2018 - 2020</h5>
+                        <span class="item-company">Tradeslide Trading Tech Ltd (Darwinex)</span>
+                        <h4 class="item-title">Chief Data Scientist | Quantitative Researcher</h4>
+                        <!-- <p></p> -->
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period current">2017 - 2018</h5>
+                        <span class="item-company">Tradeslide Trading Tech Ltd (Darwinex)</span>
+                        <h4 class="item-title">Data Science Lead, Darwinex Labs</h4>
+                        <!-- <p></p> -->
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period ">2012 - 2017</h5>
+                        <span class="item-company">Contract Consultant</span>
+                        <h4 class="item-title">Technical Architect & Trainer</h4>
+                        <!-- <p></p> -->
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period ">2008 - 2011</h5>
+                        <span class="item-company">Albemarle Independent College</span>
+                        <h4 class="item-title">Lecturer of Mathematics & Computing</h4>
+                        <!-- <p></p> -->
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period ">2004 - 2007</h5>
+                        <span class="item-company">Tekcellent Private Ltd</span>
+                        <h4 class="item-title">Software Engineer | Quant Developer</h4>
+                        <!-- <p></p> -->
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period ">1997 - 2003</h5>
+                        <span class="item-company">Contract Freelancer</span>
+                        <h4 class="item-title">C, C++, PHP, and Java Development</h4>
+                        <!-- <p></p> -->
+                      </div>
+
+                    </div>
+                  </div>
+
                   <div class=" col-xs-12 col-sm-6 ">
                     <div class="block-title">
-                      <h2>Education</h2>
+                      <h2>Education & Certifications</h2>
                     </div>
 
                     <div id="timeline_1" class="timeline clearfix">
+                      
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period ">2011</h5>
+                        <h5 class="item-period ">2022</h5>
+                        <span class="item-company">Amazon Web Services (AWS)</span>
+                        <h4 class="item-title">AWS Certified Cloud Practitioner</h4>
+                        <p></p>
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period ">2019</h5>
+                        <span class="item-company">Udacity</span>
+                        <h4 class="item-title">Artificial Intelligence for Trading (Nanodegree)</h4>
+                        <p></p>
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period ">2018</h5>
+                        <span class="item-company">Udacity</span>
+                        <h4 class="item-title">Machine Learning for Trading (Course)</h4>
+                        <p></p>
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period ">2007-2011</h5>
                         <span class="item-company">Queen Mary, University of London</span>
                         <h4 class="item-title">Computer Science with Industrial Experience</h4>
                         <p></p>
                       </div>
 
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period ">2007</h5>
-                        <span class="item-company">Middlesex University</span>
-                        <h4 class="item-title">Computing</h4>
+                        <h5 class="item-period ">2008</h5>
+                        <span class="item-company">ExpertRating Inc.</span>
+                        <h4 class="item-title">MySQL Certification</h4>
                         <p></p>
                       </div>
 
                       <div class="timeline-item clearfix">
                         <h5 class="item-period ">2007</h5>
-                        <span class="item-company">University of Studies</span>
-                        <h4 class="item-title">Frontend Development</h4>
-                        <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis ante.</p>
+                        <span class="item-company">Middlesex University</span>
+                        <h4 class="item-title">CertHE in Computing</h4>
+                        <p></p>
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period ">2006</h5>
+                        <span class="item-company">ExpertRating Inc.</span>
+                        <h4 class="item-title">Programming in C Certification</h4>
+                        <p></p>
                       </div>
 
                     </div>
                   </div>
 
-                  <div class=" col-xs-12 col-sm-6 ">
-                    <div class="block-title">
-                      <h2>Experience</h2>
-                    </div>
-
-                    <div id="timeline_2" class="timeline clearfix">
-                      <div class="timeline-item clearfix">
-                        <h5 class="item-period current">2016 - Current</h5>
-                        <span class="item-company">Rolling Thunder</span>
-                        <h4 class="item-title">Lead UI/UX Designer</h4>
-                        <p>Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis. Phasellus eleifend tristique posuere. Sed vitae dui nec magna.</p>
-                      </div>
-
-                      <div class="timeline-item clearfix">
-                        <h5 class="item-period ">2013 - 2016</h5>
-                        <span class="item-company">Locost Accessories</span>
-                        <h4 class="item-title">Senior UI/UX Designer</h4>
-                        <p>Maecenas tempus faucibus rutrum. Duis eu aliquam urna. Proin vitae nulla tristique, ornare felis id, congue libero. Nam volutpat euismod quam.</p>
-                      </div>
-
-                      <div class="timeline-item clearfix">
-                        <h5 class="item-period ">2011 - 2013</h5>
-                        <span class="item-company">Sagebrush</span>
-                        <h4 class="item-title">Junior UI/UX Designer</h4>
-                        <p>Duis mollis nunc quis quam viverra venenatis. Nulla nulla arcu, congue vitae nunc ac, sodales ultricies diam. Nullam justo leo, tincidunt sit amet.</p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
 
                 <div class="row">
@@ -83,7 +142,7 @@ permalink: /resume/
                     <div class="p-20"></div>
 
                     <div class="block-title">
-                      <h2>Certificates</h2>
+                      <h2>Certifications</h2>
                     </div>
                   </div>
                 </div>
