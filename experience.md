@@ -26,7 +26,7 @@ permalink: /experience/
                     <div id="timeline_2" class="timeline clearfix">
                       <div class="timeline-item clearfix">
                         <h5 class="item-period current">2020 - 2022</h5>
-                        <span class="item-company">Tradeslide Trading Tech Ltd (<a href="www.darwinex.com" target="_blank">Darwinex</a>)</span>
+                        <span class="item-company">Tradeslide Trading Tech Ltd (Darwinex)</span>
                         <h4 class="item-title">Senior Solutions Architect | Quant R&D Tech Lead</h4>
                         <!-- <p></p> -->
                       </div>
