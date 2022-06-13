@@ -405,15 +405,41 @@ permalink: /experience/
                 </div>
                 <!-- END: Courses Row 2 -->
 
+                <!-- BEGIN: Courses Row 3 -->
                 <div class="row">
-                  <div class=" col-xs-12 col-sm-12 ">
-                    <div class="p-40"></div>
+                  <div class=" col-xs-12 col-sm-6 ">
+                    <!-- <a href="" target="_blank"> -->
+                      <div class="certificate-item clearfix">
+                        <div class="certi-logo">
+                          <img src="{{ site.baseurl }}/assets/img/udacity_nanodegree.png" alt="logo">
+                        </div>
+
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>Machine Learning for Trading</h4>
+                          </div>
+
+                          <div class="certi-id">
+                            <span>In collaboration with GeorgiaTech</span>
+                          </div>
+                          <div class="certi-date">
+                            <span>2019</span>
+                          </div>
+
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- </a> -->
                   </div>
+
+                  
+
                 </div>
+                <!-- END: Courses Row 3 -->
 
                 <!-- END: Courses -->
-
-
 
                 <!--
                 <div class="row">
