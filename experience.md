@@ -25,49 +25,49 @@ permalink: /experience/
 
                     <div id="timeline_2" class="timeline clearfix">
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period current">2020 - 2022</h5>
+                        <h5 class="item-period current">Jul 2020 - May 2022</h5>
                         <span class="item-company">Tradeslide Trading Tech Ltd (Darwinex)</span>
                         <h4 class="item-title">Senior Solutions Architect | Quant R&D Tech Lead</h4>
                         <!-- <p></p> -->
                       </div>
 
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period current">2018 - 2020</h5>
+                        <h5 class="item-period current">Jun 2018 - Jun 2020</h5>
                         <span class="item-company">Tradeslide Trading Tech Ltd (Darwinex)</span>
                         <h4 class="item-title">Chief Data Scientist | Quantitative Researcher</h4>
                         <!-- <p></p> -->
                       </div>
 
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period current">2017 - 2018</h5>
+                        <h5 class="item-period current">Jan 2017 - May 2018</h5>
                         <span class="item-company">Tradeslide Trading Tech Ltd (Darwinex)</span>
                         <h4 class="item-title">Data Science Lead, Darwinex Labs</h4>
                         <!-- <p></p> -->
                       </div>
 
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period ">2012 - 2017</h5>
+                        <h5 class="item-period ">Apr 2012 - Jan 2017</h5>
                         <span class="item-company">Contract Consultant</span>
-                        <h4 class="item-title">Technical Architect & Trainer</h4>
+                        <h4 class="item-title">Technical Architect | Technical Trainer</h4>
                         <!-- <p></p> -->
                       </div>
 
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period ">2008 - 2011</h5>
+                        <h5 class="item-period ">Oct 2008 - Aug 2011</h5>
                         <span class="item-company">Albemarle Independent College</span>
                         <h4 class="item-title">Lecturer of Mathematics & Computing</h4>
                         <!-- <p></p> -->
                       </div>
 
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period ">2004 - 2007</h5>
+                        <h5 class="item-period ">Jun 2004 - Jan 2007</h5>
                         <span class="item-company">Tekcellent Private Ltd</span>
                         <h4 class="item-title">Software Engineer | Quant Developer</h4>
                         <!-- <p></p> -->
                       </div>
 
                       <div class="timeline-item clearfix">
-                        <h5 class="item-period ">1997 - 2003</h5>
+                        <h5 class="item-period ">Aug 1997 - Aug 2003</h5>
                         <span class="item-company">Contract Freelancer</span>
                         <h4 class="item-title">C, C++, PHP, and Java Development</h4>
                         <!-- <p></p> -->
