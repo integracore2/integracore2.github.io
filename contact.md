@@ -9,9 +9,9 @@ permalink: /contact/
         <div id="primary" class="content-area">
 
             <div class="page-title">
-            <h1>Contact</h1>
+            <h1>How Can I Help You?</h1>
             <div class="page-subtitle">
-                <h4> Get in Touch</h4>
+                <h4>“Imagination is everything. It is the preview of<br />life’s coming attractions.” – Albert Einstein</h4>
             </div>
             </div>
 
@@ -30,34 +30,35 @@ permalink: /contact/
                 <div id="info_list_1" class="info-list-w-icon">
 
                     <div class="info-block-w-icon">
-                    <div class="ci-icon">
-                        <i class="linecons linecons-phone"></i>
-                    </div>
-                    <div class="ci-text">
-                        <h4>415-832-2000</h4>
-                        <p>Duis erat leo, aliquam laoreet fringilla quis, pretium vitae dui.</p>
-                    </div>
+                        <div class="ci-icon">
+                            <i class="linecons linecons-phone"></i>
+                        </div>
+                        <div class="ci-text">
+                            <h4>Prefer not to fill the form?</h4>
+                            <p>I'm the same, no worries! Feel free to message me on <a href="{{ site.author.linkedin }}" target="_blank_">LinkedIn</a> instead. I typically respond to  inquiries <b>within 24 hours</b>.</p>
+                        </div>
                     </div>
 
                     <div class="info-block-w-icon">
-                    <div class="ci-icon">
-                        <i class="linecons linecons-location"></i>
-                    </div>
-                    <div class="ci-text">
-                        <h4>San Francisco</h4>
-                        <p>Duis erat leo, aliquam laoreet fringilla quis, pretium vitae dui.</p>
-                    </div>
+                        <div class="ci-icon">
+                            <i class="linecons linecons-location"></i>
+                        </div>
+                        <div class="ci-text">
+                            <h4>Based in London or Madrid?</h4>
+                            <p>I'm always keen to meet up for a coffee! Please fill in the form and I'll personally get in touch to arrange our appointment.</p>
+                        </div>
                     </div>
                     
                     <div class="info-block-w-icon">
-                    <div class="ci-icon">
-                        <i class="linecons linecons-mail"></i>
+                        <div class="ci-icon">
+                            <i class="linecons linecons-mail"></i>
+                        </div>
+                        <div class="ci-text">
+                            <h4>And there's always Twitter</h4>
+                            <p>If neither filling in the form nor messaging via LinkedIn are an option, feel free to DM me on Twitter via <a href="{{ site.author.twitter }}" target="_blank">@integracore2</a></p>
+                        </div>
                     </div>
-                    <div class="ci-text">
-                        <h4>hello@example.com</h4>
-                        <p>Duis erat leo, aliquam laoreet fringilla quis, pretium vitae dui.</p>
-                    </div>
-                    </div>
+                    
                 </div>
 
                 </div>
@@ -66,10 +67,10 @@ permalink: /contact/
                 <div class=" col-xs-12 col-sm-8 ">
 
                 <div class="block-title">
-                    <h2>How Can I Help You?</h2>
+                    <h2>Get In Touch</h2>
                 </div>
 
-                <form id="contact_form" class="contact-form" action="contact_form/contact_form.php" method="post">
+                <form id="contact_form" class="contact-form" action="{{ site.contact_form.action_url }}" method="post">
 
                     <div class="messages"></div>
 
@@ -77,33 +78,33 @@ permalink: /contact/
                     <div class="fields clearfix">
                         <div class="left-column">
                         <div class="form-group form-group-with-icon">
-                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
+                            <input id="form_name" type="text" name="{{ site.contact_form.input_firstname }}" class="form-control" placeholder="First Name" required="required" data-error="First name is required.">
                             <div class="form-control-border"></div>
                             <div class="help-block with-errors"></div>
                         </div>
 
                         <div class="form-group form-group-with-icon">
-                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                            <input id="form_email" type="email" name="{{ site.contact_form.input_email }}" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
                             <div class="form-control-border"></div>
                             <div class="help-block with-errors"></div>
                         </div>
 
                         <div class="form-group form-group-with-icon">
-                            <input id="form_name" type="text" name="subject" class="form-control" placeholder="Subject" required="required" data-error="Subject is required.">
+                            <input id="form_name" type="text" name="{{ site.contact_form.input_subject }}" class="form-control" placeholder="Subject" required="required" data-error="Subject is required.">
                             <div class="form-control-border"></div>
                             <div class="help-block with-errors"></div>
                         </div>
                         </div>
                         <div class="right-column">
                         <div class="form-group form-group-with-icon">
-                            <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="7" required="required" data-error="Please, leave me a message."></textarea>
+                            <textarea id="form_message" name="{{ site.contact_form.input_message }}" class="form-control" placeholder="Message" rows="7" required="required" data-error="Please, leave me a message."></textarea>
                             <div class="form-control-border"></div>
                             <div class="help-block with-errors"></div>
                         </div>
                         </div>
                     </div>
 
-                    <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"></div>
+                    <!-- <div class="g-recaptcha" data-sitekey="{{ site.google_recaptcha.site_key }}"></div> -->
     
                     <input type="submit" class="button btn-send disabled" value="Send message">
                     </div>

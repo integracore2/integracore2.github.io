@@ -44,8 +44,8 @@ permalink: /
                             <p>{{ site.author.bio }}</p>
                                  
                             <div class="home-buttons">
-                              <a href="https://www.linkedin.com/in/ali-saif/" target="_blank" class="btn btn-primary">Connect on LinkedIn</a>
-                              <a href="#" target="_self" class="btn btn-secondary">Fancy a chat?</a>
+                              <a href="{{ site.author.linkedin }}" target="_blank" class="btn btn-primary">Connect on LinkedIn</a>
+                              <a href="/contact/" target="_self" class="btn btn-secondary">Fancy a chat?</a>
                             </div>
                           </div>
                         </div>
