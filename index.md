@@ -128,7 +128,7 @@ permalink: /
 
                     <!-- Testimonials -->
                     <div class="block-title">
-                      <h2>LinkedIn Recommendations</h2>
+                      <h2>Recommendations</h2>
                     </div>
 
                     <div id="testimonials_1" class="testimonials owl-carousel" data-mobile-items="1" data-tablet-items="7" data-items="7">
