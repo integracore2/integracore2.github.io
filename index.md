@@ -45,7 +45,7 @@ permalink: /
                                  
                             <div class="home-buttons">
                               <a href="{{ site.author.linkedin }}" target="_blank" class="btn btn-primary">Connect on LinkedIn</a>
-                              <a href="/contact/" target="_self" class="btn btn-secondary">Fancy a chat?</a>
+                              <a href="/contact/" target="_self" class="btn btn-secondary">How can I help you?</a>
                             </div>
                           </div>
                         </div>

@@ -9,7 +9,7 @@ permalink: /contact/
         <div id="primary" class="content-area">
 
             <div class="page-title">
-            <h1>How Can I Help You?</h1>
+            <h1>How can I help you?</h1>
             <div class="page-subtitle">
                 <h4>“Imagination is everything. It is the preview of<br />life’s coming attractions.” – Albert Einstein</h4>
             </div>
