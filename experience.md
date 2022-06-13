@@ -20,6 +20,7 @@ permalink: /experience/
 
                 <div class=" col-xs-12 col-sm-6 ">
                     <div class="block-title">
+                      <a name="engagements" style="visibility: hidden;"></a>
                       <h2>Engagements</h2>
                     </div>
 
@@ -86,6 +87,7 @@ permalink: /experience/
 
                   <div class=" col-xs-12 col-sm-6 ">
                     <div class="block-title">
+                      <a name="education" style="visibility: hidden;"></a>
                       <h2>Education</h2>
                     </div>
 
@@ -95,7 +97,7 @@ permalink: /experience/
                         <h5 class="item-period ">2022</h5>
                         <span class="item-company">Amazon Web Services (AWS)</span>
                         <h4 class="item-title">AWS Certified Cloud Practitioner</h4>
-                        <p>As an AWS CCP, I help clients design and build robust solution architectures in strict compliance with the <a href="{{ site.aws.well_architected_framework }}" target="_blank">AWS Well-Architected Framework</a>.</p>
+                        <p>Supporting clients with designing and building solution architectures using best practices as per the <a href="{{ site.aws.well_architected_framework }}" target="_blank">AWS Well-Architected Framework</a>.</p>
                       </div>
 
                       <div class="timeline-item clearfix">
@@ -151,6 +153,7 @@ permalink: /experience/
                     <div class="p-20"></div>
 
                     <div class="block-title">
+                      <a name="certifications" style="visibility: hidden;"></a>
                       <h2>Certifications</h2>
                     </div>
                   </div>
@@ -290,6 +293,7 @@ permalink: /experience/
                     <div class="p-20"></div>
 
                     <div class="block-title">
+                      <a name="courses" style="visibility: hidden;"></a>
                       <h2>Courses</h2>
                     </div>
                   </div>
@@ -459,6 +463,7 @@ permalink: /experience/
                   <!-- BEGIN: Skills -> Industry Knowledge -->
                   <div class=" col-xs-12 col-sm-4 ">
                     <div class="block-title">
+                      <a name="industry-knowledge" style="visibility: hidden;"></a>
                       <h2>Industry Knowledge</h2>
                     </div>
 
@@ -638,6 +643,7 @@ permalink: /experience/
                   <!-- BEGIN: Skills -> Tools & Technologies -->
                   <div class=" col-xs-12 col-sm-4 ">
                     <div class="block-title">
+                      <a name="tools-technologies" style="visibility: hidden;"></a>
                       <h2>Tools & Technologies</h2>
                     </div>
 
@@ -767,6 +773,7 @@ permalink: /experience/
                   <!-- BEGIN: Skills -> Interpersonal Skills -->
                   <div class=" col-xs-12 col-sm-4 ">
                     <div class="block-title">
+                      <a name="interpersonal-skills" style="visibility: hidden;"></a>
                       <h2>Interpersonal Skills</h2>
                     </div>
 
