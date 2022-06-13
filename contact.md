@@ -45,7 +45,7 @@ permalink: /contact/
                         </div>
                         <div class="ci-text">
                             <h4>Based in London or Madrid?</h4>
-                            <p>I'm always keen to meet up for a coffee! Please fill in the form and I'll personally get in touch to arrange our appointment.</p>
+                            <p>I'm always keen to meet up for a coffee! <b>Kindly fill in the form</b> and I'll personally get in touch to arrange our appointment.</p>
                         </div>
                     </div>
                     
@@ -70,7 +70,7 @@ permalink: /contact/
                     <h2>Get In Touch</h2>
                 </div>
 
-                <form id="contact_form" class="contact-form" action="{{ site.contact_form.action_url }}" method="post">
+                <form id="g_contact_form" class="contact-form" action="{{ site.contact_form.action_url }}" method="post">
 
                     <div class="messages"></div>
 
@@ -78,26 +78,26 @@ permalink: /contact/
                     <div class="fields clearfix">
                         <div class="left-column">
                         <div class="form-group form-group-with-icon">
-                            <input id="form_name" type="text" name="{{ site.contact_form.input_firstname }}" class="form-control" placeholder="First Name" required="required" data-error="First name is required.">
+                            <input id="{{ site.contact_form.input_firstname }}" type="text" name="{{ site.contact_form.input_firstname }}" class="form-control" placeholder="First Name" required="required" data-error="First name is required.">
                             <div class="form-control-border"></div>
                             <div class="help-block with-errors"></div>
                         </div>
 
                         <div class="form-group form-group-with-icon">
-                            <input id="form_email" type="email" name="{{ site.contact_form.input_email }}" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                            <input id="{{ site.contact_form.input_email }}" type="email" name="{{ site.contact_form.input_email }}" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
                             <div class="form-control-border"></div>
                             <div class="help-block with-errors"></div>
                         </div>
 
                         <div class="form-group form-group-with-icon">
-                            <input id="form_name" type="text" name="{{ site.contact_form.input_subject }}" class="form-control" placeholder="Subject" required="required" data-error="Subject is required.">
+                            <input id="{{ site.contact_form.input_subject }}" type="text" name="{{ site.contact_form.input_subject }}" class="form-control" placeholder="Subject" required="required" data-error="Subject is required.">
                             <div class="form-control-border"></div>
                             <div class="help-block with-errors"></div>
                         </div>
                         </div>
                         <div class="right-column">
                         <div class="form-group form-group-with-icon">
-                            <textarea id="form_message" name="{{ site.contact_form.input_message }}" class="form-control" placeholder="Message" rows="7" required="required" data-error="Please, leave me a message."></textarea>
+                            <textarea id="{{ site.contact_form.input_message }}" name="{{ site.contact_form.input_message }}" class="form-control" placeholder="Message" rows="7" required="required" data-error="Please, leave me a message."></textarea>
                             <div class="form-control-border"></div>
                             <div class="help-block with-errors"></div>
                         </div>

@@ -14,10 +14,11 @@ author:
     darwin_nfx: https://www.darwinex.com/darwin/NFX?detail_view=true
     twitter: http://twitter.com/integracore2
     linkedin: https://www.linkedin.com/in/ali-saif/
+    github: https://github.com/integracore2
 contact_form:
     action_url: https://docs.google.com/forms/u/0/d/e/1FAIpQLSdaB2yDCTffCr6B3DMn76spp4Uy7H6LDNnGgFsGDCgnQVq1rw/formResponse
     input_firstname: entry.2005620554
-    input_email: emailAddress
+    input_email: entry.1045781291
     input_subject: entry.1065046570
     input_message: entry.839337160
 google_recaptcha:
