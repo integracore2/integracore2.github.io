@@ -24,6 +24,14 @@ permalink: /experience/
                     </div>
 
                     <div id="timeline_2" class="timeline clearfix">
+                      
+                      <div class="timeline-item clearfix">
+                        <h5 class="item-period current">Jun 2022 - Present</h5>
+                        <span class="item-company">Contract Consultant</span>
+                        <h4 class="item-title">Technical Architecture | Data-Centric R&D</h4>
+                        <p>Supporting Startups, Professional Services firms, and FinTechs with technical and strategic advisory, data and integrations engineering services.</p>
+                      </div>
+                      
                       <div class="timeline-item clearfix">
                         <h5 class="item-period current">Jul 2020 - May 2022</h5>
                         <span class="item-company">Tradeslide Trading Tech Ltd (Darwinex)</span>
@@ -87,7 +95,7 @@ permalink: /experience/
                         <h5 class="item-period ">2022</h5>
                         <span class="item-company">Amazon Web Services (AWS)</span>
                         <h4 class="item-title">AWS Certified Cloud Practitioner</h4>
-                        <p></p>
+                        <p>As an AWS CCP, I help clients design and build robust solution architectures in strict compliance with the <a href="{{ site.aws.well_architected_framework }}" target="_blank">AWS Well-Architected Framework</a>.</p>
                       </div>
 
                       <div class="timeline-item clearfix">
@@ -456,7 +464,7 @@ permalink: /experience/
 
                     <div class="skills-info skills-first-style">
                       <div class="clearfix">
-                        <h4>Solution Architecture</h4>
+                        <h4>Technical & Solution Architecture</h4>
                         <!-- <div class="skill-value">100%</div> -->
                       </div>
                       <div data-value="100" class="skill-container">
@@ -466,7 +474,7 @@ permalink: /experience/
 
                     <div class="skills-info skills-first-style">
                       <div class="clearfix">
-                        <h4>Cloud Computing</h4>
+                        <h4>Cloud Application & SaaS Development</h4>
                         <!-- <div class="skill-value">100%</div> -->
                       </div>
                       <div data-value="100" class="skill-container">
@@ -596,7 +604,7 @@ permalink: /experience/
 
                     <div class="skills-info skills-first-style">
                       <div class="clearfix">
-                        <h4>Data Science</h4>
+                        <h4>Quantitative Finance & Investing</h4>
                         <!-- <div class="skill-value">100%</div> -->
                       </div>
                       <div data-value="100" class="skill-container">
@@ -606,37 +614,7 @@ permalink: /experience/
 
                     <div class="skills-info skills-first-style">
                       <div class="clearfix">
-                        <h4>Quantitative Finance</h4>
-                        <!-- <div class="skill-value">100%</div> -->
-                      </div>
-                      <div data-value="100" class="skill-container">
-                        <div class="skill-percentage"></div>
-                      </div>
-                    </div>
-
-                    <div class="skills-info skills-first-style">
-                      <div class="clearfix">
-                        <h4>Quantitative Investing</h4>
-                        <!-- <div class="skill-value">100%</div> -->
-                      </div>
-                      <div data-value="100" class="skill-container">
-                        <div class="skill-percentage"></div>
-                      </div>
-                    </div>
-
-                    <div class="skills-info skills-first-style">
-                      <div class="clearfix">
-                        <h4>Applied Machine Learning</h4>
-                        <!-- <div class="skill-value">100%</div> -->
-                      </div>
-                      <div data-value="100" class="skill-container">
-                        <div class="skill-percentage"></div>
-                      </div>
-                    </div>
-
-                    <div class="skills-info skills-first-style">
-                      <div class="clearfix">
-                        <h4>Applied Artificial Intelligence</h4>
+                        <h4>Applied Data Science, Machine Learning & AI</h4>
                         <!-- <div class="skill-value">100%</div> -->
                       </div>
                       <div data-value="100" class="skill-container">
@@ -656,27 +634,7 @@ permalink: /experience/
 
                     <div class="skills-info skills-first-style">
                       <div class="clearfix">
-                        <h4>Statistical Data Analysis</h4>
-                        <!-- <div class="skill-value">100%</div> -->
-                      </div>
-                      <div data-value="100" class="skill-container">
-                        <div class="skill-percentage"></div>
-                      </div>
-                    </div>
-
-                    <div class="skills-info skills-first-style">
-                      <div class="clearfix">
-                        <h4>Statistical Programming</h4>
-                        <!-- <div class="skill-value">100%</div> -->
-                      </div>
-                      <div data-value="100" class="skill-container">
-                        <div class="skill-percentage"></div>
-                      </div>
-                    </div>
-
-                    <div class="skills-info skills-first-style">
-                      <div class="clearfix">
-                        <h4>Financial Modeling</h4>
+                        <h4>Statistical Data Analysis & Programming</h4>
                         <!-- <div class="skill-value">100%</div> -->
                       </div>
                       <div data-value="100" class="skill-container">
@@ -844,7 +802,7 @@ permalink: /experience/
 
                     <div class="skills-info skills-first-style">
                       <div class="clearfix">
-                        <h4>Firm-wide Stakeholder Management</h4>
+                        <h4>Cross-Functional Stakeholder Management</h4>
                         <!-- <div class="skill-value">100%</div> -->
                       </div>
                       <div data-value="100" class="skill-container">
@@ -864,7 +822,7 @@ permalink: /experience/
 
                     <div class="skills-info skills-first-style">
                       <div class="clearfix">
-                        <h4>People & Team Management</h4>
+                        <h4>People, Talent & Team Management</h4>
                         <!-- <div class="skill-value">100%</div> -->
                       </div>
                       <div data-value="100" class="skill-container">
@@ -874,7 +832,7 @@ permalink: /experience/
 
                     <div class="skills-info skills-first-style">
                       <div class="clearfix">
-                        <h4>Active Listening & Mediation</h4>
+                        <h4>Active Listening & Mediation Skills</h4>
                         <!-- <div class="skill-value">100%</div> -->
                       </div>
                       <div data-value="100" class="skill-container">

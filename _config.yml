@@ -21,6 +21,7 @@ udacity:
     aitrading: https://confirm.udacity.com/5DVTP4V7
 aws:
     ccp: https://www.credly.com/badges/bb4a9846-1b3d-4df1-a104-ba62e2835386?source=linked_in_profile
+    well_architected_framework: https://aws.amazon.com/architecture/well-architected/
 contact_form:
     action_url: https://docs.google.com/forms/u/0/d/e/1FAIpQLSdaB2yDCTffCr6B3DMn76spp4Uy7H6LDNnGgFsGDCgnQVq1rw/formResponse
     input_firstname: entry.2005620554
