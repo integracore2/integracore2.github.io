@@ -151,7 +151,7 @@ permalink: /experience/
                 <!-- BEGIN: Certifications Row 1 -->
                 <div class="row">
                   <div class=" col-xs-12 col-sm-6 ">
-                    <a href="https://www.credly.com/badges/bb4a9846-1b3d-4df1-a104-ba62e2835386?source=linked_in_profile" target="_blank">
+                    <a href="{{ site.aws.ccp }}" target="_blank">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
                           <img src="{{ site.baseurl }}/assets/img/aws-certified-cloud-practitioner.png" alt="logo">
@@ -178,7 +178,7 @@ permalink: /experience/
                   </div>
 
                   <div class=" col-xs-12 col-sm-6 ">
-                    <a href="https://confirm.udacity.com/5DVTP4V7" target="_blank">
+                    <a href="{{ site.udacity.aitrading }}" target="_blank">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
                           <img src="{{ site.baseurl }}/assets/img/udacity_nanodegree.png" alt="logo">
@@ -290,7 +290,7 @@ permalink: /experience/
                 <!-- BEGIN: Courses Row 1 -->
                 <div class="row">
                   <div class=" col-xs-12 col-sm-6 ">
-                    <a href="https://www.datacamp.com/profile/integracore" target="_blank">
+                    <a href="{{ site.datacamp.profile }}" target="_blank">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
                           <img src="{{ site.baseurl }}/assets/img/datacamp-courses.png" alt="logo">
@@ -317,7 +317,7 @@ permalink: /experience/
                   </div>
 
                   <div class=" col-xs-12 col-sm-6 ">
-                    <a href="https://www.datacamp.com/profile/integracore" target="_blank">
+                    <a href="{{ site.datacamp.profile }}" target="_blank">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
                           <img src="{{ site.baseurl }}/assets/img/datacamp-courses.png" alt="logo">
@@ -349,7 +349,7 @@ permalink: /experience/
                 <!-- BEGIN: Courses Row 2 -->
                 <div class="row">
                   <div class=" col-xs-12 col-sm-6 ">
-                    <a href="https://www.datacamp.com/profile/integracore" target="_blank">
+                    <a href="{{ site.datacamp.profile }}" target="_blank">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
                           <img src="{{ site.baseurl }}/assets/img/datacamp-courses.png" alt="logo">
@@ -376,7 +376,7 @@ permalink: /experience/
                   </div>
 
                   <div class=" col-xs-12 col-sm-6 ">
-                    <a href="https://www.datacamp.com/profile/integracore" target="_blank">
+                    <a href="{{ site.datacamp.profile }}" target="_blank">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
                           <img src="{{ site.baseurl }}/assets/img/datacamp-courses.png" alt="logo">
