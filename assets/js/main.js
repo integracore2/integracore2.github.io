@@ -203,6 +203,7 @@
         var movementStrength = 15;
         var height = movementStrength / $(document).height();
         var width = movementStrength / $(document).width();
+        /*
         $("body").on('mousemove', function(e){
             var pageX = e.pageX - ($(document).width() / 2),
                 pageY = e.pageY - ($(document).height() / 2),
@@ -225,6 +226,7 @@
         .scroll(function () {
             scrollTop();
         });
+        */
 
         // Initialize Portfolio grid
         var $portfolio_container = $(".portfolio-grid"),
