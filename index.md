@@ -131,9 +131,9 @@ permalink: /
                       <h2>LinkedIn Recommendations</h2>
                     </div>
 
-                    <div id="testimonials_1" class="testimonials owl-carousel" data-mobile-items="1" data-tablet-items="2" data-items="2">
+                    <div id="testimonials_1" class="testimonials owl-carousel" data-mobile-items="1" data-tablet-items="7" data-items="7">
 
-                      <!-- Testimonial 1 -->
+                      <!-- TESTIMONIAL -->
                       <div class="testimonial-item">
                         <!-- Testimonial Content -->
                         <div class="testimonial-content">
@@ -166,9 +166,44 @@ permalink: /
                         </div>
                         <!-- /Testimonial Content -->
                       </div>
-                      <!-- End of Testimonial 1 -->
+                      <!-- END OF TESTIMONIAL -->
 
-                      <!-- Testimonial 2 -->
+                      <!-- TESTIMONIAL -->
+                      <div class="testimonial-item">
+                        <!-- Testimonial Content -->
+                        <div class="testimonial-content">
+                          <!-- Picture -->
+                          <div class="testimonial-picture">
+                            <img src=".{{ site.linkedin_profile_images.image_repo }}{{ site.linkedin_profile_images.enrique_bm }}" alt="{{ site.linkedin_profile_names.enrique_bm }}"/>
+                          </div>              
+                          <!-- /Picture -->
+
+                          <!-- Testimonial Text -->
+                          <div class="testimonial-text">
+                             <p>{{ site.linkedin_profile_recommendations.enrique_bm }}</p>
+                          </div>
+                          <!-- /Testimonial Text -->
+
+                          <!-- Testimonial author information -->
+                          <div class="testimonial-author-info">
+                            <h5 class="testimonial-author"><a href="{{ site.linkedin_profile_urls.enrique_bm }}" target="_blank">{{ site.linkedin_profile_names.enrique_bm }}</a></h5>
+                            <p class="testimonial-firm">{{ site.linkedin_profile_firms.enrique_bm }}</p>
+                          </div>
+                          <!-- /Testimonial author information -->
+
+                          <div class="testimonial-icon">
+                            <i class="fa fa-quote-left"></i>
+                          </div>
+
+                           <div class="testimonial-icon-big">
+                            <i class="fa fa-quote-right"></i>
+                          </div>
+                        </div>
+                        <!-- /Testimonial Content -->
+                      </div>
+                      <!-- END OF TESTIMONIAL -->
+
+                      <!-- TESTIMONIAL -->
                       <div class="testimonial-item">
                         <!-- Testimonial Content -->
                         <div class="testimonial-content">
@@ -186,7 +221,7 @@ permalink: /
 
                           <!-- Testimonial author information -->
                           <div class="testimonial-author-info">
-                            <h5 class="testimonial-author">{{ site.linkedin_profile_names.paula_romero }}</h5>
+                            <h5 class="testimonial-author"><a href="{{ site.linkedin_profile_urls.paula_romero }}" target="_blank">{{ site.linkedin_profile_names.paula_romero }}</a></h5>
                             <p class="testimonial-firm">{{ site.linkedin_profile_firms.paula_romero }}</p>
                           </div>
                           <!-- /Testimonial author information -->
@@ -201,7 +236,147 @@ permalink: /
                         </div>
                         <!-- /Testimonial Content -->
                       </div>
-                      <!-- End of Testimonial 1 -->
+                      <!-- END OF TESTIMONIAL -->
+
+                      <!-- TESTIMONIAL -->
+                      <div class="testimonial-item">
+                        <!-- Testimonial Content -->
+                        <div class="testimonial-content">
+                          <!-- Picture -->
+                          <div class="testimonial-picture">
+                            <img src=".{{ site.linkedin_profile_images.image_repo }}{{ site.linkedin_profile_images.eriz_zarate }}" alt="{{ site.linkedin_profile_names.eriz_zarate }}"/>
+                          </div>              
+                          <!-- /Picture -->
+
+                          <!-- Testimonial Text -->
+                          <div class="testimonial-text">
+                             <p>{{ site.linkedin_profile_recommendations.eriz_zarate }}</p>
+                          </div>
+                          <!-- /Testimonial Text -->
+
+                          <!-- Testimonial author information -->
+                          <div class="testimonial-author-info">
+                            <h5 class="testimonial-author"><a href="{{ site.linkedin_profile_urls.eriz_zarate }}" target="_blank">{{ site.linkedin_profile_names.eriz_zarate }}</a></h5>
+                            <p class="testimonial-firm">{{ site.linkedin_profile_firms.eriz_zarate }}</p>
+                          </div>
+                          <!-- /Testimonial author information -->
+
+                          <div class="testimonial-icon">
+                            <i class="fa fa-quote-left"></i>
+                          </div>
+
+                           <div class="testimonial-icon-big">
+                            <i class="fa fa-quote-right"></i>
+                          </div>
+                        </div>
+                        <!-- /Testimonial Content -->
+                      </div>
+                      <!-- END OF TESTIMONIAL -->
+
+                      <!-- TESTIMONIAL -->
+                      <div class="testimonial-item">
+                        <!-- Testimonial Content -->
+                        <div class="testimonial-content">
+                          <!-- Picture -->
+                          <div class="testimonial-picture">
+                            <img src=".{{ site.linkedin_profile_images.image_repo }}{{ site.linkedin_profile_images.martyn_tinsley }}" alt="{{ site.linkedin_profile_names.martyn_tinsley }}"/>
+                          </div>              
+                          <!-- /Picture -->
+
+                          <!-- Testimonial Text -->
+                          <div class="testimonial-text">
+                             <p>{{ site.linkedin_profile_recommendations.martyn_tinsley }}</p>
+                          </div>
+                          <!-- /Testimonial Text -->
+
+                          <!-- Testimonial author information -->
+                          <div class="testimonial-author-info">
+                            <h5 class="testimonial-author"><a href="{{ site.linkedin_profile_urls.martyn_tinsley }}" target="_blank">{{ site.linkedin_profile_names.martyn_tinsley }}</a></h5>
+                            <p class="testimonial-firm">{{ site.linkedin_profile_firms.martyn_tinsley }}</p>
+                          </div>
+                          <!-- /Testimonial author information -->
+
+                          <div class="testimonial-icon">
+                            <i class="fa fa-quote-left"></i>
+                          </div>
+
+                           <div class="testimonial-icon-big">
+                            <i class="fa fa-quote-right"></i>
+                          </div>
+                        </div>
+                        <!-- /Testimonial Content -->
+                      </div>
+                      <!-- END OF TESTIMONIAL -->
+
+                      <!-- TESTIMONIAL -->
+                      <div class="testimonial-item">
+                        <!-- Testimonial Content -->
+                        <div class="testimonial-content">
+                          <!-- Picture -->
+                          <div class="testimonial-picture">
+                            <img src=".{{ site.linkedin_profile_images.image_repo }}{{ site.linkedin_profile_images.isabel_mf }}" alt="{{ site.linkedin_profile_names.isabel_mf }}"/>
+                          </div>              
+                          <!-- /Picture -->
+
+                          <!-- Testimonial Text -->
+                          <div class="testimonial-text">
+                             <p>{{ site.linkedin_profile_recommendations.isabel_mf }}</p>
+                          </div>
+                          <!-- /Testimonial Text -->
+
+                          <!-- Testimonial author information -->
+                          <div class="testimonial-author-info">
+                            <h5 class="testimonial-author"><a href="{{ site.linkedin_profile_urls.isabel_mf }}" target="_blank">{{ site.linkedin_profile_names.isabel_mf }}</a></h5>
+                            <p class="testimonial-firm">{{ site.linkedin_profile_firms.isabel_mf }}</p>
+                          </div>
+                          <!-- /Testimonial author information -->
+
+                          <div class="testimonial-icon">
+                            <i class="fa fa-quote-left"></i>
+                          </div>
+
+                           <div class="testimonial-icon-big">
+                            <i class="fa fa-quote-right"></i>
+                          </div>
+                        </div>
+                        <!-- /Testimonial Content -->
+                      </div>
+                      <!-- END OF TESTIMONIAL -->
+
+                      <!-- TESTIMONIAL -->
+                      <div class="testimonial-item">
+                        <!-- Testimonial Content -->
+                        <div class="testimonial-content">
+                          <!-- Picture -->
+                          <div class="testimonial-picture">
+                            <img src=".{{ site.linkedin_profile_images.image_repo }}{{ site.linkedin_profile_images.jesus_bermudo }}" alt="{{ site.linkedin_profile_names.jesus_bermudo }}"/>
+                          </div>              
+                          <!-- /Picture -->
+
+                          <!-- Testimonial Text -->
+                          <div class="testimonial-text">
+                             <p>{{ site.linkedin_profile_recommendations.jesus_bermudo }}</p>
+                          </div>
+                          <!-- /Testimonial Text -->
+
+                          <!-- Testimonial author information -->
+                          <div class="testimonial-author-info">
+                            <h5 class="testimonial-author"><a href="{{ site.linkedin_profile_urls.jesus_bermudo }}" target="_blank">{{ site.linkedin_profile_names.jesus_bermudo }}</a></h5>
+                            <p class="testimonial-firm">{{ site.linkedin_profile_firms.jesus_bermudo }}</p>
+                          </div>
+                          <!-- /Testimonial author information -->
+
+                          <div class="testimonial-icon">
+                            <i class="fa fa-quote-left"></i>
+                          </div>
+
+                           <div class="testimonial-icon-big">
+                            <i class="fa fa-quote-right"></i>
+                          </div>
+                        </div>
+                        <!-- /Testimonial Content -->
+                      </div>
+                      <!-- END OF TESTIMONIAL -->
 
                     </div>
                     <!-- /Testimonials -->
