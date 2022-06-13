@@ -78,7 +78,7 @@ permalink: /experience/
 
                   <div class=" col-xs-12 col-sm-6 ">
                     <div class="block-title">
-                      <h2>Education & Certifications</h2>
+                      <h2>Education</h2>
                     </div>
 
                     <div id="timeline_1" class="timeline clearfix">
@@ -137,6 +137,7 @@ permalink: /experience/
 
                 </div>
 
+                <!-- BEGIN: Certifications -->
                 <div class="row">
                   <div class=" col-xs-12 col-sm-12 ">
                     <div class="p-20"></div>
@@ -273,6 +274,147 @@ permalink: /experience/
                   </div>
                 </div>
 
+                <!-- END: Certifications -->
+
+                <!-- BEGIN: Courses -->
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-12 ">
+                    <div class="p-20"></div>
+
+                    <div class="block-title">
+                      <h2>Courses</h2>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- BEGIN: Courses Row 1 -->
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-6 ">
+                    <a href="https://www.datacamp.com/profile/integracore" target="_blank">
+                      <div class="certificate-item clearfix">
+                        <div class="certi-logo">
+                          <img src="{{ site.baseurl }}/assets/img/datacamp-courses.png" alt="logo">
+                        </div>
+
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>Data Analysis in R, the data.table Way</h4>
+                          </div>
+
+                          <div class="certi-id">
+                            <span>Click to Verify Achievement</span>
+                          </div>
+                          <div class="certi-date">
+                            <span>Valid from 2019 onwards</span>
+                          </div>
+
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class=" col-xs-12 col-sm-6 ">
+                    <a href="https://www.datacamp.com/profile/integracore" target="_blank">
+                      <div class="certificate-item clearfix">
+                        <div class="certi-logo">
+                          <img src="{{ site.baseurl }}/assets/img/datacamp-courses.png" alt="logo">
+                        </div>
+
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>Unsupervised Learning in R</h4>
+                          </div>
+
+                          <div class="certi-id">
+                            <span>Click to Verify Achievement</span>
+                          </div>
+                          <div class="certi-date">
+                            <span>Valid from 2019 onwards</span>
+                          </div>
+
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+                <!-- END: Courses Row 1 -->
+                
+                <!-- BEGIN: Courses Row 2 -->
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-6 ">
+                    <a href="https://www.datacamp.com/profile/integracore" target="_blank">
+                      <div class="certificate-item clearfix">
+                        <div class="certi-logo">
+                          <img src="{{ site.baseurl }}/assets/img/datacamp-courses.png" alt="logo">
+                        </div>
+
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>Deep Learning in Python</h4>
+                          </div>
+
+                          <div class="certi-id">
+                            <span>Click to Verify Achievement</span>
+                          </div>
+                          <div class="certi-date">
+                            <span>Valid from 2019 onwards</span>
+                          </div>
+
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class=" col-xs-12 col-sm-6 ">
+                    <a href="https://www.datacamp.com/profile/integracore" target="_blank">
+                      <div class="certificate-item clearfix">
+                        <div class="certi-logo">
+                          <img src="{{ site.baseurl }}/assets/img/datacamp-courses.png" alt="logo">
+                        </div>
+
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>ARIMA Models in R</h4>
+                          </div>
+
+                          <div class="certi-id">
+                            <span>Click to Verify Achievement</span>
+                          </div>
+                          <div class="certi-date">
+                            <span>Valid from 2019 onwards</span>
+                          </div>
+
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+                <!-- END: Courses Row 2 -->
+
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-12 ">
+                    <div class="p-40"></div>
+                  </div>
+                </div>
+
+                <!-- END: Courses -->
+
+
+
                 <!--
                 <div class="row">
                   <div class=" col-xs-12 col-sm-6 ">
@@ -289,7 +431,7 @@ permalink: /experience/
                       <div id="skill_1" data-value="95" class="skill-container">
                         <div class="skill-percentage"></div>
                       </div>
-                      
+
                     </div>
                   </div>
                 </div>
