@@ -128,30 +128,31 @@ permalink: /
 
                     <!-- Testimonials -->
                     <div class="block-title">
-                      <h2>Testimonials</h2>
+                      <h2>LinkedIn Recommendations</h2>
                     </div>
 
                     <div id="testimonials_1" class="testimonials owl-carousel" data-mobile-items="1" data-tablet-items="2" data-items="2">
+
                       <!-- Testimonial 1 -->
                       <div class="testimonial-item">
                         <!-- Testimonial Content -->
                         <div class="testimonial-content">
                           <!-- Picture -->
                           <div class="testimonial-picture">
-                            <img src="./assets/img/testimonials/testimonial-1.jpg" alt="Billy Adams"/>
+                            <img src=".{{ site.linkedin_profile_images.image_repo }}{{ site.linkedin_profile_images.alicia_ortega }}" alt="{{ site.linkedin_profile_names.alicia_ortega }}"/>
                           </div>              
                           <!-- /Picture -->
 
                           <!-- Testimonial Text -->
                           <div class="testimonial-text">
-                             <p>Donec eu est vel metus consequat volutpat. Nunc aliquet euismod mauris, a feugiat urna ullamcorper non.</p>
+                             <p>{{ site.linkedin_profile_recommendations.alicia_ortega }}</p>
                           </div>
                           <!-- /Testimonial Text -->
 
                           <!-- Testimonial author information -->
                           <div class="testimonial-author-info">
-                            <h5 class="testimonial-author">Billy Adams</h5>
-                            <p class="testimonial-firm">Rolling Thunder</p>
+                            <h5 class="testimonial-author"><a href="{{ site.linkedin_profile_urls.alicia_ortega }}" target="_blank">{{ site.linkedin_profile_names.alicia_ortega }}</a></h5>
+                            <p class="testimonial-firm">{{ site.linkedin_profile_firms.alicia_ortega }}</p>
                           </div>
                           <!-- /Testimonial author information -->
 
@@ -173,20 +174,20 @@ permalink: /
                         <div class="testimonial-content">
                           <!-- Picture -->
                           <div class="testimonial-picture">
-                            <img src="./assets/img/testimonials/testimonial-2.jpg" alt="Gary Johnson"/>
+                            <img src=".{{ site.linkedin_profile_images.image_repo }}{{ site.linkedin_profile_images.paula_romero }}" alt="{{ site.linkedin_profile_names.paula_romero }}"/>
                           </div>              
                           <!-- /Picture -->
 
                           <!-- Testimonial Text -->
                           <div class="testimonial-text">
-                             <p>Nam tempor commodo mi id sodales. Aenean sit amet nibh nec sapien consequat porta a sit amet diam.</p>
+                             <p>{{ site.linkedin_profile_recommendations.paula_romero }}</p>
                           </div>
                           <!-- /Testimonial Text -->
 
                           <!-- Testimonial author information -->
                           <div class="testimonial-author-info">
-                            <h5 class="testimonial-author">Gary Johnson</h5>
-                            <p class="testimonial-firm">Locost Accessories</p>
+                            <h5 class="testimonial-author">{{ site.linkedin_profile_names.paula_romero }}</h5>
+                            <p class="testimonial-firm">{{ site.linkedin_profile_firms.paula_romero }}</p>
                           </div>
                           <!-- /Testimonial author information -->
 
@@ -200,44 +201,8 @@ permalink: /
                         </div>
                         <!-- /Testimonial Content -->
                       </div>
-                      <!-- End of Testimonial 2 -->
+                      <!-- End of Testimonial 1 -->
 
-                      <!-- End of Testimonial 3 -->
-                      <div class="testimonial-item">
-
-                        <!-- Testimonial Content -->
-                        <div class="testimonial-content">
-                          <!-- Picture -->
-                          <div class="testimonial-picture">
-                            <img src="./assets/img/testimonials/testimonial-3.jpg" alt="Daniel Pringle"/>
-                          </div>              
-                          <!-- /Picture -->
-
-                          <!-- Testimonial Text -->
-                          <div class="testimonial-text">
-                            <p>Etiam pretium ipsum quis justo dictum accumsan. Phasellus egestas odio a velit scelerisque.</p>
-                          </div>
-                          <!-- /Testimonial Text -->
-
-                          <!-- Testimonial author information -->
-                          <div class="testimonial-author-info">
-                            <h5 class="testimonial-author">Daniel Pringle</h5>
-                            <p class="testimonial-firm">Sagebrush</p>
-                          </div>
-                          <!-- /Testimonial author information -->
-
-                          <div class="testimonial-icon">
-                            <i class="fa fa-quote-left"></i>
-                          </div>
-
-                          <div class="testimonial-icon-big">
-                            <i class="fa fa-quote-right"></i>
-                          </div>
-                        </div>
-                        <!-- /Testimonial Content -->
-
-                      </div>
-                      <!-- End of Testimonial 3 -->
                     </div>
                     <!-- /Testimonials -->
 
