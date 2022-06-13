@@ -147,6 +147,7 @@ permalink: /experience/
                   </div>
                 </div>
 
+                <!-- BEGIN: Certifications Row 1 -->
                 <div class="row">
                   <div class=" col-xs-12 col-sm-6 ">
                     <a href="https://www.credly.com/badges/bb4a9846-1b3d-4df1-a104-ba62e2835386?source=linked_in_profile" target="_blank">
@@ -164,7 +165,7 @@ permalink: /experience/
                             <span>Click to Verify Achievement</span>
                           </div>
                           <div class="certi-date">
-                            <span>2022 - 2025</span>
+                            <span>Valid from 2022 to 2025</span>
                           </div>
 
                           <div class="certi-company">
@@ -176,23 +177,23 @@ permalink: /experience/
                   </div>
 
                   <div class=" col-xs-12 col-sm-6 ">
-                    <a href="//lmpixels.com/wp/leven-wp/wp-content/uploads/2019/11/1.jpg" class="lightbox">
+                    <a href="https://confirm.udacity.com/5DVTP4V7" target="_blank">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
-                          <img src="//lmpixels.com/wp/leven-wp/wp-content/uploads/2019/12/client-1.png" alt="logo">
+                          <img src="{{ site.baseurl }}/assets/img/udacity_nanodegree.png" alt="logo">
                         </div>
 
                         <div class="certi-content">
                           <div class="certi-title">
-                            <h4>Psyhology of Intertnation Design</h4>
+                            <h4>Artificial Intelligence for Trading</h4>
                           </div>
 
                           <div class="certi-id">
-                            <span>Membership ID: XXXX</span>
+                            <span>Click to Verify Achievement</span>
                           </div>
 
                           <div class="certi-date">
-                            <span>19 April 2018</span>
+                            <span>Valid from 2019 onwards</span>
                           </div>
 
                           <div class="certi-company">
@@ -202,8 +203,69 @@ permalink: /experience/
                       </div>
                     </a>
                   </div>
-
                 </div>
+                <!-- END: Certifications Row 1 -->
+                
+                <!-- BEGIN: Certifications Row 2 -->
+                <div class="row">
+                  
+                  <div class=" col-xs-12 col-sm-6 ">
+                    <!-- <a href="#" class="lightbox"> -->
+                      <div class="certificate-item clearfix">
+                        <div class="certi-logo">
+                          <img src="{{ site.baseurl }}/assets/img/expertrating_certified_professional.png" alt="logo">
+                        </div>
+
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>MySQL Certification</h4>
+                          </div>
+
+                          <div class="certi-id">
+                            <span>Validity: All Time</span>
+                          </div>
+
+                          <div class="certi-date">
+                            <span>2008</span>
+                          </div>
+
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- </a> -->
+                  </div>
+
+                  <div class=" col-xs-12 col-sm-6 ">
+                    <!-- <a href="#" class="lightbox"> -->
+                      <div class="certificate-item clearfix">
+                        <div class="certi-logo">
+                          <img src="{{ site.baseurl }}/assets/img/expertrating_certified_professional.png" alt="logo">
+                        </div>
+
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>Programming in C Certification</h4>
+                          </div>
+
+                          <div class="certi-id">
+                            <span>Validity: All Time</span>
+                          </div>
+
+                          <div class="certi-date">
+                            <span>2006</span>
+                          </div>
+
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- </a> -->
+                  </div>
+                </div>
+                <!-- END: Certifications Row 2 -->
 
                 <div class="row">
                   <div class=" col-xs-12 col-sm-12 ">
