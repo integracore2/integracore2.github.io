@@ -133,6 +133,45 @@ permalink: /
 
                     <div id="testimonials_1" class="testimonials owl-carousel" data-mobile-items="1" data-tablet-items="7" data-items="7">
 
+                      {% for person in site.linkedin_profiles.persons %}
+                        
+                        <!-- TEST TESTIMONIAL -->
+                        <div class="testimonial-item">
+                          <!-- Testimonial Content -->
+                          <div class="testimonial-content">
+                            <!-- Picture -->
+                            <div class="testimonial-picture">
+                              <img src=".{{ site.linkedin_image_repo }}{{ person[1].image }}" alt="{{ person[1].name }}"/>
+                            </div>              
+                            <!-- /Picture -->
+
+                            <!-- Testimonial Text -->
+                            <div class="testimonial-text">
+                              <p>{{ person[1].recommendation }}</p>
+                            </div>
+                            <!-- /Testimonial Text -->
+
+                            <!-- Testimonial author information -->
+                            <div class="testimonial-author-info">
+                              <h5 class="testimonial-author"><a href="{{ person[1].url }}" target="_blank">{{ person[1].name }}</a></h5>
+                              <p class="testimonial-firm">{{ person[1].role }}</p>
+                            </div>
+                            <!-- /Testimonial author information -->
+
+                            <div class="testimonial-icon">
+                              <i class="fa fa-quote-left"></i>
+                            </div>
+
+                            <div class="testimonial-icon-big">
+                              <i class="fa fa-quote-right"></i>
+                            </div>
+                          </div>
+                          <!-- /Testimonial Content -->
+                        </div>
+                        <!-- END OF TEST TESTIMONIAL -->
+                       
+                      {% endfor %}
+
                       <!-- TESTIMONIAL -->
                       <div class="testimonial-item">
                         <!-- Testimonial Content -->
@@ -385,43 +424,50 @@ permalink: /
 
                     <!-- Clients Slider -->
                     <div class="block-title">
-                      <h2>Clients</h2>
+                      <h2>Engagements (past & present)</h2>
                     </div>
 
                     <div id="clients_1" class="clients owl-carousel" data-mobile-items="1" data-tablet-items="3" data-items="6">
+                      
                       <div class="client-block">
-                        <a href="#" target="_blank" title="Golden Grid">
-                          <img src="./assets/img/clients/client-1.png" alt="Golden Grid">
+                        <a href="#" target="_blank" title="Tradologics">
+                          <img src="./assets/img/clients/tradologics.png" alt="{{ site.datacamp.nested.n1 }}">
                         </a>
                       </div>
 
                       <div class="client-block">
-                        <a href="#" target="_blank" title="Sweety">
-                          <img src="./assets/img/clients/client-2.png" alt="Sweety">
+                        <a href="#" target="_blank" title="Darwinex">
+                          <img src="./assets/img/clients/darwinex.jpg" alt="Darwinex">
                         </a>
                       </div>
 
                       <div class="client-block">
-                        <a href="#" target="_blank" title="Magic Furnitures">
-                          <img src="./assets/img/clients/client-3.png" alt="Magic Furnitures">
+                        <a href="#" target="_blank" title="Capriva">
+                          <img src="./assets/img/clients/capriva.png" alt="Capriva">
                         </a>
                       </div>
 
                       <div class="client-block">
-                        <a href="#" target="_blank" title="LifeGuard">
-                          <img src="./assets/img/clients/client-4.png" alt="LifeGuard">
+                        <a href="#" target="_blank" title="Finbou AG">
+                          <img src="./assets/img/clients/finbou.jpg" alt="Finbou AG">
                         </a>
                       </div>
 
                       <div class="client-block">
-                        <a href="#" target="_blank" title="LESS">
-                          <img src="./assets/img/clients/client-5.png" alt="LESS">
+                        <a href="#" target="_blank" title="iQlink">
+                          <img src="./assets/img/clients/iqlink.png" alt="iQlink">
                         </a>
                       </div>
 
                       <div class="client-block">
-                        <a href="#" target="_blank" title="Design Lovers">
-                          <img src="./assets/img/clients/client-6.png" alt="Design Lovers">
+                        <a href="#" target="_blank" title="NexDegree">
+                          <img src="./assets/img/clients/nexdegree.jpg" alt="NexDegree">
+                        </a>
+                      </div>
+
+                      <div class="client-block">
+                        <a href="#" target="_blank" title="Tekcellent">
+                          <img src="./assets/img/clients/tekcellent.jpg" alt="Tekcellent">
                         </a>
                       </div>
 

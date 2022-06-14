@@ -29,7 +29,7 @@ permalink: /experience/
                       <div class="timeline-item clearfix">
                         <h5 class="item-period current">Jun 2022 - Present</h5>
                         <span class="item-company">Contract Consultant</span>
-                        <h4 class="item-title">Technical Architecture | Data & Cloud-Centric R&D</h4>
+                        <h4 class="item-title">Technical Architecture | Training | Cloud-Native R&D</h4>
                         <p>Supporting Startups, Professional Services firms, and FinTechs with technical and strategic advisory, data and integrations engineering services.</p>
                       </div>
                       

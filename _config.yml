@@ -17,6 +17,9 @@ author:
     github: https://github.com/integracore2
 datacamp: 
     profile: https://www.datacamp.com/profile/integracore
+    nested:
+        n1: This is n1
+        n2: This is n2
 udacity:
     aitrading: https://confirm.udacity.com/5DVTP4V7
 aws:
@@ -63,6 +66,15 @@ linkedin_profile_urls:
     jesus_bermudo: https://www.linkedin.com/in/jesusbermudocruz
     enrique_bm: https://www.linkedin.com/in/enriquebasanez
     martyn_tinsley: https://www.linkedin.com/in/martyntinsley
+linkedin_image_repo: /assets/img/linkedin-recommendations/
+linkedin_profiles:
+    persons:
+        alicia_ortega:
+            name: Alicia Ortega For Loop
+            url: https://www.linkedin.com/in/alicia-o-46b4b937
+            role: Head of Marketing @ Darwinex
+            image: alicia-ortega-hod-mkt-darwinex.jpg
+            recommendation: <p>Ali, an intelligent, kind, patient and humble man whose leadership mantra is “support them but let them grow by themselves”.</p><p>You really make people think on their own and push them to give their best, always present but not interfering, a colleague always willing to help.</p><p>You’ve shown an admiring resilience at times of personal difficulties, always with a smile in your face, this is really one of the things that defines you, and for which you should be most proud.</p><p>It’s been a great pleasure working by your side, pushing our projects together and collaborating in our, sometimes, never-ending meetings 😂</p><p>Keep the smile, the kindness and the supportive spirit always with you and THANKS for being there when I needed it. A topeeeeee!!!!</p>
 contact_form:
     action_url: https://docs.google.com/forms/u/0/d/e/1FAIpQLSdaB2yDCTffCr6B3DMn76spp4Uy7H6LDNnGgFsGDCgnQVq1rw/formResponse
     input_firstname: entry.2005620554
