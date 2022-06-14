@@ -33,7 +33,7 @@ permalink: /
                             </div>
                               
                             <h1>{{ site.author.name }}</h1>
-                            <p>{{ site.author.bio }}</p>
+                            <p align="justify">{{ site.author.bio2 }}</p>
                                  
                             <div class="home-buttons">
                               <a href="{{ site.author.linkedin }}" target="_blank" class="btn btn-primary">Connect on LinkedIn</a>
