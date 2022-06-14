@@ -142,6 +142,27 @@ clients:
             image: albemarle.png
             url: https://www.albemarle.org.uk/
 
+fun_facts:
+    entries:
+        entry:
+            title: Happy Clients
+            value: 578
+            icon: heart
+        entry:
+            title: Working Hours
+            value: 4,780
+            icon: clock
+        entry:
+            title: Awards Won
+            value: 15
+            icon: star
+        entry:
+            title: Coffee Consumed
+            value: 1,286
+            icon: cup
+        
+        
+
 contact_form:
     action_url: https://docs.google.com/forms/u/0/d/e/1FAIpQLSdaB2yDCTffCr6B3DMn76spp4Uy7H6LDNnGgFsGDCgnQVq1rw/formResponse
     input_firstname: entry.2005620554
