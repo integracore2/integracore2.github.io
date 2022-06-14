@@ -30,25 +30,6 @@ author:
         ccp: https://www.credly.com/badges/bb4a9846-1b3d-4df1-a104-ba62e2835386?source=linked_in_profile
         well_architected_framework: https://aws.amazon.com/architecture/well-architected/
 
-fun_facts:
-    entries:
-        1:
-            title: Happy Clients
-            value: 578
-            icon: heart
-        2:
-            title: Working Hours
-            value: 4,780
-            icon: clock
-        3:
-            title: Awards Won
-            value: 15
-            icon: star
-        4:
-            title: Coffee Consumed
-            value: 1,286
-            icon: cup
-
 google_recaptcha:
     site_key: 6LeNlGcgAAAAAI-k3G6BDl_dixxmXKMbIFS8WZih
 

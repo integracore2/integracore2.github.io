@@ -201,41 +201,16 @@ permalink: /
         </div>
 
         <div class="row">
+          {% for entry in site.data.pageconfig.index.fun_facts.entries %}
           <div class="col-xs-12 col-sm-3">
             <div class="lm-info-block gray-default">
-              <i class="linecons linecons-heart"></i>
-              <h4>Happy Clients</h4>
-              <span class="lm-info-block-value">578</span>
+              <i class="linecons linecons-{{ entry[1].icon }}"></i>
+              <h4>{{ entry[1].title }}</h4>
+              <span class="lm-info-block-value">{{ entry[1].value }}</span>
               <span class="lm-info-block-text"></span>
             </div>
           </div>
-
-          <div class="col-xs-12 col-sm-3">
-            <div class="lm-info-block gray-default">
-              <i class="linecons linecons-clock"></i>
-              <h4>Working Hours</h4>
-              <span class="lm-info-block-value">4,780</span>
-              <span class="lm-info-block-text"></span>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-3 ">
-            <div class="lm-info-block gray-default">
-              <i class="linecons linecons-star"></i>
-              <h4>Awards Won</h4>
-              <span class="lm-info-block-value">15</span>
-              <span class="lm-info-block-text"></span>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-3 ">
-            <div class="lm-info-block gray-default">
-              <i class="linecons linecons-cup"></i>
-              <h4>Coffee Consumed</h4>
-              <span class="lm-info-block-value">1,286</span>
-              <span class="lm-info-block-text"></span>
-            </div>
-          </div>
+          {% endfor %}
         </div>
         <!-- /Fun Facts -->
 
