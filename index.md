@@ -201,7 +201,7 @@ permalink: /
         </div>
 
         <div class="row">
-          {% for entry in site.data.pageconfig.index.fun_facts.entries %}
+          {% for entry in site.data.pageconfig.index.fun_facts %}
           <div class="col-xs-12 col-sm-3">
             <div class="lm-info-block gray-default">
               <i class="linecons linecons-{{ entry[1].icon }}"></i>

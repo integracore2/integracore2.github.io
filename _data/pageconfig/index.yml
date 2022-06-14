@@ -1,18 +1,17 @@
 fun_facts:
-    entries:
-        1:
-            title: Happy Clients
-            value: 578
-            icon: heart
-        2:
-            title: Working Hours
-            value: "25,200+"
-            icon: clock
-        3:
-            title: Books Read
-            value: 600+
-            icon: star
-        4:
-            title: Tea Cups Downed
-            value: "6,250+"
-            icon: cup
+  1:
+      title: Happy Clients
+      value: 578
+      icon: heart
+  2:
+      title: Working Hours
+      value: "25,200+"
+      icon: clock
+  3:
+      title: Books Read
+      value: 600+
+      icon: star
+  4:
+      title: Tea Cups Downed
+      value: "6,250+"
+      icon: cup
