@@ -141,7 +141,7 @@ permalink: /
                           <div class="testimonial-content">
                             <!-- Picture -->
                             <div class="testimonial-picture">
-                              <img src=".{{ site.linkedin_image_repo }}{{ person[1].image }}" alt="{{ person[1].name }}"/>
+                              <img src="{{ site.linkedin_image_repo }}{{ person[1].image }}" alt="{{ person[1].name }}"/>
                             </div>              
                             <!-- /Picture -->
 
@@ -183,12 +183,13 @@ permalink: /
                     </div>
 
                     <div id="clients_1" class="clients owl-carousel" data-mobile-items="1" data-tablet-items="3" data-items="6">
-                      
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="Tradologics">
-                          <img src="./assets/img/clients/tradologics.png" alt="{{ site.datacamp.nested.n1 }}">
-                        </a>
-                      </div>
+                      {% for company in site.clients.companies %}
+                        <div class="client-block">
+                          <a href="{{ company.url }}" target="_blank" title="{{ company.name }}">
+                            <img src="{{ site.client_image_repo }}{{ company.image }}" alt="{{ company.name }}">
+                          </a>
+                        </div>
+                      {% endfor %}
 
                       <div class="client-block">
                         <a href="#" target="_blank" title="Darwinex">
