@@ -31,7 +31,7 @@ linkedin_image_repo: ./assets/img/linkedin-recommendations/
 linkedin_profiles:
     persons:
         alicia_ortega:
-            name: Alicia Ortega For Loop
+            name: Alicia Ortega Roy
             url: https://www.linkedin.com/in/alicia-o-46b4b937
             role: Head of Marketing @ Darwinex
             image: alicia-ortega-hod-mkt-darwinex.jpg
@@ -81,14 +81,18 @@ clients:
             name: Zárate-Mateo Algorithmic Systems
             image: zarate-mateo-algorithmic-systems.png
             url: https://www.zaratemateo.com/
-        tradologics:
-            name: Tradologics
-            image: tradologics.png
-            url: https://www.tradologics.com/
         iqlink:
             name: iQlink Limited
             image: iqlink.png
             url: https://www.iqlink.co.uk/
+        packt:
+            name: Packt Publishing
+            image: packt-publishing.png
+            url: https://www.packtpub.com/
+        tradologics:
+            name: Tradologics
+            image: tradologics.png
+            url: https://www.tradologics.com/
         darwinex:
             name: Darwinex
             image: darwinex.jpg
@@ -97,10 +101,34 @@ clients:
             name: Capriva Asset Management
             image: capriva.png
             url: https://www.capriva.io/
+        mitmedialab:
+            name: MIT Media Lab
+            image: mit-media-lab.png
+            url: https://www.media.mit.edu/
+        quantinsti:
+            name: QuantInsti - Algorithmic Trading
+            image: quantinsti.png
+            url: https://www.quantinsti.com/
+        tlam:
+            name: Trade Like A Machine Ltd
+            image: trade-like-a-machine.jpg
+            url: https://www.tradelikeamachine.com/
         finbou:
             name: Finbou AG
             image: finbou.jpg
             url: https://www.finbou.com/
+        sersansistemas:
+            name: Sersan Sistemas S.L.
+            image: sersan-sistemas.jpg
+            url: https://www.sersansistemas.com/
+        accuratequant:
+            name: Accurate Quant - Quant Investment Solutions
+            image: accurate-quant.jpg
+            url: https://accuratequant.com/
+        meridiana:
+            name: Meridiana - Multi Family Office
+            image: meridiana.png
+            url: http://meridiana-mfo.com/
         nexdegree:
             name: NexDegree
             image: nexdegree.jpg

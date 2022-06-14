@@ -179,7 +179,7 @@ permalink: /
 
                     <!-- Clients Slider -->
                     <div class="block-title">
-                      <h2>Engagements (past & present)</h2>
+                      <h2>All-Time Engagements</h2>
                     </div>
 
                     <div id="clients" class="clients owl-carousel" data-mobile-items="1" data-tablet-items="3" data-items="6">
