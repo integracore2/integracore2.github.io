@@ -182,56 +182,15 @@ permalink: /
                       <h2>Engagements (past & present)</h2>
                     </div>
 
-                    <div id="clients_1" class="clients owl-carousel" data-mobile-items="1" data-tablet-items="3" data-items="6">
+                    <div id="clients" class="clients owl-carousel" data-mobile-items="1" data-tablet-items="3" data-items="6">
                       {% for company in site.clients.companies %}
                         <div class="client-block">
-                          <a href="{{ company.url }}" target="_blank" title="{{ company.name }}">
-                            <img src="{{ site.client_image_repo }}{{ company.image }}" alt="{{ company.name }}">
+                          <a href="{{ company[1].url }}" target="_blank" title="{{ company[1].name }}">
+                            <img src="{{ site.client_image_repo }}{{ company[1].image }}" alt="{{ company[1].name }}">
                           </a>
                         </div>
                       {% endfor %}
 
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="Darwinex">
-                          <img src="./assets/img/clients/darwinex.jpg" alt="Darwinex">
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="Capriva">
-                          <img src="./assets/img/clients/capriva.png" alt="Capriva">
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="Finbou AG">
-                          <img src="./assets/img/clients/finbou.jpg" alt="Finbou AG">
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="iQlink">
-                          <img src="./assets/img/clients/iqlink.png" alt="iQlink">
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="NexDegree">
-                          <img src="./assets/img/clients/nexdegree.jpg" alt="NexDegree">
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="Tekcellent">
-                          <img src="./assets/img/clients/tekcellent.jpg" alt="Tekcellent">
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="WordPress">
-                          <img src="./assets/img/clients/client-7.png" alt="WordPress">
-                        </a>
-                      </div>
                     </div>
                     <!-- /Clients Slider -->
 

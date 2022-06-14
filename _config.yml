@@ -77,6 +77,10 @@ client_image_repo: ./assets/img/clients/
 
 clients:
     companies:
+        zaratemateo:
+            name: Zárate-Mateo Algorithmic Systems
+            image: zarate-mateo-algorithmic-systems.png
+            url: https://www.zaratemateo.com/
         tradologics:
             name: Tradologics
             image: tradologics.png
@@ -105,6 +109,10 @@ clients:
             name: Tekcellent Private Limited
             image: tekcellent.jpg
             url: https://www.tekcellent.com/
+        albemarle:
+            name: Albemarle Independent colleague
+            image: albemarle.png
+            url: https://www.albemarle.org.uk/
 
 contact_form:
     action_url: https://docs.google.com/forms/u/0/d/e/1FAIpQLSdaB2yDCTffCr6B3DMn76spp4Uy7H6LDNnGgFsGDCgnQVq1rw/formResponse
