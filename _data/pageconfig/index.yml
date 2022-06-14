@@ -21,19 +21,19 @@ services_title: What I Do
 services:
   block1:
     1:
-      title: Title 1
+      title: Technical and Strategic Advisory
       description: Description 1
-      icon: pen
+      icon: bulb
     2:
-      title: Title 2
-      description: Description 1
+      title: Corporate & Technical Training
+      description: Description 2
       icon: display
   block2:
     1:
-      title: Title 1
-      description:
-      icon: shop
+      title: Data, Software, and Integrations Engineering
+      description: Description 1
+      icon: data
     2:
-      title: Title 2
+      title: Multi-Cloud Solution Architecture
       description: Description 2
-      icon: megaphone
+      icon: cloud
