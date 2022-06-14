@@ -133,7 +133,7 @@ permalink: /
 
                     <div id="testimonials_1" class="testimonials owl-carousel" data-mobile-items="1" data-tablet-items="7" data-items="7">
 
-                      {% for person in site.linkedin_profiles.persons %}
+                      {% for person in site.data.linkedin.recommendations %}
                         
                         <!-- TEST TESTIMONIAL -->
                         <div class="testimonial-item">
@@ -141,7 +141,7 @@ permalink: /
                           <div class="testimonial-content">
                             <!-- Picture -->
                             <div class="testimonial-picture">
-                              <img src="{{ site.linkedin_image_repo }}{{ person[1].image }}" alt="{{ person[1].name }}"/>
+                              <img src="{{ site.data.linkedin.config.image_repo }}{{ person[1].image }}" alt="{{ person[1].name }}"/>
                             </div>              
                             <!-- /Picture -->
 
@@ -171,7 +171,7 @@ permalink: /
                         <!-- END OF TEST TESTIMONIAL -->
                        
                       {% endfor %}
-
+                      
                     </div>
                     <!-- /Testimonials -->
 
