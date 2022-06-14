@@ -162,7 +162,7 @@ permalink: /experience/
                 <!-- BEGIN: Certifications Row 1 -->
                 <div class="row">
                   <div class=" col-xs-12 col-sm-6 ">
-                    <a href="{{ site.aws.ccp }}" target="_blank">
+                    <a href="{{ site.author.aws.ccp }}" target="_blank">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
                           <img src="{{ site.baseurl }}/assets/img/aws-certified-cloud-practitioner.png" alt="logo">
@@ -189,7 +189,7 @@ permalink: /experience/
                   </div>
 
                   <div class=" col-xs-12 col-sm-6 ">
-                    <a href="{{ site.udacity.aitrading }}" target="_blank">
+                    <a href="{{ site.author.udacity.aitrading }}" target="_blank">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
                           <img src="{{ site.baseurl }}/assets/img/udacity_nanodegree.png" alt="logo">
@@ -302,7 +302,7 @@ permalink: /experience/
                 <!-- BEGIN: Courses Row 1 -->
                 <div class="row">
                   <div class=" col-xs-12 col-sm-6 ">
-                    <a href="{{ site.datacamp.profile }}" target="_blank">
+                    <a href="{{ site.author.datacamp.profile }}" target="_blank">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
                           <img src="{{ site.baseurl }}/assets/img/datacamp-courses.png" alt="logo">
@@ -329,7 +329,7 @@ permalink: /experience/
                   </div>
 
                   <div class=" col-xs-12 col-sm-6 ">
-                    <a href="{{ site.datacamp.profile }}" target="_blank">
+                    <a href="{{ site.author.datacamp.profile }}" target="_blank">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
                           <img src="{{ site.baseurl }}/assets/img/datacamp-courses.png" alt="logo">
@@ -361,7 +361,7 @@ permalink: /experience/
                 <!-- BEGIN: Courses Row 2 -->
                 <div class="row">
                   <div class=" col-xs-12 col-sm-6 ">
-                    <a href="{{ site.datacamp.profile }}" target="_blank">
+                    <a href="{{ site.author.datacamp.profile }}" target="_blank">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
                           <img src="{{ site.baseurl }}/assets/img/datacamp-courses.png" alt="logo">
@@ -388,7 +388,7 @@ permalink: /experience/
                   </div>
 
                   <div class=" col-xs-12 col-sm-6 ">
-                    <a href="{{ site.datacamp.profile }}" target="_blank">
+                    <a href="{{ site.author.datacamp.profile }}" target="_blank">
                       <div class="certificate-item clearfix">
                         <div class="certi-logo">
                           <img src="{{ site.baseurl }}/assets/img/datacamp-courses.png" alt="logo">

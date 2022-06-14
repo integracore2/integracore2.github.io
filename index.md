@@ -32,7 +32,7 @@ permalink: /
                             
                             </div>
                               
-                            <h1>Ali Saif</h1>
+                            <h1>{{ site.author.name }}</h1>
                             <p>{{ site.author.bio }}</p>
                                  
                             <div class="home-buttons">
