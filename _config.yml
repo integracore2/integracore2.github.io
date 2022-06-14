@@ -44,15 +44,6 @@ fun_facts:
             title: Coffee Consumed
             value: 1,286
             icon: cup
-        
-        
-
-contact_form:
-    action_url: https://docs.google.com/forms/u/0/d/e/1FAIpQLSdaB2yDCTffCr6B3DMn76spp4Uy7H6LDNnGgFsGDCgnQVq1rw/formResponse
-    input_firstname: entry.2005620554
-    input_email: entry.1045781291
-    input_subject: entry.1065046570
-    input_message: entry.839337160
 
 google_recaptcha:
     site_key: 6LeNlGcgAAAAAI-k3G6BDl_dixxmXKMbIFS8WZih

@@ -70,7 +70,8 @@ permalink: /contact/
                     <h2>Get In Touch</h2>
                 </div>
 
-                <form id="g_contact_form" class="contact-form" action="{{ site.contact_form.action_url }}" method="post">
+                {% assign form = site.data.pageconfig.contact.contact_form %}
+                <form id="g_contact_form" class="contact-form" action="{{ form.action_url }}" method="post">
 
                     <div class="messages"></div>
 
@@ -78,20 +79,20 @@ permalink: /contact/
                     <div class="fields clearfix">
                         <div class="left-column">
                         <div class="form-group form-group-with-icon">
-                            <input id="{{ site.contact_form.input_firstname }}" type="text" name="{{ site.contact_form.input_firstname }}" class="form-control" placeholder="First Name" required="required" data-error="First name is required.">
+                            <input id="{{ form.input_firstname }}" type="text" name="{{ form.input_firstname }}" class="form-control" placeholder="First Name" required="required" data-error="First name is required.">
                             <div class="form-control-border"></div>
                             <div class="help-block with-errors"></div>
                         </div>
 
                         <div class="form-group form-group-with-icon">
-                            <input id="{{ site.contact_form.input_email }}" type="email" name="{{ site.contact_form.input_email }}" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                            <input id="{{ form.input_email }}" type="email" name="{{ form.input_email }}" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
                             <div class="form-control-border"></div>
                             <div class="help-block with-errors"></div>
                         </div>
 
                         <div class="form-group form-group-with-icon">
-                            <label for="{{ site.contact_form.input_subject }}">What is your query regarding?</label>
-                            <select id="{{ site.contact_form.input_subject }}" type="text" name="{{ site.contact_form.input_subject }}" class="form-control" placeholder="Subject" required="required" data-error="Subject is required.">
+                            <label for="{{ form.input_subject }}">What is your query regarding?</label>
+                            <select id="{{ form.input_subject }}" type="text" name="{{ form.input_subject }}" class="form-control" placeholder="Subject" required="required" data-error="Subject is required.">
                                 <option value="AWS">AWS </option>
                             </select>
                             <!-- <input id="{{ site.contact_form.input_subject }}" type="text" name="{{ site.contact_form.input_subject }}" class="form-control" placeholder="Subject" required="required" data-error="Subject is required."> -->
@@ -101,7 +102,7 @@ permalink: /contact/
                         </div>
                         <div class="right-column">
                         <div class="form-group form-group-with-icon">
-                            <textarea id="{{ site.contact_form.input_message }}" name="{{ site.contact_form.input_message }}" class="form-control" placeholder="Message" rows="8" required="required" data-error="Please, leave me a message."></textarea>
+                            <textarea id="{{ form.input_message }}" name="{{ form.input_message }}" class="form-control" placeholder="Message" rows="8" required="required" data-error="Please, leave me a message."></textarea>
                             <div class="form-control-border"></div>
                             <div class="help-block with-errors"></div>
                         </div>
