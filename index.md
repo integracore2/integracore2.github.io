@@ -22,22 +22,14 @@ permalink: /
 
                         <div class="col-sm-12 col-md-7 col-lg-7">
                           <div class="home-text hp-left">
-                            <div class="owl-carousel text-rotation">                                    
-                              <div class="item">
-                                <h4>Technical Architect</h4>
-                              </div>
-                              <div class="item">
-                                <h4>Software Engineer (20+ years)</h4>
-                              </div>
-                              <div class="item">
-                                <h4>Multi-Cloud Solutions Architect</h4>
-                              </div>
-                              <div class="item">
-                                <h4>Developer Advocate</h4>
-                              </div>
-                              <div class="item">
-                                <h4>Startup Advisor</h4>
-                              </div>
+                            <div class="owl-carousel text-rotation">  
+
+                              {% for role in site.author.roles %} 
+                                <div class="item">
+                                  <h4>{{ role }}</h4>
+                                </div>
+                              {% endfor %}
+                            
                             </div>
                               
                             <h1>Ali Saif</h1>

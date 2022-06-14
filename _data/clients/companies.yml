@@ -1,3 +1,7 @@
+mitmedialab:
+    name: MIT Media Lab
+    image: mit-media-lab.png
+    url: https://www.media.mit.edu/
 zaratemateo:
     name: Zárate-Mateo Algorithmic Systems
     image: zarate-mateo-algorithmic-systems.png
@@ -22,10 +26,6 @@ capriva:
     name: Capriva Asset Management
     image: capriva.png
     url: https://www.capriva.io/
-mitmedialab:
-    name: MIT Media Lab
-    image: mit-media-lab.png
-    url: https://www.media.mit.edu/
 quantinsti:
     name: QuantInsti - Algorithmic Trading
     image: quantinsti.png
