@@ -1,16 +1,16 @@
 fun_facts:
   1:
-      title: Happy Clients
-      value: 578
-      icon: heart
+      title: Projects Delivered
+      value: 150+
+      icon: calendar
   2:
-      title: Working Hours
+      title: Hours Worked
       value: "25,200+"
       icon: clock
   3:
       title: Books Read
       value: 600+
-      icon: star
+      icon: study
   4:
       title: Tea Cups Downed
       value: "6,250+"
