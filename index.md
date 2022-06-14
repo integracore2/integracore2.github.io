@@ -183,10 +183,10 @@ permalink: /
                     </div>
 
                     <div id="clients" class="clients owl-carousel" data-mobile-items="1" data-tablet-items="3" data-items="6">
-                      {% for company in site.clients.companies %}
+                      {% for company in site.data.clients.companies %}
                         <div class="client-block">
                           <a href="{{ company[1].url }}" target="_blank" title="{{ company[1].name }}">
-                            <img src="{{ site.client_image_repo }}{{ company[1].image }}" alt="{{ company[1].name }}">
+                            <img src="{{ site.data.clients.config.image_repo }}{{ company[1].image }}" alt="{{ company[1].name }}">
                           </a>
                         </div>
                       {% endfor %}
