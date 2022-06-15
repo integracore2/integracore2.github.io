@@ -47,6 +47,7 @@ permalink: /
         </div>
         <!-- Home Page Top Part -->
 
+        {% if site.data.pageconfig.index.services_enabled %}
         <!-- Services -->
         <div class="row">
           <div class="col-xs-12 col-sm-12">
@@ -79,7 +80,9 @@ permalink: /
           {% endfor %}
         </div>
         <!-- /Services -->
+        {% endif %}
 
+        {% if site.data.pageconfig.index.recommendations_enabled %}
         <div class="row">
           <div class="col-xs-12 col-sm-12">
             <div class="p-20"></div>
@@ -132,9 +135,10 @@ permalink: /
               
             </div>
             <!-- /Testimonials -->
+            {% endif %}
 
             <div class="p-40"></div>
-
+            
             <!-- Clients Slider -->
             <div class="block-title">
               <h2>{{ site.data.pageconfig.index.engagements_title }}</h2>

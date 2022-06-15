@@ -1,3 +1,4 @@
+recommendations_enabled: true
 recommendations_title: Recommendations
 engagements_title: All-Time Engagements
 
@@ -21,6 +22,7 @@ fun_facts:
       value: "6K+"
       icon: cup
 
+services_enabled: true
 services_title: What I Do
 services:
   block1:
