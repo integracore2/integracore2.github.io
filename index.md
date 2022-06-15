@@ -157,6 +157,7 @@ permalink: /
           </div>
         </div>
 
+        {% if site.data.pageconfig.index.fun_facts_enabled %}
         <!-- Fun Facts -->
         <div class="row">
           <div class="col-xs-12 col-sm-12">
@@ -179,7 +180,9 @@ permalink: /
           {% endfor %}
         </div>
         <!-- /Fun Facts -->
+        {% endif %}
 
+        {% if site.data.pageconfig.index.pricing_enabled %}
         <div class="p-40"></div>
 
         <!-- Pricing -->
@@ -221,6 +224,7 @@ permalink: /
             </div>
           </div>
         </div>
+        {% endif %}
         <!-- /Pricing -->
       </div>
     </div>
