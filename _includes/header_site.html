@@ -14,13 +14,39 @@
       <div class="site-nav mobile-menu-hide">
         <ul class="leven-classic-menu site-main-menu">
 
+      {% for item in site.data.pageconfig.navigation %}
+        {% if item[1].enabled %}
+          {% if item[1].has_children %}
+          <li class="menu-item menu-item-has-children">
+            {% assign child_base_url = site.baseurl | append: item[1].url %}
+            <a href="{{ child_base_url }}">{{ item[1].name }}</a>
+            <ul class="sub-menu">
+              {% for subitem in item[1].children %}
+              {% if subitem[1].enabled %}
+              {% assign child_url = child_base_url | append: subitem[1].url %}
+              <li class="menu-item">
+                <a href="{{ child_url }}">{{ subitem[1].name }}</a>
+              </li>
+              {% endif %}
+              {% endfor %}
+            </ul>
+          </li>
+          {% else %}
+            {% if item[1].current %}
+            <li class="menu-item current-menu-item">
+            {% else %}
+            <li class="menu-item">
+            {% endif %}
+              <a href="{{ item[1].url }}">{{ item[1].name }}</a>
+            </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+          <!-- 
           <li class="menu-item current-menu-item">
             <a href="{{ site.logo.url }}/">Home</a>
           </li>
-
-          <!-- <li class="menu-item current-menu-item">
-            <a href="{{ site.baseurl }}/experience/">Experience</a>
-          </li> -->
 
           <li class="menu-item menu-item-has-children">
             <a href="{{ site.baseurl }}/experience/">Experience</a>
@@ -75,6 +101,8 @@
           <li class="menu-item">
             <a href="{{ site.baseurl }}/contact/">Contact</a>
           </li>
+
+          -->
         </ul>
       </div>
       

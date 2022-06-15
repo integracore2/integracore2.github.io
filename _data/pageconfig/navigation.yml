@@ -3,6 +3,7 @@
   url: 
   current: true
   enabled: true
+  has_children: false
   children:
 
 2:
@@ -10,6 +11,7 @@
   url: /experience/
   current: false
   enabled: true
+  has_children: true
   children:
     1:
       name: Engagements
@@ -44,14 +46,16 @@
   name: Innovations
   url: /innovations/
   current: false
-  enabled: true
+  enabled: false
+  has_children: false
   children:
 
 4:
   name: Publications
   url: /publications/
   current: false
-  enabled: true
+  enabled: false
+  has_children: true
   children:
     1:
       name: Videos
@@ -70,7 +74,8 @@
   name: Blog
   url: /blog/
   current: false
-  enabled: true
+  enabled: false
+  has_children: false
   children:
 
 6:
@@ -78,4 +83,5 @@
   url: /contact/
   current: false
   enabled: true
+  has_children: false
   children:
