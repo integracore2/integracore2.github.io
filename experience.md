@@ -73,11 +73,11 @@ permalink: /experience/
         </div>
 
         <!-- /////////////////////////// -->
-        {% for block in site.data.pageconfig.certifications %}
+        {% for block in site.data.pageconfig.experience.certifications %}
         <div class="row">
           {% for cert in block %}
           <div class=" col-xs-12 col-sm-6 ">
-            {% if cert.url != "" or cert.url != nil %}
+            {% if cert.url and cert.url != "" and cert.url != nil %}
             <a href="{{ cert.url }}" target="_blank">
             {% endif %}
               <div class="certificate-item clearfix">
@@ -102,133 +102,14 @@ permalink: /experience/
                   </div>
                 </div>
               </div>
-            {% if cert.url != "" or cert.url != nil %}
+            {% if cert.url and cert.url != "" and cert.url != nil %}
             </a>
             {% endif %}
           </div>
           {% endfor %}
+        </div>
         {% endfor %}
         <!-- /////////////////////////// -->
-
-        <!-- BEGIN: Certifications Row 1 -->
-        <div class="row">
-          <div class=" col-xs-12 col-sm-6 ">
-            <a href="{{ site.author.aws.ccp }}" target="_blank">
-              <div class="certificate-item clearfix">
-                <div class="certi-logo">
-                  <img src="{{ site.baseurl }}/assets/img/aws-certified-cloud-practitioner.png" alt="logo">
-                </div>
-
-                <div class="certi-content">
-                  <div class="certi-title">
-                    <h4>AWS Certified Cloud Practitioner</h4>
-                  </div>
-
-                  <div class="certi-id">
-                    <span>Click to Verify Achievement</span>
-                  </div>
-                  <div class="certi-date">
-                    <span>Valid from 2022 to 2025</span>
-                  </div>
-
-                  <div class="certi-company">
-                    <span></span>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class=" col-xs-12 col-sm-6 ">
-            <a href="{{ site.author.udacity.aitrading }}" target="_blank">
-              <div class="certificate-item clearfix">
-                <div class="certi-logo">
-                  <img src="{{ site.baseurl }}/assets/img/udacity_nanodegree.png" alt="logo">
-                </div>
-
-                <div class="certi-content">
-                  <div class="certi-title">
-                    <h4>Artificial Intelligence for Trading</h4>
-                  </div>
-
-                  <div class="certi-id">
-                    <span>Click to Verify Achievement</span>
-                  </div>
-
-                  <div class="certi-date">
-                    <span>Valid from 2019 onwards</span>
-                  </div>
-
-                  <div class="certi-company">
-                    <span></span>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <!-- END: Certifications Row 1 -->
-        
-        <!-- BEGIN: Certifications Row 2 -->
-        <div class="row">
-          
-          <div class=" col-xs-12 col-sm-6 ">
-            <!-- <a href="#" class="lightbox"> -->
-              <div class="certificate-item clearfix">
-                <div class="certi-logo">
-                  <img src="{{ site.baseurl }}/assets/img/expertrating_certified_professional.png" alt="logo">
-                </div>
-
-                <div class="certi-content">
-                  <div class="certi-title">
-                    <h4>MySQL Certification</h4>
-                  </div>
-
-                  <div class="certi-id">
-                    <span>Validity: All Time</span>
-                  </div>
-
-                  <div class="certi-date">
-                    <span>2008</span>
-                  </div>
-
-                  <div class="certi-company">
-                    <span></span>
-                  </div>
-                </div>
-              </div>
-            <!-- </a> -->
-          </div>
-
-          <div class=" col-xs-12 col-sm-6 ">
-            <!-- <a href="#" class="lightbox"> -->
-              <div class="certificate-item clearfix">
-                <div class="certi-logo">
-                  <img src="{{ site.baseurl }}/assets/img/expertrating_certified_professional.png" alt="logo">
-                </div>
-
-                <div class="certi-content">
-                  <div class="certi-title">
-                    <h4>Programming in C Certification</h4>
-                  </div>
-
-                  <div class="certi-id">
-                    <span>Validity: All Time</span>
-                  </div>
-
-                  <div class="certi-date">
-                    <span>2006</span>
-                  </div>
-
-                  <div class="certi-company">
-                    <span></span>
-                  </div>
-                </div>
-              </div>
-            <!-- </a> -->
-          </div>
-        </div>
-        <!-- END: Certifications Row 2 -->
 
         <div class="row">
           <div class=" col-xs-12 col-sm-12 ">
