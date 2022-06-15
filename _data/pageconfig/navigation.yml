@@ -82,6 +82,6 @@
   name: Contact
   url: /contact/
   current: false
-  enabled: true
+  enabled: false
   has_children: false
   children:
