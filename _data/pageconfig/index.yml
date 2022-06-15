@@ -22,7 +22,7 @@ services:
   block1:
     1:
       title: Technical and Strategic Advisory
-      description: I help clients engineer solutions across a range of business and technical problems, to position them strongly in their target industry verticals. 
+      description: I help clients address technical and business challenges across various domains, and help them position strongly for product-market fit.
       icon: bulb
     2:
       title: Corporate & Technical Training
