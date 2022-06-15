@@ -34,6 +34,6 @@ services:
       description: I bring my extensive hands-on experience in distributed computing, DevOps, software, data and integrations engineering to your table.
       icon: data
     2:
-      title: Multi-Cloud Solution Architecture
-      description: I help clients design, validate, build, test, and productionize solutions of varying complexities and use cases on AWS, GCP, and Microsoft Azure.
+      title: Cloud-Native Solution Architecture
+      description: I help clients design, validate, build, test, and productionize solutions of varying complexities and use cases on Amazon Web Services (AWS).
       icon: cloud
