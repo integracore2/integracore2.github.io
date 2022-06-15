@@ -1,0 +1,119 @@
+industry:
+  -
+    name: Technical & Solution Architecture
+    value: 100
+  -
+    name: Cloud Application & SaaS Development
+    value: 100
+  -
+    name: Data, Software & Integrations Engineering
+    value: 100
+  -
+    name: Technical Leadership, Training & Development
+    value: 100
+  -
+    name: Data Strategy, Integration & Management
+    value: 100
+  -
+    name: IT Operations & Project Management
+    value: 100
+  -
+    name: Data Warehousing & Lake Formation
+    value: 100
+  -
+    name: Microservices Architecture
+    value: 100
+  -
+    name: Digital Transformation
+    value: 100
+  -
+    name: Enterprise Architecture
+    value: 100
+  -
+    name: Agile Methodologies
+    value: 100
+  -
+    name: Requirements Analysis
+    value: 100
+  -
+    name: Quantitative Finance & Investing
+    value: 100
+  -
+    name: Quantitative Research & Development
+    value: 100
+  -
+    name: Applied Data Science, Machine Learning & AI
+    value: 100
+  -
+    name: Statistical Data Analysis & Programming
+    value: 100
+  -
+    name: Data Visualization
+    value: 100
+  -
+    name: Predictive Modeling
+    value: 100
+
+tools_technologies:
+  -
+    name: Serverless Application R&D on AWS
+    value: 100
+  -
+    name: Application Containerization (Docker)
+    value: 100
+  -
+    name: Container Orchestration (Kubernetes)
+    value: 100
+  -
+    name: Amazon Web Services (AWS)
+    value: 100
+  -
+    name: Google Cloud Platform (GCP)
+    value: 100
+  -
+    name: REST API Development
+    value: 100
+  -
+    name: SQL | MySQL, PostgreSQL, RDS, Aurora
+    value: 100
+  -
+    name: MongoDB | DocumentDB
+    value: 100
+  -
+    name: NoSQL | DynamoDB
+    value: 100
+  -
+    name: Python, R, and Julia
+    value: 100
+  -
+    name: C, C++, and Java
+    value: 100
+  -
+    name: Microsoft Azure
+    value: 100
+
+interpersonal:
+  -
+    name: Building Highly Performant, Motivated Teams
+    value: 100
+  -
+    name: Effective & Engaging Public Speaking (EN & ES)
+    value: 100
+  -
+    name: Cross-Functional Stakeholder Management
+    value: 100
+  -
+    name: Problem Solving & Analytical Aptitude
+    value: 100
+  -
+    name: People, Talent & Team Management
+    value: 100
+  -
+    name: Active Listening & Mediation Skills
+    value: 100
+  -
+    name: Versatile Team Leadership Skills
+    value: 100
+  -
+    name: Growth & Best Practices Mindset
+    value: 100

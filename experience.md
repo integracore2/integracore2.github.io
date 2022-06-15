@@ -248,7 +248,7 @@ permalink: /experience/
 
             <div class="skills-info skills-first-style">
               <div class="clearfix">
-                <h4>Data Warehousing</h4>
+                <h4>Data Warehousing & Lake Formation</h4>
                 <!-- <div class="skill-value">100%</div> -->
               </div>
               <div data-value="100" class="skill-container">
