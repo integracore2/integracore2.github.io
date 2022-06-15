@@ -130,7 +130,7 @@ permalink: /experience/
 
                       <div class="timeline-item clearfix">
                         <h5 class="item-period ">2007</h5>
-                        <span class="item-company">Middlesex University</span>
+                        <span class="item-company">Middlesex University, London</span>
                         <h4 class="item-title">Certificate of Higher Education in Computing</h4>
                         <p></p>
                       </div>
