@@ -5,7 +5,7 @@ fun_facts:
       icon: calendar
   2:
       title: Hours Worked
-      value: "25,200+"
+      value: "25K+"
       icon: clock
   3:
       title: Books Read
@@ -13,7 +13,7 @@ fun_facts:
       icon: study
   4:
       title: Tea Cups Downed
-      value: "6,250+"
+      value: "6K+"
       icon: cup
 
 services_title: What I Do
