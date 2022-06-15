@@ -70,7 +70,7 @@ permalink: /
 
                   <div class="ci-text">
                     <h4>{{ item[1].title }}</h4>
-                    <p>{{ item[1].description }}</p>
+                    <p align="justify">{{ item[1].description }}</p>
                   </div>
                 </div>
               {% endfor %}

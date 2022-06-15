@@ -22,18 +22,18 @@ services:
   block1:
     1:
       title: Technical and Strategic Advisory
-      description: Description 1
+      description: I help clients engineer solutions across a range of business and technical problems, to position them strongly in their target industry verticals. 
       icon: bulb
     2:
       title: Corporate & Technical Training
-      description: Description 2
+      description: I'm an effective communicator of knowledge, best practices, and their practical applications, to technical and non-technical audiences alike.
       icon: display
   block2:
     1:
       title: Data, Software, and Integrations Engineering
-      description: Description 1
+      description: I bring my extensive hands-on experience in distributed computing, DevOps, software, data and integrations engineering to your table.
       icon: data
     2:
       title: Multi-Cloud Solution Architecture
-      description: Description 2
+      description: I help clients design, validate, build, test, and productionize solutions of varying complexities and use cases on AWS, GCP, and Microsoft Azure.
       icon: cloud
