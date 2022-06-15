@@ -18,7 +18,7 @@ permalink: /experience/
       <div id="content" class="page-content site-content single-post" role="main">
         <div class="row">
 
-        <div class=" col-xs-12 col-sm-6 ">
+          <div class=" col-xs-12 col-sm-6 ">
             <div class="block-title">
               <a name="engagements" style="visibility: hidden;"></a>
               <h2>{{ page_data.engagements.title }}</h2>
@@ -72,17 +72,17 @@ permalink: /experience/
           </div>
         </div>
 
-        <!-- /////////////////////////// -->
         {% for block in site.data.pageconfig.experience.certifications %}
         <div class="row">
           {% for cert in block %}
+          {% if cert and cert != "" and cert != nil %}
           <div class=" col-xs-12 col-sm-6 ">
             {% if cert.url and cert.url != "" and cert.url != nil %}
             <a href="{{ cert.url }}" target="_blank">
             {% endif %}
               <div class="certificate-item clearfix">
                 <div class="certi-logo">
-                  <img src="{{ site.baseurl }}{{ cert.image_url }}" alt="logo">
+                  <img src="{{ site.baseurl }}{{ cert.image_url }}" alt="{{ cert.name }}">
                 </div>
 
                 <div class="certi-content">
@@ -106,19 +106,18 @@ permalink: /experience/
             </a>
             {% endif %}
           </div>
+          {% endif %}
           {% endfor %}
         </div>
         {% endfor %}
-        <!-- /////////////////////////// -->
+        <!-- END: Certifications -->
 
         <div class="row">
           <div class=" col-xs-12 col-sm-12 ">
             <div class="p-40"></div>
           </div>
         </div>
-
-        <!-- END: Certifications -->
-
+        
         <!-- BEGIN: Courses -->
         <div class="row">
           <div class=" col-xs-12 col-sm-12 ">
@@ -131,25 +130,29 @@ permalink: /experience/
           </div>
         </div>
 
-        <!-- BEGIN: Courses Row 1 -->
+        {% for block in site.data.pageconfig.experience.courses %}
         <div class="row">
+          {% for cert in block %}
+          {% if cert and cert != "" and cert != nil %}
           <div class=" col-xs-12 col-sm-6 ">
-            <a href="{{ site.author.datacamp.profile }}" target="_blank">
+            {% if cert.url and cert.url != "" and cert.url != nil %}
+            <a href="{{ cert.url }}" target="_blank">
+            {% endif %}
               <div class="certificate-item clearfix">
                 <div class="certi-logo">
-                  <img src="{{ site.baseurl }}/assets/img/datacamp-courses.png" alt="logo">
+                  <img src="{{ site.baseurl }}{{ cert.image_url }}" alt="{{ cert.name }}">
                 </div>
 
                 <div class="certi-content">
                   <div class="certi-title">
-                    <h4>Data Analysis in R, the data.table Way</h4>
+                    <h4>{{ cert.name }}</h4>
                   </div>
 
                   <div class="certi-id">
-                    <span>Click to Verify Achievement</span>
+                    <span>{{ cert.cta }}</span>
                   </div>
                   <div class="certi-date">
-                    <span>Valid from 2019 onwards</span>
+                    <span>{{ cert.validity }}</span>
                   </div>
 
                   <div class="certi-company">
@@ -157,129 +160,14 @@ permalink: /experience/
                   </div>
                 </div>
               </div>
+            {% if cert.url and cert.url != "" and cert.url != nil %}
             </a>
+            {% endif %}
           </div>
-
-          <div class=" col-xs-12 col-sm-6 ">
-            <a href="{{ site.author.datacamp.profile }}" target="_blank">
-              <div class="certificate-item clearfix">
-                <div class="certi-logo">
-                  <img src="{{ site.baseurl }}/assets/img/datacamp-courses.png" alt="logo">
-                </div>
-
-                <div class="certi-content">
-                  <div class="certi-title">
-                    <h4>Unsupervised Learning in R</h4>
-                  </div>
-
-                  <div class="certi-id">
-                    <span>Click to Verify Achievement</span>
-                  </div>
-                  <div class="certi-date">
-                    <span>Valid from 2019 onwards</span>
-                  </div>
-
-                  <div class="certi-company">
-                    <span></span>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
+          {% endif %}
+          {% endfor %}
         </div>
-        <!-- END: Courses Row 1 -->
-        
-        <!-- BEGIN: Courses Row 2 -->
-        <div class="row">
-          <div class=" col-xs-12 col-sm-6 ">
-            <a href="{{ site.author.datacamp.profile }}" target="_blank">
-              <div class="certificate-item clearfix">
-                <div class="certi-logo">
-                  <img src="{{ site.baseurl }}/assets/img/datacamp-courses.png" alt="logo">
-                </div>
-
-                <div class="certi-content">
-                  <div class="certi-title">
-                    <h4>Deep Learning in Python</h4>
-                  </div>
-
-                  <div class="certi-id">
-                    <span>Click to Verify Achievement</span>
-                  </div>
-                  <div class="certi-date">
-                    <span>Valid from 2019 onwards</span>
-                  </div>
-
-                  <div class="certi-company">
-                    <span></span>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class=" col-xs-12 col-sm-6 ">
-            <a href="{{ site.author.datacamp.profile }}" target="_blank">
-              <div class="certificate-item clearfix">
-                <div class="certi-logo">
-                  <img src="{{ site.baseurl }}/assets/img/datacamp-courses.png" alt="logo">
-                </div>
-
-                <div class="certi-content">
-                  <div class="certi-title">
-                    <h4>ARIMA Models in R</h4>
-                  </div>
-
-                  <div class="certi-id">
-                    <span>Click to Verify Achievement</span>
-                  </div>
-                  <div class="certi-date">
-                    <span>Valid from 2019 onwards</span>
-                  </div>
-
-                  <div class="certi-company">
-                    <span></span>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-        </div>
-        <!-- END: Courses Row 2 -->
-
-        <!-- BEGIN: Courses Row 3 -->
-        <div class="row">
-          <div class=" col-xs-12 col-sm-6 ">
-            <!-- <a href="" target="_blank"> -->
-              <div class="certificate-item clearfix">
-                <div class="certi-logo">
-                  <img src="{{ site.baseurl }}/assets/img/udacity_nanodegree.png" alt="logo">
-                </div>
-
-                <div class="certi-content">
-                  <div class="certi-title">
-                    <h4>Machine Learning for Trading</h4>
-                  </div>
-
-                  <div class="certi-id">
-                    <span>In collaboration with GeorgiaTech</span>
-                  </div>
-                  <div class="certi-date">
-                    <span>2019</span>
-                  </div>
-
-                  <div class="certi-company">
-                    <span></span>
-                  </div>
-                </div>
-              </div>
-            <!-- </a> -->
-          </div>
-
-        </div>
-        <!-- END: Courses Row 3 -->
+        {% endfor %}
         <!-- END: Courses -->
 
         <div class="row">
@@ -289,7 +177,6 @@ permalink: /experience/
         </div>
 
         <!-- BEGIN: Skills -->
-
         <div class="row">
           
           <!-- BEGIN: Skills -> Industry Knowledge -->
