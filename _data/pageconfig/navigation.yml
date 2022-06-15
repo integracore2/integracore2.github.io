@@ -46,7 +46,7 @@
   name: Innovations
   url: /innovations/
   current: false
-  enabled: false
+  enabled: true
   has_children: false
   children:
 
@@ -54,7 +54,7 @@
   name: Publications
   url: /publications/
   current: false
-  enabled: false
+  enabled: true
   has_children: true
   children:
     1:
@@ -74,7 +74,7 @@
   name: Blog
   url: /blog/
   current: false
-  enabled: false
+  enabled: true
   has_children: false
   children:
 
@@ -82,6 +82,6 @@
   name: Contact
   url: /contact/
   current: false
-  enabled: false
+  enabled: true
   has_children: false
   children:
