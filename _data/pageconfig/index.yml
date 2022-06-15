@@ -35,7 +35,7 @@ services:
   block2:
     1:
       title: Data, Software, and Integrations Engineering
-      description: I bring my extensive hands-on experience in distributed computing, DevOps, software, data and integrations engineering to your table.
+      description: I bring extensive hands-on experience in distributed computing, DevOps, software, data and integrations engineering to your table.
       icon: data
     2:
       title: Cloud-Native Solution Architecture
