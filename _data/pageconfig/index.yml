@@ -1,3 +1,6 @@
+recommendations_title: Recommendations
+engagements_title: All-Time Engagements
+fun_facts_title: Fun Facts
 fun_facts:
   1:
       title: Projects Delivered
@@ -17,7 +20,6 @@ fun_facts:
       icon: cup
 
 services_title: What I Do
-
 services:
   block1:
     1:
@@ -38,6 +40,7 @@ services:
       description: I help clients design, build, test, and productionize solutions of varying complexities and use cases on Amazon Web Services (AWS).
       icon: cloud
 
+pricing_title: Pricing
 pricing:
   1:
     name: Silver

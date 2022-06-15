@@ -86,7 +86,7 @@ permalink: /
 
             <!-- Testimonials -->
             <div class="block-title">
-              <h2>Recommendations</h2>
+              <h2>{{ site.data.pageconfig.index.recommendations_title }}</h2>
             </div>
 
             <div id="testimonials_1" class="testimonials owl-carousel" data-mobile-items="1" data-tablet-items="7" data-items="7">
@@ -137,7 +137,7 @@ permalink: /
 
             <!-- Clients Slider -->
             <div class="block-title">
-              <h2>All-Time Engagements</h2>
+              <h2>{{ site.data.pageconfig.index.engagements_title }}</h2>
             </div>
 
             <div id="clients" class="clients owl-carousel" data-mobile-items="1" data-tablet-items="3" data-items="6">
@@ -161,7 +161,7 @@ permalink: /
         <div class="row">
           <div class="col-xs-12 col-sm-12">
             <div class="block-title">
-              <h2>Fun Facts</h2>
+              <h2>{{ site.data.pageconfig.index.fun_facts_title }}</h2>
             </div>
           </div>
         </div>
@@ -186,7 +186,7 @@ permalink: /
         <div class="row">
           <div class=" col-xs-12 col-sm-12 ">
             <div class="block-title">
-              <h2>Pricing</h2>
+              <h2>{{ site.data.pageconfig.index.pricing_title }}</h2>
             </div>
           </div>
 
