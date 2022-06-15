@@ -72,6 +72,44 @@ permalink: /experience/
           </div>
         </div>
 
+        <!-- /////////////////////////// -->
+        {% for block in site.data.pageconfig.certifications %}
+        <div class="row">
+          {% for cert in block %}
+          <div class=" col-xs-12 col-sm-6 ">
+            {% if cert.url != "" or cert.url != nil %}
+            <a href="{{ cert.url }}" target="_blank">
+            {% endif %}
+              <div class="certificate-item clearfix">
+                <div class="certi-logo">
+                  <img src="{{ site.baseurl }}{{ cert.image_url }}" alt="logo">
+                </div>
+
+                <div class="certi-content">
+                  <div class="certi-title">
+                    <h4>{{ cert.name }}</h4>
+                  </div>
+
+                  <div class="certi-id">
+                    <span>{{ cert.cta }}</span>
+                  </div>
+                  <div class="certi-date">
+                    <span>{{ cert.validity }}</span>
+                  </div>
+
+                  <div class="certi-company">
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            {% if cert.url != "" or cert.url != nil %}
+            </a>
+            {% endif %}
+          </div>
+          {% endfor %}
+        {% endfor %}
+        <!-- /////////////////////////// -->
+
         <!-- BEGIN: Certifications Row 1 -->
         <div class="row">
           <div class=" col-xs-12 col-sm-6 ">
