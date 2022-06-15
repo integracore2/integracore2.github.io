@@ -1,6 +1,10 @@
 title: Ali Saif
-logo: /assets/img/profile-picture.jpg
-description: Hands-On Technical Architect | Startup Advisor
+logo: 
+    image: /assets/img/profile-picture.jpg
+    url: 
+    symbol: "&Lambda;"
+    text: "Ali <span>Saif</span>"
+description: Technical Architect | Trainer | Startup Advisor
 show_downloads: false
 #paginate: 5
 google_analytics:
