@@ -67,7 +67,7 @@ permalink: /experience/
 
             <div class="block-title">
               <a name="certifications" style="visibility: hidden;"></a>
-              <h2>Certifications</h2>
+              <h2>{{ page_data.certifications.title }}</h2>
             </div>
           </div>
         </div>
@@ -207,7 +207,7 @@ permalink: /experience/
 
             <div class="block-title">
               <a name="courses" style="visibility: hidden;"></a>
-              <h2>Courses</h2>
+              <h2>{{ page_data.courses.title }}</h2>
             </div>
           </div>
         </div>
@@ -377,7 +377,7 @@ permalink: /experience/
           <div class=" col-xs-12 col-sm-4 ">
             <div class="block-title">
               <a name="industry-knowledge" style="visibility: hidden;"></a>
-              <h2>Industry Knowledge</h2>
+              <h2>{{ page_data.skills_titles[0] }}</h2>
             </div>
 
             <div class="skills-info skills-first-style">
@@ -557,7 +557,7 @@ permalink: /experience/
           <div class=" col-xs-12 col-sm-4 ">
             <div class="block-title">
               <a name="tools-technologies" style="visibility: hidden;"></a>
-              <h2>Tools & Technologies</h2>
+              <h2>{{ page_data.skills_titles[1] }}</h2>
             </div>
 
             <div class="skills-info skills-first-style">
@@ -687,7 +687,7 @@ permalink: /experience/
           <div class=" col-xs-12 col-sm-4 ">
             <div class="block-title">
               <a name="interpersonal-skills" style="visibility: hidden;"></a>
-              <h2>Interpersonal Skills</h2>
+              <h2>{{ page_data.skills_titles[2] }}</h2>
             </div>
 
             <div class="skills-info skills-first-style">
