@@ -3,15 +3,15 @@ layout: default
 title: Experience
 permalink: /experience/
 ---
-
+{% assign page_data = site.data.pageconfig.experience.config %}
 <div id="main" class="site-main">
           <div id="main-content" class="single-page-content">
             <div id="primary" class="content-area">
 
               <div class="page-title">
-                <h1>Experience</h1>
+                <h1>{{ page_data.page.title }}</h1>
                 <div class="page-subtitle">
-                    <h4> <i>~ evolving relentlessly since 1997 ~</i></h4>
+                    <h4>{{ page_data.page.subtitle }}</h4>
                 </div>
               </div>
 
@@ -21,7 +21,7 @@ permalink: /experience/
                 <div class=" col-xs-12 col-sm-6 ">
                     <div class="block-title">
                       <a name="engagements" style="visibility: hidden;"></a>
-                      <h2>Engagements</h2>
+                      <h2>{{ page_data.engagements.title }}</h2>
                     </div>
 
                     <div id="timeline_2" class="timeline clearfix">
