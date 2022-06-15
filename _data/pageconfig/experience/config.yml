@@ -1,13 +1,35 @@
 page:
   title: Experience
   subtitle: "<i>~ evolving relentlessly since 1997 ~</i>"
+
 engagements:
   title: Engagements
+
 education:
   title: Education
+
+certifications:
+  title: Certifications
+
+courses:
+  title: Courses
+
+skills_titles:
+  - Industry Knowledge
+  - Tools & Technologies
+  - Interpersonal Skills
+
 datacamp: 
-        profile: https://www.datacamp.com/profile/integracore
+  image_url: /assets/img/datacamp-courses.png
+  profile: https://www.datacamp.com/profile/integracore
+
 udacity:
-    aitrading: https://confirm.udacity.com/5DVTP4V7
+  image_url: /assets/img/udacity_nanodegree.png
+  aitrading: https://confirm.udacity.com/5DVTP4V7
+
 aws:
-    ccp: https://www.credly.com/badges/bb4a9846-1b3d-4df1-a104-ba62e2835386?source=linked_in_profile
+  image_url: 
+  ccp: https://www.credly.com/badges/bb4a9846-1b3d-4df1-a104-ba62e2835386?source=linked_in_profile
+
+expertrating:
+  image_url: /assets/img/expertrating_certified_professional.png
