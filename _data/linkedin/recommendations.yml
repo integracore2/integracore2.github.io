@@ -1,3 +1,15 @@
+paula_romero:
+    name: Paula Romero
+    url: https://www.linkedin.com/in/pauromeropau
+    role: Frontend Engineer @ Darwinex
+    image: paula-romero-fe-eng-darwinex.jpg
+    recommendation: <p>I have had the pleasure of working with Ali at Darwinex.</p><p>Ali has demonstrated from the very first day his amazing team management skills. He is a born leader, a person who inspires and motivates even in the most complicated moments.</p><p>He really believes in talent and has fully trusted in the ability of the team, allowing all of us to grow and learn a lot at his side.</p><p>People like his are hard to come by, someone able to transform really complex ideas into tiny simple concepts, easy to understand and manage.</p><p>Thank you so much for being my team mate,</p><p>Ka-POW Pau.</p>
+enrique_bm:
+    name: Enrique Basañez Mercader
+    url: https://www.linkedin.com/in/enriquebasanez
+    role: Java Architect & Developer @ Darwinex
+    image: enrique-bm-darwinex.jpg
+    recommendation: <p>Ali is a living, caring and charming encyclopedia.</p><p>He is one of the most knowledgeable and experienced data scientist and algorithmic trader I know.</p><p>Here at Darwinex Ali has created a top experts department in Machine Learning, and is greatlty contributing to develop Darwinex network.</p><p>Although his busy agenda, Ali makes time to help everyone and is always open to receive new ideas.</p><p>Having such and experiece as Developer, Architect, Teacher, Data Scientist and Quantitative Trader makes him very keen in overcoming any challenge with a business oriented point of view.</p><p>It a pleasure and a privilege to work with him.</p>
 alicia_ortega:
     name: Alicia Ortega Roy
     url: https://www.linkedin.com/in/alicia-o-46b4b937
@@ -10,18 +22,6 @@ martyn_tinsley:
     role: Director @ Trade Like A Machine Ltd
     image: martyn-tinsley-tlam.jpg
     recommendation: <p>I've had the pleasure of working under Ali's leadership for nearly two years now. His drive and enthusiasm, combined with his huge range of diverse talents and knowledge mean that he's someone I look up to and admire very much.</p><p>He exhibits a considered approach, and always seems to seek out creative solutions to problems.</p><p>Not only does Ali use his skills and knowledge to great effect in his own work, but he's always been willing to share his time and experience to help those around him - something that I have benefited from extensively.</p><p>I look forward to learning more from Ali as we work together in the future.</p>
-paula_romero:
-    name: Paula Romero
-    url: https://www.linkedin.com/in/pauromeropau
-    role: Frontend Engineer @ Darwinex
-    image: paula-romero-fe-eng-darwinex.jpg
-    recommendation: <p>I have had the pleasure of working with Ali in the Marketing Department of Darwinex.</p><p>Ali has demonstrated from the very first day his amazing team management skills. He is a born leader, a person who inspires and motivates even in the most complicated moments.</p><p>He really believes in talent and has fully trusted in the ability of the team, allowing all of us to grow and learn a lot at his side.</p><p>People like his are hard to come by, someone able to transform really complex ideas into tiny simple concepts, easy to understand and manage.</p><p>Thank you so much for being my team mate,</p><p>Ka-POW Pau.</p>
-enrique_bm:
-    name: Enrique Basañez Mercader
-    url: https://www.linkedin.com/in/enriquebasanez
-    role: Java Architect & Developer @ Darwinex
-    image: enrique-bm-darwinex.jpg
-    recommendation: <p>Ali is a living, caring and charming encyclopedia.</p><p>He is one of the most knowledgeable and experienced data scientist and algorithmic trader I know.</p><p>Here at Darwinex Ali has created a top experts department in Machine Learning, and is greatlty contributing to develop Darwinex network.</p><p>Although his busy agenda, Ali makes time to help everyone and is always open to receive new ideas.</p><p>Having such and experiece as Developer, Architect, Teacher, Data Scientist and Quantitative Trader makes him very keen in overcoming any challenge with a business oriented point of view.</p><p>It a pleasure and a privilege to work with him.</p>
 isabel_mf:
     name: Isabel Maldonado
     url: https://www.linkedin.com/in/isabelmaldonado
