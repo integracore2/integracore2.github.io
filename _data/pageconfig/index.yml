@@ -37,3 +37,47 @@ services:
       title: Cloud-Native Solution Architecture
       description: I help clients design, validate, build, test, and productionize solutions of varying complexities and use cases on Amazon Web Services (AWS).
       icon: cloud
+
+pricing:
+  1:
+    name: Silver
+    highlight: highlight-col # set to "highlight-col" if blue underline desired, or "default-col"
+    value: $64
+    frequency: per month
+    button:
+      url: #
+      text: Free Trial
+      status: primary # primary or secondary
+    rows:
+      - row 1
+      - row 2
+      - row 3
+  2:
+    name: Gold
+    highlight: default-col # set to "highlight-col" if blue underline desired, or "default-col"
+    value: $128
+    frequency: per month
+    button:
+      url: #
+      text: Free Trial
+      status: primary # primary or secondary
+    rows:
+      - row 1
+      - row 2
+      - row 3
+      - row 4
+  3:
+    name: Platinum
+    highlight: default-col # set to "highlight-col" if blue underline desired, or "default-col"
+    value: $256
+    frequency: per month
+    button:
+      url: #
+      text: Free Trial
+      status: primary # primary or secondary
+    rows:
+      - row 1
+      - row 2
+      - row 3
+      - row 4
+      - row 5

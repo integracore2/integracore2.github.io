@@ -196,78 +196,32 @@ permalink: /
           <div class=" col-xs-12 col-sm-12 ">
             <div class="fw-pricing clearfix row">
               
-              <div class="fw-package-wrap col-md-4 ">
+              {% for block in site.data.pageconfig.index.pricing %}
+              <div class="fw-package-wrap col-md-4 {{ block[1].highlight }}">
                 <div class="fw-package">
                   <div class="fw-heading-row">
-                    <span>Silver</span>
+                    <span>{{ block[1].name }}</span>
                   </div>
                   
                   <div class="fw-pricing-row">
-                    <span>$64</span>
-                    <small>per month</small>
+                    <span>{{ block[1].value }}</span>
+                    <small>{{ block[1].frequency }}</small>
                   </div>
                   
                   <div class="fw-button-row">
-                    <a href="#" target="_self" class="btn btn-secondary">Free Trial</a>
+                    <a href="{{ block[1].button.url }}" target="_self" class="btn btn-{{ block[1].button.status }}">{{ block[1].button.text }}</a>
                   </div>
 
-                  <div class="fw-default-row">Lorem ipsum dolor</div>
-                  <div class="fw-default-row">Pellentesque scelerisque</div>
-                  <div class="fw-default-row">Morbi eu sagittis</div>
+                  {% for row in block[1].rows %}
+                  <div class="fw-default-row">{{ row }}</div>
+                  {% endfor %}
                 </div>
-              </div>
-
-              <div class="fw-package-wrap col-md-4 highlight-col ">
-                <div class="fw-package">
-                  <div class="fw-heading-row">
-                    <span>Gold</span>
-                  </div>
-                  
-                  <div class="fw-pricing-row">
-                    <span>$128</span>
-                    <small>per month</small>
-                  </div>
-
-                  <div class="fw-button-row">
-                    <a href="#" target="_self" class="btn btn-primary">Free Trial</a>
-                  </div>
-                  
-                  <div class="fw-default-row">Lorem ipsum dolor</div>
-                  <div class="fw-default-row">Pellentesque scelerisque</div>
-                  <div class="fw-default-row">Morbi eu sagittis</div>
-                  <div class="fw-default-row">Donec non diam</div>
-                  <div class="fw-default-row">
-                </div>
-              </div>
-            </div>
-
-            <div class="fw-package-wrap col-md-4 default-col ">
-              <div class="fw-package">
-                <div class="fw-heading-row">
-                  <span>Platinum</span>
-                </div>
-                
-                <div class="fw-pricing-row">
-                  <span>$256</span>
-                  <small>per month</small>
-                </div>
-                
-                <div class="fw-button-row">
-                  <a href="#" target="_self" class="btn btn-primary">Free Trial</a>
-                </div>
-                
-                <div class="fw-default-row">Lorem ipsum dolor</div>
-                <div class="fw-default-row">Pellentesque scelerisque</div>
-                <div class="fw-default-row">Morbi eu sagittis</div>
-                <div class="fw-default-row">Donec non diam</div>
-                <div class="fw-default-row">Aenean nec libero</div>
-              </div>
+              </div>  
+              {% endfor %}
             </div>
           </div>
         </div>
         <!-- /Pricing -->
-      </div>
-
       </div>
     </div>
   </div>
