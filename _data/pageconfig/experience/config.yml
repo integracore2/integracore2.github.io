@@ -22,14 +22,3 @@ skills_titles:
 datacamp: 
   image_url: /assets/img/datacamp-courses.png
   profile: https://www.datacamp.com/profile/integracore
-
-udacity:
-  image_url: /assets/img/udacity_nanodegree.png
-  aitrading: https://confirm.udacity.com/5DVTP4V7
-
-aws:
-  image_url: 
-  ccp: https://www.credly.com/badges/bb4a9846-1b3d-4df1-a104-ba62e2835386?source=linked_in_profile
-
-expertrating:
-  image_url: /assets/img/expertrating_certified_professional.png
