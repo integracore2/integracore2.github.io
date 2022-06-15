@@ -41,60 +41,20 @@ permalink: /experience/
           <div class=" col-xs-12 col-sm-6 ">
             <div class="block-title">
               <a name="education" style="visibility: hidden;"></a>
-              <h2>Education</h2>
+              <h2>{{ page_data.education.title }}</h2>
             </div>
 
             <div id="timeline_1" class="timeline clearfix">
               
+              {% for entry in site.data.pageconfig.experience.education.entries %}
               <div class="timeline-item clearfix">
-                <h5 class="item-period ">2022</h5>
-                <span class="item-company">Amazon Web Services (AWS)</span>
-                <h4 class="item-title">AWS Certified Cloud Practitioner</h4>
-                <p>Supporting clients with designing and building solution architectures using best practices as per the <a href="{{ site.aws.well_architected_framework }}" target="_blank">AWS Well-Architected Framework</a>.</p>
+                <h5 class="item-period ">{{ entry.timeline }}</h5>
+                <span class="item-company">{{ entry.company }}</span>
+                <h4 class="item-title">{{ entry.role }}</h4>
+                <p>{{ entry.description }}</p>
               </div>
-
-              <div class="timeline-item clearfix">
-                <h5 class="item-period ">2019</h5>
-                <span class="item-company">Udacity</span>
-                <h4 class="item-title">Artificial Intelligence for Trading (Nanodegree)</h4>
-                <p></p>
-              </div>
-
-              <div class="timeline-item clearfix">
-                <h5 class="item-period ">2018</h5>
-                <span class="item-company">Udacity</span>
-                <h4 class="item-title">Machine Learning for Trading (Course)</h4>
-                <p></p>
-              </div>
-
-              <div class="timeline-item clearfix">
-                <h5 class="item-period ">2007-2011</h5>
-                <span class="item-company">Queen Mary, University of London</span>
-                <h4 class="item-title">Computer Science with Industrial Experience</h4>
-                <p></p>
-              </div>
-
-              <div class="timeline-item clearfix">
-                <h5 class="item-period ">2008</h5>
-                <span class="item-company">ExpertRating Inc.</span>
-                <h4 class="item-title">MySQL Certification</h4>
-                <p></p>
-              </div>
-
-              <div class="timeline-item clearfix">
-                <h5 class="item-period ">2007</h5>
-                <span class="item-company">Middlesex University, London</span>
-                <h4 class="item-title">Certificate of Higher Education in Computing</h4>
-                <p></p>
-              </div>
-
-              <div class="timeline-item clearfix">
-                <h5 class="item-period ">2006</h5>
-                <span class="item-company">ExpertRating Inc.</span>
-                <h4 class="item-title">Programming in C Certification</h4>
-                <p></p>
-              </div>
-
+              {% endfor %}
+              
             </div>
           </div>
 
