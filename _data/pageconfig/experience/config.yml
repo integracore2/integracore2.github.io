@@ -14,11 +14,6 @@ certifications:
 courses:
   title: Courses
 
-skills_titles:
-  - Industry Knowledge
-  - Tools & Technologies
-  - Interpersonal Skills
-
 datacamp: 
   image_url: /assets/img/datacamp-courses.png
   profile: https://www.datacamp.com/profile/integracore

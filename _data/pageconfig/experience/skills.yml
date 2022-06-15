@@ -1,3 +1,4 @@
+industry_title: Industry Knowledge
 industry:
   -
     name: Technical & Solution Architecture
@@ -54,6 +55,7 @@ industry:
     name: Predictive Modeling
     value: 100
 
+tools_technologies_title: Tools & Technologies
 tools_technologies:
   -
     name: Serverless Application R&D on AWS
@@ -92,6 +94,7 @@ tools_technologies:
     name: Microsoft Azure
     value: 100
 
+interpersonal_title: Interpersonal Skills
 interpersonal:
   -
     name: Building Highly Performant, Motivated Teams

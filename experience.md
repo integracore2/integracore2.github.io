@@ -177,184 +177,27 @@ permalink: /experience/
         </div>
 
         <!-- BEGIN: Skills -->
+        {% assign skills_data = site.data.pageconfig.experience.skills %}
         <div class="row">
           
           <!-- BEGIN: Skills -> Industry Knowledge -->
           <div class=" col-xs-12 col-sm-4 ">
             <div class="block-title">
               <a name="industry-knowledge" style="visibility: hidden;"></a>
-              <h2>{{ page_data.skills_titles[0] }}</h2>
+              <h2>{{ skills_data.industry_title }}</h2>
             </div>
 
+            {% for skill in skills_data.industry %}
             <div class="skills-info skills-first-style">
               <div class="clearfix">
-                <h4>Technical & Solution Architecture</h4>
+                <h4>{{ skill.name }}</h4>
                 <!-- <div class="skill-value">100%</div> -->
               </div>
-              <div data-value="100" class="skill-container">
+              <div data-value="{{ skill.value }}" class="skill-container">
                 <div class="skill-percentage"></div>
               </div>
             </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Cloud Application & SaaS Development</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Data, Software & Integrations Engineering</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Technical Leadership, Training & Development</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Data Strategy, Integration & Management</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>IT Operations & Project Management</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Data Warehousing & Lake Formation</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Microservices Architecture</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Digital Transformation</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Enterprise Architecture</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Agile Methodologies</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Requirements Analysis</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Quantitative Finance & Investing</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Applied Data Science, Machine Learning & AI</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Statistical Data Analysis & Programming</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Data Visualization</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Predictive Modeling</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
+            {% endfor %}
 
           </div>
           <!-- END: Skills -> Industry Knowledge -->
@@ -363,128 +206,20 @@ permalink: /experience/
           <div class=" col-xs-12 col-sm-4 ">
             <div class="block-title">
               <a name="tools-technologies" style="visibility: hidden;"></a>
-              <h2>{{ page_data.skills_titles[1] }}</h2>
+              <h2>{{ skills_data.tools_technologies_title }}</h2>
             </div>
 
+            {% for skill in skills_data.tools_technologies %}
             <div class="skills-info skills-first-style">
               <div class="clearfix">
-                <h4>Serverless Application R&D on AWS</h4>
+                <h4>{{ skill.name }}</h4>
                 <!-- <div class="skill-value">100%</div> -->
               </div>
-              <div data-value="100" class="skill-container">
+              <div data-value="{{ skill.value }}" class="skill-container">
                 <div class="skill-percentage"></div>
               </div>
             </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Application Containerization (Docker)</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Container Orchestration (Kubernetes)</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Amazon Web Services (AWS)</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Google Cloud Platform (GCP)</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>REST API Development</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>SQL | MySQL, PostgreSQL, RDS, Aurora</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>MongoDB | DocumentDB</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>NoSQL | DynamoDB</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Python, R, and Julia</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>C, C++, and Java</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Microsoft Azure</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
+            {% endfor %}
 
           </div>
           <!-- END: Skills -> Tools & Technologies -->
@@ -493,88 +228,20 @@ permalink: /experience/
           <div class=" col-xs-12 col-sm-4 ">
             <div class="block-title">
               <a name="interpersonal-skills" style="visibility: hidden;"></a>
-              <h2>{{ page_data.skills_titles[2] }}</h2>
+              <h2>{{ skills_data.interpersonal_title }}</h2>
             </div>
 
+            {% for skill in skills_data.interpersonal %}
             <div class="skills-info skills-first-style">
               <div class="clearfix">
-                <h4>Building Highly Performant, Motivated Teams</h4>
+                <h4>{{ skill.name }}</h4>
                 <!-- <div class="skill-value">100%</div> -->
               </div>
-              <div data-value="100" class="skill-container">
+              <div data-value="{{ skill.value }}" class="skill-container">
                 <div class="skill-percentage"></div>
               </div>
             </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Effective & Engaging Public Speaking (EN & ES)</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Cross-Functional Stakeholder Management</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Problem Solving & Analytical Aptitude</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>People, Talent & Team Management</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Active Listening & Mediation Skills</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Versatile Team Leadership Skills</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
-
-            <div class="skills-info skills-first-style">
-              <div class="clearfix">
-                <h4>Growth & Best Practices Mindset</h4>
-                <!-- <div class="skill-value">100%</div> -->
-              </div>
-              <div data-value="100" class="skill-container">
-                <div class="skill-percentage"></div>
-              </div>
-            </div>
+            {% endfor %}
 
           </div>
           <!-- END: Skills -> Interpersonal Skills -->
