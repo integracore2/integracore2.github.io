@@ -10,6 +10,10 @@ ucl:
     name: University College London (UCL)
     image: ucl.png
     url: https://www.ucl.ac.uk/
+hudson_thames:
+    name: Hudson and Thames
+    image: hudson_and_thames.png
+    url: https://hudsonthames.org/
 iqlink:
     name: iQlink Limited
     image: iqlink.png
@@ -42,6 +46,10 @@ finbou:
     name: Finbou AG
     image: finbou.jpg
     url: https://www.finbou.com/
+meridiana:
+    name: Meridiana - Multi Family Office
+    image: meridiana.png
+    url: http://meridiana-mfo.com/
 sersansistemas:
     name: Sersan Sistemas S.L.
     image: sersan-sistemas.jpg
@@ -50,10 +58,6 @@ accuratequant:
     name: Accurate Quant - Quant Investment Solutions
     image: accurate-quant.jpg
     url: https://accuratequant.com/
-meridiana:
-    name: Meridiana - Multi Family Office
-    image: meridiana.png
-    url: http://meridiana-mfo.com/
 nexdegree:
     name: NexDegree
     image: nexdegree.jpg
