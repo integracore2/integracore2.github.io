@@ -1,7 +1,1078 @@
 videos:
   -
-    name:
-    type: # image, project, or video
+    name: Overview | Algorithmic Trading @ Darwinex
+    loc: Darwinex (YouTube)
+    date: 2020-07-15
+    url: https://youtu.be/70ePTzTd9OI
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: Momentum vs Volatility (Factor Validation) | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-19
+    url: https://youtu.be/x7i34WBOcw0
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: Critical Evaluation | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-19
+    url: https://youtu.be/4XisAIbdF60
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: Logarithmic vs Simple Returns | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-15
+    url: https://youtu.be/CiZoWSn-le8
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: Strategy Prototyping | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-15
+    url: https://youtu.be/xzGvMTPzFlQ
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: Introduction | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-15
+    url: https://youtu.be/HIu-VjPADhE
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: Factor Engineering | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-15
+    url: https://youtu.be/cYhKkgjeFCI
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: Avoiding Look-Ahead Bias | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-15
+    url: https://youtu.be/4JHxXcFygco
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: Portfolio Construction | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-15
+    url: https://youtu.be/j2N2hKnG5u4
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: Hypothesis Development | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-15
+    url: https://youtu.be/qw6XO-SFvBA
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: Dataset Construction | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-15
+    url: https://youtu.be/XIrTAMCNTc8
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: Rollover Interest / Swaps, MarginCost & Leverage | Algorithmic Trading with Zorro @ Darwinex
+    loc: Darwinex (YouTube)
+    date: 2020-03-31
+    url: https://youtu.be/CcVTv_iLnEA
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: Setup AssetsFix.csv Correctly in Lite-C | Algorithmic Trading with Zorro @ Darwinex
+    loc: Darwinex (YouTube)
+    date: 2020-03-31
+    url: https://youtu.be/yYEG7xCxxTs
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: Assets & Transaction Costs in Zorro for Algorithmic Trading @ Darwinex (1)
+    loc: Darwinex (YouTube)
+    date: 2020-03-31
+    url: https://youtu.be/AwiPq5ATino
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: Commissions (FX vs Non-FX) in AssetsFix.csv | Algorithmic Trading with Zorro @ Darwinex
+    loc: Darwinex (YouTube)
+    date: 2020-03-31
+    url: https://youtu.be/VtXr4IBd4tQ
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: Why High-VaR Trading Strategies Don’t Survive Long-Term
+    loc: Darwinex (YouTube)
+    date: 2020-01-09
+    url: https://youtu.be/hKsE652NDwA
+    category:
+      slug: quantitative-risk-management
+      text: Quantitative Risk Management
+    type: youtube # youtube or vimeo
+  -
+    name: How Darwinex replicates leverage for DARWIN investors
+    loc: Darwinex (YouTube)
+    date: 2020-01-08
+    url: https://youtu.be/OP-JHLDSqvo
+    category:
+      slug: quantitative-risk-management
+      text: Quantitative Risk Management
+    type: youtube # youtube or vimeo
+  -
+    name: "How Value-at-Risk (VaR) is calculated at Darwinex: Part 2"
+    loc: Darwinex (YouTube)
+    date: 2020-01-07
+    url: https://youtu.be/_IsLJbn2B1o
+    category:
+      slug: quantitative-risk-management
+      text: Quantitative Risk Management
+    type: youtube # youtube or vimeo
+  -
+    name: "How Value-at-Risk (VaR) is calculated at Darwinex: Part 1"
+    loc: Darwinex (YouTube)
+    date: 2020-01-06
+    url: https://youtu.be/rgxXjdEnJq8
+    category:
+      slug: quantitative-risk-management
+      text: Quantitative Risk Management
+    type: youtube # youtube or vimeo
+  -
+    name: Calculating the Risk (D-Leverage) of a Position
+    loc: Darwinex (YouTube)
+    date: 2020-01-05
+    url: https://youtu.be/QJMBXabXMLw
+    category:
+      slug: quantitative-risk-management
+      text: Quantitative Risk Management
+    type: youtube # youtube or vimeo
+  -
+    name: Measuring the Risk of a Trading Decision (D-Leverage)
+    loc: Darwinex (YouTube)
+    date: 2020-01-04
+    url: https://youtu.be/eGsr8nZU04Y
+    category:
+      slug: quantitative-risk-management
+      text: Quantitative Risk Management
+    type: youtube # youtube or vimeo
+  -
+    name: Measuring the Risk of a Trading Strategy
+    loc: Darwinex (YouTube)
+    date: 2020-01-02
+    url: https://youtu.be/qSrKBUEaoi4
+    category:
+      slug: quantitative-risk-management
+      text: Quantitative Risk Management
+    type: youtube # youtube or vimeo
+  -
+    name: Money Management & The Risk of a Trading Strategy
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: https://youtu.be/R9e2ZgyoSxg
+    category:
+      slug: quantitative-risk-management
+      text: Quantitative Risk Management
+    type: youtube # youtube or vimeo
+  -
+    name: Daily Rotation Data | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-11-28
+    url: https://youtu.be/RzfNYbUAhxc
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: youtube # youtube or vimeo
+  -
+    name: Merging API & FTP Data | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-11-28
+    url: https://youtu.be/0waqG5bOJV0
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: youtube # youtube or vimeo
+  -
+    name: DARWIN vs Other Asset Classes | A Quant / Algorithmic Trader's Perspective
+    loc: Darwinex (YouTube)
+    date: 2019-10-30
+    url: https://youtu.be/TIv-imF2AHo
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: youtube # youtube or vimeo
+  -
+    name: Time Weighted Order Frequency | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-30
+    url: https://youtu.be/inV3yrMhtWo
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: youtube # youtube or vimeo
+  -
+    name: Underlying Strategy Returns | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-30
+    url: https://youtu.be/41LFuY8DmNQ
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: youtube # youtube or vimeo
+  -
+    name: DARWIN vs EURUSD Volatility | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-30
+    url: https://youtu.be/h829eaiL1lA
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: youtube # youtube or vimeo
+  -
+    name: Tick-level Quotes | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-30
+    url: https://youtu.be/xwFixEKfQOs
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: youtube # youtube or vimeo
+  -
+    name: FIX Pricing Class - III | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-11
+    url: https://youtu.be/RjTpi7djKsI
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2019-10-11
+    url: 
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2019-10-11
+    url: 
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2019-10-11
+    url: 
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2019-10-11
+    url: 
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2019-10-11
+    url: 
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2019-10-11
+    url: 
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
+
+
 webinars:
+  -
+    name: 
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: youtube # youtube or vimeo
 
 podcasts:
+  
