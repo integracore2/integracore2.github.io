@@ -67,8 +67,24 @@ permalink: /contact/
                     </div>
 
                     {% assign form = site.data.pageconfig.contact.contact_form %}
-                    <form id="g_contact_form" class="contact-form" action="{{ form.action_url }}" method="post">
-
+                    <form id="g_contact_form" class="contact-form" action="{{ form.action_url }}" method="post" onsubmit="return validateRecaptcha();">
+                        <script type="application/javascript">
+                            function validateRecaptcha() {
+                                var response = grecaptcha.getResponse();
+                                var error_div = document.getElementById('grecaptcha_error');
+                                if (response.length === 0) {
+                                    error_div.insertAdjacentHTML(
+                                    'beforeend',
+                                    `<label style="font-size: 0.85em; color: red;">Please click on "I'm not a robot" to proceed.</label>`,
+                                    );
+                                    //alert("not validated");
+                                    return false;
+                                } else {
+                                    //alert("validated");
+                                    return true;
+                                }
+                            }
+                        </script>
                         <div class="messages"></div>
 
                         <div class="controls two-columns">
@@ -99,13 +115,6 @@ permalink: /contact/
                                         <div class="form-control-border"></div>
                                         <div class="help-block with-errors"></div>
                                     </div>
-
-                                    <div class="form-group form-group-with-icon">
-                                        
-                                        <div class="form-control-border"></div>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-
                                 </div>
 
                                 <div class="right-column">
@@ -117,10 +126,15 @@ permalink: /contact/
                                 </div>
                             </div>
 
-                            <!-- <div class="g-recaptcha" data-sitekey="{{ site.google_recaptcha.site_key }}"></div> -->
+                            <div class="g-recaptcha" data-sitekey="{{ site.google_recaptcha.site_key }}"></div>
+                            <div id="grecaptcha_error"></div>
             
-                            <input name="{{ form.input_emailauth }}" id="{{ form.input_emailauth }}" type="checkbox" name="{{ form.input_emailauth }}" class="" placeholder="{{ form.emailauth_text }}" required="required" data-error="You must first check this box to grant permission for me to contact you via email.">
-                            <label style="font-size: 0.85em;" for="{{ form.input_emailauth }}">{{ form.emailauth_text }}</label>
+                            <div class="form-group form-group-with-icon">
+                                <input name="{{ form.input_emailauth }}" id="{{ form.input_emailauth }}" type="checkbox" name="{{ form.input_emailauth }}" class="" placeholder="{{ form.emailauth_text }}" required="required" data-error="You must first check this box to grant permission for me to contact you via email." value="{{ form.emailauth_fulltext }}">
+                                <label style="font-size: 0.85em;" for="{{ form.input_emailauth }}">{{ form.emailauth_text }}</label>
+                                <div class="form-control-border"></div>
+                                <div class="help-block with-errors"></div>
+                            </div>
 
                             <input type="submit" class="button btn-send disabled" value="Send message">
                         </div>

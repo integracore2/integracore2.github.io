@@ -7,5 +7,6 @@ contact_form:
     input_emailauth: entry.1155623029
     emailauth_text: By checking this box, you grant me permission to store your details securely and contact you via email.
     emailauth_disclosure: "<strong>Disclosure:</strong> Your details will never be used for any other purpose, nor will they ever be shared with anyone."
+    emailauth_fulltext: By checking this box, you grant me permission to store your details securely and contact you via email. Your details will never be used for any other purpose, nor will they ever be shared with anyone.
 
 famous_quote: “Imagination is everything. It is the preview of<br />life’s coming attractions.” – Albert Einstein
