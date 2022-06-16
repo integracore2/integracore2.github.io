@@ -187,6 +187,12 @@ permalink: /publications/
         </div>
         <!-- END: Videos -->
 
+        <div class="row">
+          <div class=" col-xs-12 col-sm-12 ">
+            <div class="p-50"></div>
+          </div>
+        </div>
+
         <!-- BEGIN: Webinars -->
         <div class="row">
           <div class=" col-xs-12 col-sm-12 ">
@@ -194,7 +200,7 @@ permalink: /publications/
             <div id="portfolio_content_q" class="portfolio-content">
               <a name="webinars" style="visibility: hidden;"></a>
               <div class="block-title">
-                <h2>Videos</h2>
+                <h2>Webinars</h2>
               </div>
               <ul class="portfolio-filters">
                 <li class="active">
