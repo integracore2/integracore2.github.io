@@ -3,6 +3,7 @@ layout: default
 title: Portfolio
 permalink: /portfolio/
 sitemap: false
+published: false
 ---
 
 <div id="main" class="site-main">

@@ -1,2 +1,6 @@
+---
+published: false
+---
+
 # Linecons: https://designmodo.com/linecons-free/
 # Icons include: Cloud, Heart, Star, TV, Sound, Video, Trash, User, Key, Search, Settings, Camera, Tag, Lock, Bulb, Pen, Diamond, Display, Location, Eye, Bubble, Cup, Phone, News, Mail, Like, Stack, Photo, Note, Clock, Paper plane, Params, Banknote, Data, Music, Megaphone, Study, Food, Lab, T-shirt, Fire, Clip, Shop, Calendar, Wallet, Vinyl, Truck, World.
