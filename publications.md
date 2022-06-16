@@ -56,7 +56,7 @@ permalink: /publications/
                     {% else %}
                     <img src="{{ config.youtube.thumbnail_url.prefix }}{{ vid }}{{ config.youtube.thumbnail_url.maxres_suffix }}" alt="{{ video.name }}" title="" />
                     {% endif %}
-                    <a href="{{ config.youtube.embed_prefix }}{{ vid }}" class="{{ params.classes.link }}"></a>
+                    <a href="{{ config.youtube.embed_prefix }}{{ vid }}?quality=high" class="{{ params.classes.link }}"></a>
                   </div>
 
                   <i class="{{ params.classes.fa }}"></i>
