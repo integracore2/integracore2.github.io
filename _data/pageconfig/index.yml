@@ -5,19 +5,19 @@ engagements_title: All-Time Engagements
 fun_facts_enabled: true
 fun_facts_title: Fun Facts
 fun_facts:
-  1:
+  -
       title: Projects Delivered
       value: 150+
       icon: calendar
-  2:
+  -
       title: Hours Worked
       value: "25K+"
       icon: clock
-  3:
+  -
       title: Books Read
       value: 600+
       icon: study
-  4:
+  -
       title: Tea Cups Downed
       value: "6K+"
       icon: cup

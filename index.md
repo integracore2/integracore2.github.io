@@ -175,9 +175,9 @@ permalink: /
           {% for entry in site.data.pageconfig.index.fun_facts %}
           <div class="col-xs-12 col-sm-3">
             <div class="lm-info-block gray-default">
-              <i class="linecons linecons-{{ entry[1].icon }}"></i>
-              <h4>{{ entry[1].title }}</h4>
-              <span class="lm-info-block-value">{{ entry[1].value }}</span>
+              <i class="linecons linecons-{{ entry.icon }}"></i>
+              <h4>{{ entry.title }}</h4>
+              <span class="lm-info-block-value">{{ entry.value }}</span>
               <span class="lm-info-block-text"></span>
             </div>
           </div>
