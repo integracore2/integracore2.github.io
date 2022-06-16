@@ -37,42 +37,7 @@ permalink: /publications/
                   <a class="filter btn btn-sm btn-link" data-group="{{ category.data_group }}">{{ category.name }}</a>
                 </li>
                 {% endfor %}
-
-                <!-- 
-                <li class="active">
-                  <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
-                </li>
-                
-                <li>
-                  <a class="filter btn btn-sm btn-link" data-group="category_detailed">Detailed</a>
-                </li>
-                
-                <li>
-                  <a class="filter btn btn-sm btn-link" data-group="category_direct-url">Direct URL</a>
-                </li>
-                
-                <li>
-                  <a class="filter btn btn-sm btn-link" data-group="category_image">Image</a>
-                </li>
-                
-                <li>
-                  <a class="filter btn btn-sm btn-link" data-group="category_soundcloud">SoundCloud</a>
-                </li>
-
-                <li>
-                  <a class="filter btn btn-sm btn-link" data-group="category_video">Video</a>
-                </li>
-                
-                <li>
-                  <a class="filter btn btn-sm btn-link" data-group="category_vimeo-video">Vimeo Video</a>
-                </li>
-                
-                <li>
-                  <a class="filter btn btn-sm btn-link" data-group="category_youtube-video">YouTube Video</a>
-                </li>
-                -->
               </ul>
-
 
               <!-- Portfolio Grid -->
               <div class="portfolio-grid three-columns shuffle">
