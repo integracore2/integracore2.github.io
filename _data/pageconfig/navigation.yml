@@ -43,15 +43,15 @@
   children:
     -
       name: Videos
-      url: "#"
+      url: "#videos"
       enabled: true
     -
       name: Webinars
-      url: "#"
+      url: "#webinars"
       enabled: true
     -
       name: Podcasts
-      url: "#"
+      url: "#podcasts"
       enabled: true
 
 -
