@@ -2,7 +2,19 @@ page:
   title: Publications
   subtitle: "<i>~ evolving relentlessly since 1997 ~</i>"
 
+# Example thumbnail URL: https://i3.ytimg.com/vi/RjTpi7djKsI/maxresdefault.jpg or http://i3.ytimg.com/vi/RjTpi7djKsI/hqdefault.jpg
+# Note: When loading videos, we can leave the video URLs as they are and just split on '/' with "{{ url | split:'/' | first }}" or {{ url | split:'/' | last }}?
+youtube:
+  thumbnail_url:
+    prefix: https://i3.ytimg.com/vi/
+    suffix: /maxresdefault.jpg # or /hqdefault.jpg
+  embed_prefix: https://www.youtube.com/embed/
+
 categories:
+  -
+    name: Quantitative Analytics
+    data_group: quantitative-analytics
+    enabled: true
   -
     name: All
     data_group: category_all
