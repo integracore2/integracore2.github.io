@@ -27,12 +27,12 @@ services_title: What I Do
 services:
   -
     -
-      title: Technical and Strategic Advisory
+      title: Technical and Strategic Advisory Services
       description: I help clients address technical and business challenges across various domains, and help them position strongly for product-market fit.
       icon: bulb
     -
-      title: Corporate & Technical Training
-      description: I'm an effective communicator of knowledge, best practices, and solutions, to technical and non-technical audiences alike.
+      title: Corporate & Technical Training Workshops
+      description: I'm an effective communicator of knowledge, best practices, and practical solutions, to technical and non-technical audiences alike.
       icon: display
   -
     -

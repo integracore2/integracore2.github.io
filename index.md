@@ -15,7 +15,7 @@ permalink: /
                 
                 <div class="col-sm-12 col-md-5 col-lg-5">
                   <div class="home-photo">
-                    <div class="hp-inner" style="background-image: url(./assets/img/ali-saif-profile-pic-400x400.jpg);">
+                    <div class="hp-inner" style="background-image: url({{ site.author.profile_image }});">
                     </div>
                   </div>
                 </div>
