@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Evolution
-permalink: /evolution/
+title: Portfolio
+permalink: /portfolio/
 ---
 
 <div id="main" class="site-main">
