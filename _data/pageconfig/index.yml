@@ -47,7 +47,7 @@ services:
 pricing_enabled: false
 pricing_title: Pricing
 pricing:
-  1:
+  -
     name: Silver
     highlight: highlight-col # set to "highlight-col" if blue underline desired, or "default-col"
     value: $64
@@ -60,7 +60,7 @@ pricing:
       - row 1
       - row 2
       - row 3
-  2:
+  -
     name: Gold
     highlight: default-col # set to "highlight-col" if blue underline desired, or "default-col"
     value: $128
@@ -74,7 +74,7 @@ pricing:
       - row 2
       - row 3
       - row 4
-  3:
+  -
     name: Platinum
     highlight: default-col # set to "highlight-col" if blue underline desired, or "default-col"
     value: $256

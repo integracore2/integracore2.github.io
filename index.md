@@ -204,22 +204,22 @@ permalink: /
             <div class="fw-pricing clearfix row">
               
               {% for block in site.data.pageconfig.index.pricing %}
-              <div class="fw-package-wrap col-md-4 {{ block[1].highlight }}">
+              <div class="fw-package-wrap col-md-4 {{ block.highlight }}">
                 <div class="fw-package">
                   <div class="fw-heading-row">
-                    <span>{{ block[1].name }}</span>
+                    <span>{{ block.name }}</span>
                   </div>
                   
                   <div class="fw-pricing-row">
-                    <span>{{ block[1].value }}</span>
-                    <small>{{ block[1].frequency }}</small>
+                    <span>{{ block.value }}</span>
+                    <small>{{ block.frequency }}</small>
                   </div>
                   
                   <div class="fw-button-row">
-                    <a href="{{ block[1].button.url }}" target="_self" class="btn btn-{{ block[1].button.status }}">{{ block[1].button.text }}</a>
+                    <a href="{{ block.button.url }}" target="_self" class="btn btn-{{ block.button.status }}">{{ block.button.text }}</a>
                   </div>
 
-                  {% for row in block[1].rows %}
+                  {% for row in block.rows %}
                   <div class="fw-default-row">{{ row }}</div>
                   {% endfor %}
                 </div>
