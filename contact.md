@@ -31,16 +31,6 @@ permalink: /contact/
 
                         <div class="info-block-w-icon">
                             <div class="ci-icon">
-                                <i class="linecons linecons-phone"></i>
-                            </div>
-                            <div class="ci-text">
-                                <h4>Prefer not to fill the form?</h4>
-                                <p>I'm the same, no worries! Feel free to message me on <a href="{{ site.data.author.config.linkedin }}" target="_blank_">LinkedIn</a> instead. I typically respond to  inquiries <b>within 24 hours</b>.</p>
-                            </div>
-                        </div>
-
-                        <div class="info-block-w-icon">
-                            <div class="ci-icon">
                                 <i class="linecons linecons-location"></i>
                             </div>
                             <div class="ci-text">
@@ -49,6 +39,16 @@ permalink: /contact/
                             </div>
                         </div>
                         
+                        <div class="info-block-w-icon">
+                            <div class="ci-icon">
+                                <i class="linecons linecons-phone"></i>
+                            </div>
+                            <div class="ci-text">
+                                <h4>Prefer not to fill the form?</h4>
+                                <p>I'm the same, no worries! Feel free to message me on <a href="{{ site.data.author.config.linkedin }}" target="_blank_">LinkedIn</a> instead. I typically respond to  inquiries <b>within 24 hours</b>.</p>
+                            </div>
+                        </div>
+
                         <div class="info-block-w-icon">
                             <div class="ci-icon">
                                 <i class="linecons linecons-mail"></i>
