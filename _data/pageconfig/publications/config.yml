@@ -7,7 +7,6 @@ types:
     category: Image
     classes:
       item: lbimage
-      figure: lbimage
       link: lightbox
       fa: fa fa-image
   video:
@@ -15,14 +14,12 @@ types:
       category: Video, YouTube Video
       classes:
         item: lbvideo
-        figure: lbvideo
         link: lightbox mfp-iframe
         fa: fab fa-youtube
     vimeo:
       category: Video, Vimeo Video
       classes:
         item: lbvideo
-        figure: lbvideo
         link: lightbox mfp-iframe
         fa: fab fa-vimeo-v
   audio:
@@ -30,7 +27,17 @@ types:
       category: SoundCloud
       classes:
         item: lbaudio
-        figure: lbaudio
         link: lightbox mfp-iframe
         fa: fas fa-volume-up
   project:
+    category: Detailed
+    classes:
+      item: standard      
+      link: ajax-page-load
+      fa: far fa-file-alt
+  direct_url:
+    category: Direct URL
+    classes:
+      item: direct
+      link: ""
+      fa: fa fa-link
