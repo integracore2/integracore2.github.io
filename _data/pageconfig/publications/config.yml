@@ -7,48 +7,32 @@ page:
 youtube:
   thumbnail_url:
     prefix: https://i3.ytimg.com/vi/
-    suffix: /maxresdefault.jpg # or /hqdefault.jpg
+    maxres_suffix: /maxresdefault.jpg # or /hqdefault.jpg
+    lowres_suffix: /hqdefault.jpg
   embed_prefix: https://www.youtube.com/embed/
 
 categories:
+  -
+    name: All
+    data_group: all # this must match with any video's category.slug in content.yml
+    enabled: true
+  -
+    name: FIX Protocol
+    data_group: fix-protocol
+    enabled: true
   -
     name: Quantitative Analytics
     data_group: quantitative-analytics
     enabled: true
   -
-    name: All
-    data_group: category_all
+    name: Quantitative Risk Management
+    data_group: quantitative-risk-management
     enabled: true
   -
-    name: Detailed
-    data_group: category_detailed
-    enabled: true
-  -
-    name: Direct URL
-    data_group: category_direct-url
-    enabled: true
-  -
-    name: Image
-    data_group: category_image
-    enabled: true
-  -
-    name: SoundCloud
-    data_group: category_soundcloud
-    enabled: true
-  -
-    name: Video
-    data_group: category_video
-    enabled: true
-  -
-    name: Vimeo Video
-    data_group: category_vimeo-video
-    enabled: true
-  -
-    name: YouTube Video
-    data_group: category_youtube-video
+    name: Algorithmic Trading
+    data_group: algorithmic-trading
     enabled: true
   
-
 item_types:
   image:
     category: Image

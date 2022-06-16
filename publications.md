@@ -27,7 +27,8 @@ permalink: /publications/
                 <h2>Videos</h2>
               </div>
               <ul class="portfolio-filters">
-                {% assign categories = site.data.pageconfig.publications.config.categories | where: 'enabled', 'true' %}
+                {% assign config = site.data.pageconfig.publications.config %}
+                {% assign categories = config.categories | where: 'enabled', 'true' %}
                 {% for category in categories %}
                 {% if forloop.first == true %}
                 <li class="active">
@@ -42,122 +43,28 @@ permalink: /publications/
               <!-- Portfolio Grid -->
               <div class="portfolio-grid three-columns shuffle">
 
-                <!-- Portfolio Item 1 -->
-                <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
+                {% assign videos = site.data.pageconfig.publications.content.videos %}
+                {% assign params = site.data.pageconfig.publications.config.item_types.video.youtube %}
+
+                {% for video in videos %}
+
+                <figure class="item {{ params.classes.item }}" data-groups='["all", "{{ video.category.slug }}"]'>
                   <div class="portfolio-item-img">
-                    <img src="{{ site.baseurl }}/assets/img/portfolio/1.jpg" alt="Full Project 2" title="" />
-                    <a href="portfolio-project-2.html" class="ajax-page-load"></a>
+                    {% assign vid = video.url | split:'/' | last %}
+                    {% if video.lowres_thumbnail %}
+                    <img src="{{ config.youtube.thumbnail_url.prefix }}{{ vid }}{{ config.youtube.thumbnail_url.lowres_suffix }}" alt="{{ video.name }}" title="" />
+                    {% else %}
+                    <img src="{{ config.youtube.thumbnail_url.prefix }}{{ vid }}{{ config.youtube.thumbnail_url.maxres_suffix }}" alt="{{ video.name }}" title="" />
+                    {% endif %}
+                    <a href="{{ config.youtube.embed_prefix }}{{ vid }}" class="{{ params.classes.link }}"></a>
                   </div>
 
-                  <i class="far fa-file-alt"></i>
-                  <h4 class="name">Full Project 2</h4>
-                  <span class="category">Detailed</span>
+                  <i class="{{ params.classes.fa }}"></i>
+                  <h4 class="name">{{ video.name }}</h4>
+                  <span class="category">{{ video.category.text }}</span>
                 </figure>
-                <!-- /Portfolio Item 1 -->
 
-                <!-- Portfolio Item 2 -->
-                <figure class="item lbvideo" data-groups='["category_all", "category_video", "category_youtube-video"]'>
-                    <div class="portfolio-item-img">
-                      <img src="https://img.youtube.com/vi/F-1weFCiYBA/maxresdefault.jpg" alt="YouTube Video 2" title="" />
-                      <a href="https://www.youtube.com/embed/F-1weFCiYBA" class="lightbox mfp-iframe" title="YouTube Video 2"></a>
-                    </div>
-
-                    <i class="fab fa-youtube"></i>
-                    <h4 class="name">YouTube Video 2</h4>
-                    <span class="category">Video, YouTube Video</span>
-                </figure>
-                <!-- /Portfolio Item 2 -->
-
-                <!-- Portfolio Item 3 -->
-                <figure class="item lbimage" data-groups='["category_all", "category_image"]'>
-                  <div class="portfolio-item-img">
-                    <img src="{{ site.baseurl }}/assets/img/portfolio/3.jpg" alt="Image 2" title="" />
-                    <a class="lightbox" title="Image 2" href="{{ site.baseurl }}/assets/img/portfolio/full/3.jpg"></a>
-                  </div>
-
-                  <i class="fa fa-image"></i>
-                  <h4 class="name">Image 2</h4>
-                  <span class="category">Image</span>
-                </figure>
-                <!-- /Portfolio Item 3 -->
-
-                <!-- Portfolio Item 4 -->
-                <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
-                  <div class="portfolio-item-img">
-                    <img src="{{ site.baseurl }}/assets/img/portfolio/4.jpg" alt="SoundCloud Audio 1" title="" />
-                    <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&#038;color=%23ff5500&#038;auto_play=false&#038;hide_related=false&#038;show_comments=true&#038;show_user=true&#038;show_reposts=false&#038;show_teaser=true&#038;visual=true" class="lightbox mfp-iframe" title="SoundCloud Audio 1"></a>
-                  </div>
-
-                  <i class="fas fa-volume-up"></i>
-                  <h4 class="name">SoundCloud Audio 1</h4>
-                  <span class="category">SoundCloud</span>
-                </figure>
-                <!-- /Portfolio Item 4 -->
-        
-                <!-- Portfolio Item 5 -->
-                <figure class="item lbvideo" data-groups='["category_all", "category_video", "category_vimeo-video"]'>
-                  <div class="portfolio-item-img">
-                    <img src="{{ site.baseurl }}/assets/img/portfolio/5.jpg" alt="Vimeo Video" title="" />
-                    <a href="https://player.vimeo.com/video/158284739" class="lightbox mfp-iframe" title="Vimeo Video"></a>
-                  </div>
-
-                  <i class="fab fa-vimeo-v"></i>
-                  <h4 class="name">Vimeo Video</h4>
-                  <span class="category">Video, Vimeo Video</span>
-                </figure>
-                <!-- /Portfolio Item 5 -->
-
-                <!-- Portfolio Item 6 -->
-                <figure class="item lbvideo" data-groups='["category_all", "category_video", "category_youtube-video"]'>
-                  <div class="portfolio-item-img">
-                    <img src="{{ site.baseurl }}/assets/img/portfolio/6.jpg" alt="YouTube Video 1" title="" />
-                    <a href="https://www.youtube.com/embed/ZK8REu-8pGw" class="lightbox mfp-iframe" title="YouTube Video 1"></a>
-                  </div>
-
-                  <i class="fab fa-youtube"></i>
-                  <h4 class="name">YouTube Video 1</h4>
-                  <span class="category">Video, YouTube Video</span>
-                </figure>
-                <!-- /Portfolio Item 6 -->
-
-                <!-- Portfolio Item 7 -->
-                <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
-                  <div class="portfolio-item-img">
-                    <img src="{{ site.baseurl }}/assets/img/portfolio/7.jpg" alt="Full Project 1" title="" />
-                    <a href="portfolio-project-1.html" class="ajax-page-load"></a>
-                  </div>
-
-                  <i class="far fa-file-alt"></i>
-                  <h4 class="name">Full Project 1</h4>
-                  <span class="category">Detailed</span>
-                </figure>
-                <!-- /Portfolio Item 7 -->
-
-                <!-- Portfolio Item 8 -->
-                <figure class="item direct" data-groups='["category_all", "category_direct-url"]'>
-                  <div class="portfolio-item-img">
-                    <img src="{{ site.baseurl }}/assets/img/portfolio/8.jpg" alt="Direct URL" title="" />
-                    <a target="_blank" href="https://themeforest.net/user/lmpixels/portfolio"></a>
-                  </div>
-
-                  <i class="fa fa-link"></i>
-                  <h4 class="name">Direct URL</h4>
-                  <span class="category">Direct URL</span>
-                </figure>
-                <!-- /Portfolio Item 8 -->
-
-                <!-- Portfolio Item 9 -->
-                <figure class="item lbimage" data-groups='["category_all", "category_image"]'>
-                  <div class="portfolio-item-img">
-                    <img src="{{ site.baseurl }}/assets/img/portfolio/9.jpg" alt="Image 1" title="" />
-                    <a class="lightbox" title="Image 1" href="{{ site.baseurl }}/assets/img/portfolio/full/5.jpg"></a>
-                  </div>
-
-                  <i class="fa fa-image"></i>
-                  <h4 class="name">Image 1</h4>
-                  <span class="category">Image</span>
-                </figure>
-                <!-- /Portfolio Item 9 -->
+                {% endfor %}
               </div>
               <!-- /Portfolio Content -->
             </div>
