@@ -1,15 +1,9 @@
 _site
 _posts
+_drafts
 docs
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
 Gemfile.lock
 *.gem
-_layouts/orig_default.html
-_layouts/portfolio.html
-_layouts/portfolio-4-columns.html
-_index.html
-another-page.md
-index_bk_15062022_0105CET.md
-backups
