@@ -75,7 +75,7 @@ permalink: /contact/
                                 if (response.length === 0) {
                                     error_div.insertAdjacentHTML(
                                     'beforeend',
-                                    `<label style="font-size: 0.85em; color: red;">Please click on "I'm not a robot" to proceed.</label>`,
+                                    `{{ site.data.pageconfig.contact.contact_form.grecaptcha_error }}`,
                                     );
                                     //alert("not validated");
                                     return false;
