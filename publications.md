@@ -27,6 +27,18 @@ permalink: /publications/
                 <h2>Videos</h2>
               </div>
               <ul class="portfolio-filters">
+                {% assign categories = site.data.pageconfig.publications.config.categories | where: 'enabled', 'true' %}
+                {% for category in categories %}
+                {% if forloop.first == true %}
+                <li class="active">
+                {% else %}
+                <li>
+                {% endif %}
+                  <a class="filter btn btn-sm btn-link" data-group="{{ category.data_group }}">{{ category.name }}</a>
+                </li>
+                {% endfor %}
+
+                <!-- 
                 <li class="active">
                   <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
                 </li>
@@ -58,6 +70,7 @@ permalink: /publications/
                 <li>
                   <a class="filter btn btn-sm btn-link" data-group="category_youtube-video">YouTube Video</a>
                 </li>
+                -->
               </ul>
 
 

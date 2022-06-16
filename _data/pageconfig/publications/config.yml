@@ -2,7 +2,42 @@ page:
   title: Publications
   subtitle: "<i>~ evolving relentlessly since 1997 ~</i>"
 
-types:
+categories:
+  -
+    name: All
+    data_group: category_all
+    enabled: true
+  -
+    name: Detailed
+    data_group: category_detailed
+    enabled: true
+  -
+    name: Direct URL
+    data_group: category_direct-url
+    enabled: true
+  -
+    name: Image
+    data_group: category_image
+    enabled: true
+  -
+    name: SoundCloud
+    data_group: category_soundcloud
+    enabled: true
+  -
+    name: Video
+    data_group: category_video
+    enabled: true
+  -
+    name: Vimeo Video
+    data_group: category_vimeo-video
+    enabled: true
+  -
+    name: YouTube Video
+    data_group: category_youtube-video
+    enabled: true
+  
+
+item_types:
   image:
     category: Image
     classes:
