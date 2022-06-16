@@ -1,68 +1,60 @@
-1:
-  name: Home
-  url: 
-  current: true
-  enabled: true
-  has_children: false
-  children:
-
-2:
+-
   name: Experience
   url: /experience/
   current: false
   enabled: true
   has_children: true
   children:
-    6:
+    -
       name: Tools & Technologies
       url: "#tools-technologies"
       enabled: true
-    5:
+    -
       name: Industry Knowledge
       url: "#industry-knowledge"
       enabled: true
-    7:
+    -
       name: Interpersonal Skills
       url: "#interpersonal-skills"
       enabled: true
-    1:
+    -
       name: Engagements
       url: "#engagements"
       enabled: true
-    3:
+    -
       name: Certifications
       url: "#certifications"
       enabled: true
-    2:
+    -
       name: Education
       url: "#education"
       enabled: true
-    4:
+    -
       name: Courses
       url: "#courses"
       enabled: true
 
-3:
+-
   name: Publications
   url: /publications/
   current: false
   enabled: true
   has_children: true
   children:
-    1:
+    -
       name: Videos
       url: "#"
       enabled: true
-    2:
+    -
       name: Webinars
       url: "#"
       enabled: true
-    3:
+    -
       name: Podcasts
       url: "#"
       enabled: true
 
-4:
+-
   name: Innovations
   url: /innovations/
   current: false
@@ -70,8 +62,7 @@
   has_children: false
   children:
 
-
-5:
+-
   name: Blog
   url: /blog/
   current: false
@@ -79,7 +70,7 @@
   has_children: false
   children:
 
-6:
+-
   name: Contact
   url: /contact/
   current: false
