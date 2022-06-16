@@ -63,15 +63,15 @@ permalink: /
           {% for block in site.data.pageconfig.index.services %}
             <div class="col-xs-12 col-sm-6">
               <div class="info-list-w-icon">
-              {% for item in block[1] %}
+              {% for item in block %}
                 <div class="info-block-w-icon">
                   <div class="ci-icon">
-                    <i class="linecons linecons-{{ item[1].icon }}"></i>
+                    <i class="linecons linecons-{{ item.icon }}"></i>
                   </div>
 
                   <div class="ci-text">
-                    <h4>{{ item[1].title }}</h4>
-                    <p align="justify">{{ item[1].description }}</p>
+                    <h4>{{ item.title }}</h4>
+                    <p align="justify">{{ item.description }}</p>
                   </div>
                 </div>
               {% endfor %}

@@ -25,21 +25,21 @@ fun_facts:
 services_enabled: true
 services_title: What I Do
 services:
-  block1:
-    1:
+  -
+    -
       title: Technical and Strategic Advisory
       description: I help clients address technical and business challenges across various domains, and help them position strongly for product-market fit.
       icon: bulb
-    2:
+    -
       title: Corporate & Technical Training
       description: I'm an effective communicator of knowledge, best practices, and solutions, to technical and non-technical audiences alike.
       icon: display
-  block2:
-    1:
+  -
+    -
       title: Data, Software, and Integrations Engineering
       description: I bring extensive hands-on experience in distributed computing, DevOps, software, data and integrations engineering to your table.
       icon: data
-    2:
+    -
       title: Cloud-Native Solution Architecture
       description: I help clients design, build, test, and productionize solutions of varying complexities and use cases on Amazon Web Services (AWS).
       icon: cloud
