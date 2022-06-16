@@ -11,7 +11,7 @@ permalink: /contact/
             <div class="page-title">
             <h1>How can I help you?</h1>
             <div class="page-subtitle">
-                <h4>“Imagination is everything. It is the preview of<br />life’s coming attractions.” – Albert Einstein</h4>
+                <h4>{{ site.data.pageconfig.contact.famous_quote }}</h4>
             </div>
             </div>
 
@@ -35,7 +35,7 @@ permalink: /contact/
                         </div>
                         <div class="ci-text">
                             <h4>Prefer not to fill the form?</h4>
-                            <p>I'm the same, no worries! Feel free to message me on <a href="{{ site.author.linkedin }}" target="_blank_">LinkedIn</a> instead. I typically respond to  inquiries <b>within 24 hours</b>.</p>
+                            <p>I'm the same, no worries! Feel free to message me on <a href="{{ site.data.author.config.linkedin }}" target="_blank_">LinkedIn</a> instead. I typically respond to  inquiries <b>within 24 hours</b>.</p>
                         </div>
                     </div>
 
@@ -55,7 +55,7 @@ permalink: /contact/
                         </div>
                         <div class="ci-text">
                             <h4>And there's always Twitter</h4>
-                            <p>If neither filling in the form nor messaging via LinkedIn are an option, feel free to DM me on Twitter via <a href="{{ site.author.twitter }}" target="_blank">@integracore2</a></p>
+                            <p>If neither filling in the form nor messaging via LinkedIn are an option, feel free to DM me on Twitter via <a href="{{ site.data.author.config.twitter }}" target="_blank">{{ site.data.author.config.twitter_handle }}</a></p>
                         </div>
                     </div>
                     

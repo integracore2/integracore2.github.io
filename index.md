@@ -15,7 +15,7 @@ permalink: /
                 
                 <div class="col-sm-12 col-md-5 col-lg-5">
                   <div class="home-photo">
-                    <div class="hp-inner" style="background-image: url({{ site.author.profile_image }});">
+                    <div class="hp-inner" style="background-image: url({{ site.data.author.config.profile_image }});">
                     </div>
                   </div>
                 </div>
@@ -24,7 +24,7 @@ permalink: /
                   <div class="home-text hp-left">
                     <div class="owl-carousel text-rotation">  
 
-                      {% for role in site.author.roles %} 
+                      {% for role in site.data.author.config.roles %} 
                         <div class="item">
                           <h4>{{ role }}</h4>
                         </div>
@@ -32,11 +32,11 @@ permalink: /
                     
                     </div>
                       
-                    <h1>{{ site.author.name }}</h1>
-                    <p align="justify">{{ site.author.bio2 }}</p>
+                    <h1>{{ site.data.author.config.name }}</h1>
+                    <p align="justify">{{ site.data.author.config.bio2 }}</p>
                           
                     <div class="home-buttons">
-                      <a href="{{ site.author.linkedin }}" target="_blank" class="btn btn-primary">Connect on LinkedIn</a>
+                      <a href="{{ site.data.author.config.linkedin }}" target="_blank" class="btn btn-primary">Connect on LinkedIn</a>
                       <a href="/contact/" target="_self" class="btn btn-secondary">How can I help you?</a>
                     </div>
                   </div>

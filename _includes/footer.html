@@ -3,21 +3,21 @@
     <div class="footer-social">
       <ul class="footer-social-links">
         <li>
-          <a href="{{ site.author.linkedin }}" target="_blank">LinkedIn</a>
+          <a href="{{ site.data.author.config.linkedin }}" target="_blank">LinkedIn</a>
         </li>
 
         <li>
-          <a href="{{ site.author.twitter }}" target="_blank">Twitter</a>
+          <a href="{{ site.data.author.config.twitter }}" target="_blank">Twitter</a>
         </li>
 
         <li>
-          <a href="{{ site.author.github }}" target="_blank">GitHub</a>
+          <a href="{{ site.data.author.config.github }}" target="_blank">GitHub</a>
         </li>
       </ul>
     </div>
         
     <div class="footer-copyrights">
-      <p>© {{ site.time | date: "%Y" }} | All Rights Reserved | {{ site.author.name }}</p>
+      <p>© {{ site.time | date: "%Y" }} | All Rights Reserved | {{ site.data.author.config.name }}</p>
     </div>
   </footer>
   <!-- /Footer -->
