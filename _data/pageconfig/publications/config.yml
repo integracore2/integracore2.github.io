@@ -1,3 +1,36 @@
 page:
   title: Publications
   subtitle: "<i>~ evolving relentlessly since 1997 ~</i>"
+
+types:
+  image:
+    category: Image
+    classes:
+      item: lbimage
+      figure: lbimage
+      link: lightbox
+      fa: fa fa-image
+  video:
+    youtube:
+      category: Video, YouTube Video
+      classes:
+        item: lbvideo
+        figure: lbvideo
+        link: lightbox mfp-iframe
+        fa: fab fa-youtube
+    vimeo:
+      category: Video, Vimeo Video
+      classes:
+        item: lbvideo
+        figure: lbvideo
+        link: lightbox mfp-iframe
+        fa: fab fa-vimeo-v
+  audio:
+    soundcloud:
+      category: SoundCloud
+      classes:
+        item: lbaudio
+        figure: lbaudio
+        link: lightbox mfp-iframe
+        fa: fas fa-volume-up
+  project:
