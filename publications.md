@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Publications
+title: {{ site.data.pageconfig.publications.config.page.title }}
 permalink: /publications/
 ---
 
@@ -44,7 +44,7 @@ permalink: /publications/
               <div class="portfolio-grid four-columns shuffle">
                 <!-- Sort by video date ASC -->
                 {% assign videos = site.data.pageconfig.publications.content.videos | sort: 'date' %}
-                {% assign params = site.data.pageconfig.publications.config.item_types.video.youtube %}
+                {% assign params = site.data.content.config.item_types.video.youtube %}
 
                 {% for video in videos %}
                 {% if video.enabled %}
