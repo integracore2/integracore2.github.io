@@ -9,7 +9,7 @@ strategies:
       text: Quantitative Trading Strategies
     type: direct_url
     enabled: true
-   -
+  -
     name: $ICX - Systematic Portfolio of Volatility Trading Strategies
     loc: Darwinex
     date: 2015-04-01
