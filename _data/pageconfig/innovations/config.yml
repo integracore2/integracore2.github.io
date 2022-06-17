@@ -5,12 +5,12 @@ page:
 categories:
   
   titles:
-    strategies: Systematic Trading Strategy Portfolios
     opensource: Open Source Contributions
+    strategies: Systematic Trading Strategy Portfolios
   
   item_types:
-    strategies: direct_url # video_youtube for YouTube, video_vimeo for Vimeo
     opensource: direct_url
+    strategies: direct_url # video_youtube for YouTube, video_vimeo for Vimeo
   
   data:
     opensource:
