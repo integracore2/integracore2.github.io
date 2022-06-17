@@ -9,7 +9,7 @@ categories:
     opensource: Open Source Contributions
   
   item_types:
-    strategies: video_youtube
+    strategies: direct_url # video_youtube for YouTube, video_vimeo for Vimeo
     opensource: direct_url
   
   data:
@@ -26,7 +26,7 @@ categories:
         name: API Development
         data_group: api-development
         enabled: true
-        
+
     strategies:
       -
         name: All
