@@ -40,14 +40,14 @@ permalink: /publications/
                 {% endfor %}
               </ul>
 
-              <!-- Portfolio Grid -->
-              <div class="portfolio-grid three-columns shuffle">
-
-                {% assign videos = site.data.pageconfig.publications.content.videos %}
+              <!-- Portfolio Grid (can be three-columns, four-columns, etc -->
+              <div class="portfolio-grid four-columns shuffle">
+                <!-- Sort by video date ASC -->
+                {% assign videos = site.data.pageconfig.publications.content.videos | sort: 'date' %}
                 {% assign params = site.data.pageconfig.publications.config.item_types.video.youtube %}
 
                 {% for video in videos %}
-
+                {% if video.enabled %}
                 <figure class="item {{ params.classes.item }}" data-groups='["all", "{{ video.category.slug }}"]'>
                   <div class="portfolio-item-img">
                     {% assign vid = video.url | split:'/' | last %}
@@ -63,7 +63,7 @@ permalink: /publications/
                   <h4 class="name">{{ video.name }}</h4>
                   <span class="category">{{ video.category.text }}</span>
                 </figure>
-
+                {% endif %}
                 {% endfor %}
               </div>
               <!-- /Portfolio Content -->
