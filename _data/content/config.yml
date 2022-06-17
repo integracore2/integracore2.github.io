@@ -1,0 +1,48 @@
+# Example thumbnail URL: https://i3.ytimg.com/vi/RjTpi7djKsI/maxresdefault.jpg or http://i3.ytimg.com/vi/RjTpi7djKsI/hqdefault.jpg
+# Note: When loading videos, we can leave the video URLs as they are and just split on '/' with "{{ url | split:'/' | first }}" or {{ url | split:'/' | last }}?
+youtube:
+  thumbnail_url:
+    prefix: https://i3.ytimg.com/vi/
+    maxres_suffix: /maxresdefault.jpg # or /hqdefault.jpg
+    lowres_suffix: /hqdefault.jpg
+  embed_prefix: https://www.youtube.com/embed/
+
+item_types:
+  image:
+    category: Image
+    classes:
+      item: lbimage
+      link: lightbox
+      fa: fa fa-image
+  video:
+    youtube:
+      category: Video, YouTube Video
+      classes:
+        item: lbvideo
+        link: lightbox mfp-iframe
+        fa: fab fa-youtube
+    vimeo:
+      category: Video, Vimeo Video
+      classes:
+        item: lbvideo
+        link: lightbox mfp-iframe
+        fa: fab fa-vimeo-v
+  audio:
+    soundcloud:
+      category: SoundCloud
+      classes:
+        item: lbaudio
+        link: lightbox mfp-iframe
+        fa: fas fa-volume-up
+  project:
+    category: Detailed
+    classes:
+      item: standard      
+      link: ajax-page-load
+      fa: far fa-file-alt
+  direct_url:
+    category: Direct URL
+    classes:
+      item: direct
+      link: ""
+      fa: fa fa-link
