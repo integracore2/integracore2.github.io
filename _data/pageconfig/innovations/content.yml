@@ -1,6 +1,6 @@
 strategies:
   -
-    name: $LZL - Systematic Portfolio of Mean Reversion Trading Strategies
+    name: $LZL - Systematic Mean Reversion Strategy Portfolio (9+ yrs - retired)
     loc: Darwinex
     date: 2013-01-01
     url: https://www.darwinex.com/invest/LZL?utm_source=integracore.tech&utm_medium=referral&utm_campaign=shareownlanding&utm_content=integracore2
@@ -11,25 +11,25 @@ strategies:
     type: direct_url
     enabled: true
   -
-    name: $PLF - Systematic Portfolio of Mean Reversion Trading Strategies
+    name: $PLF - Systematic Mean Reversion Strategy Portfolio (7+ yrs - active)
     loc: Darwinex
     date: 2014-10-01
     url: https://www.darwinex.com/invest/PLF?utm_source=integracore.tech&utm_medium=referral&utm_campaign=shareownlanding&utm_content=integracore2
     image_url: /assets/img/innovations/darwinex-strategy.jpg
     category:
       slug: mean-reversion-trading-strategies
-      text: Mean Reversion Trading
+      text: Mean Reversion
     type: direct_url
     enabled: true
   -
-    name: $ICX - Systematic Portfolio of Volatility Trading Strategies
+    name: $ICX - Systematic FX Volatility Strategy Portfolio (7+ yrs - active)
     loc: Darwinex
     date: 2015-04-01
     url: https://www.darwinex.com/invest/ICX?utm_source=integracore.tech&utm_medium=referral&utm_campaign=shareownlanding&utm_content=integracore2
     image_url: /assets/img/innovations/darwinex-strategy.jpg
     category:
       slug: volatility-trading-strategies
-      text: Volatility Trading
+      text: Volatility
     type: direct_url
     enabled: true
 
