@@ -1,3 +1,17 @@
 page:
   title: Innovations
   subtitle: "<i>~ evolving relentlessly since 1997 ~</i>"
+
+categories:
+  -
+    name: All
+    data_group: all # this must match with any video's category.slug in content.yml
+    enabled: true
+  -
+    name: Mean Reversion Trading
+    data_group: mean-reversion-trading-strategies
+    enabled: true
+  -
+    name: Volatility Trading
+    data_group: volatility-trading-strategies
+    enabled: true

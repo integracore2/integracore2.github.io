@@ -22,12 +22,12 @@ permalink: /innovations/
           <div class=" col-xs-12 col-sm-12 ">
             <!-- Portfolio Content -->
             <div id="portfolio_content_q" class="portfolio-content">
-              <a name="videos" style="visibility: hidden;"></a>
+              <!-- <a name="videos" style="visibility: hidden;"></a> -->
               <div class="block-title">
-                <h2>Videos</h2>
+                <h2>Systematic Trading Strategy Portfolios</h2>
               </div>
               <ul class="portfolio-filters">
-                {% assign config = site.data.pageconfig.publications.config %}
+                {% assign config = site.data.pageconfig.innovations.config %}
                 {% assign categories = config.categories | where: 'enabled', 'true' %}
                 {% for category in categories %}
                 {% if forloop.first == true %}
@@ -41,27 +41,22 @@ permalink: /innovations/
               </ul>
 
               <!-- Portfolio Grid (can be three-columns, four-columns, etc -->
-              <div class="portfolio-grid four-columns shuffle">
+              <div class="portfolio-grid three-columns shuffle">
                 <!-- Sort by video date ASC -->
-                {% assign videos = site.data.pageconfig.publications.content.videos | sort: 'date' %}
-                {% assign params = site.data.pageconfig.publications.config.item_types.video.youtube %}
+                {% assign strategies = site.data.pageconfig.innovations.content.strategies | sort: 'date' %}
+                {% assign params = site.data.pageconfig.publications.config.item_types.direct_url %}
 
-                {% for video in videos %}
-                {% if video.enabled %}
-                <figure class="item {{ params.classes.item }}" data-groups='["all", "{{ video.category.slug }}"]'>
+                {% for strategy in strategies %}
+                {% if strategy.enabled %}
+                <figure class="item {{ params.classes.item }}" data-groups='["all", "{{ strategy.category.slug }}"]'>
                   <div class="portfolio-item-img">
-                    {% assign vid = video.url | split:'/' | last %}
-                    {% if video.lowres_thumbnail %}
-                    <img src="{{ config.youtube.thumbnail_url.prefix }}{{ vid }}{{ config.youtube.thumbnail_url.lowres_suffix }}" alt="{{ video.name }}" title="" />
-                    {% else %}
-                    <img src="{{ config.youtube.thumbnail_url.prefix }}{{ vid }}{{ config.youtube.thumbnail_url.maxres_suffix }}" alt="{{ video.name }}" title="" />
-                    {% endif %}
-                    <a href="{{ config.youtube.embed_prefix }}{{ vid }}?quality=high" class="{{ params.classes.link }}"></a>
+                    <img src="{{ site.baseurl | append: strategy.image_url }}" alt="{{ strategy.name }}" title="" />
+                    <a href="{{ strategy.url }}" target="_blank" class="{{ params.classes.link }}"></a>
                   </div>
 
                   <i class="{{ params.classes.fa }}"></i>
-                  <h4 class="name">{{ video.name }}</h4>
-                  <span class="category">{{ video.category.text }}</span>
+                  <h4 class="name">{{ strategy.name }}</h4>
+                  <span class="category">{{ strategy.category.text }}</span>
                 </figure>
                 {% endif %}
                 {% endfor %}
