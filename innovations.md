@@ -4,22 +4,25 @@ title: {{ site.data.pageconfig.innovations.config.page.title }}
 slug: innovations
 permalink: /innovations/
 ---
+{% assign current_page = site.data.pageconfig.innovations %}
+
+{% assign config = current_page.config %}
+{% assign category_config = config.categories %}
+{% assign data = category_config.data %}
 
 <div id="main" class="site-main">
   <div id="main-content" class="single-page-content">
     <div id="primary" class="content-area">
 
       <div class="page-title">
-        <h1>{{ site.data.pageconfig.innovations.config.page.title }}</h1>
+        <h1>{{ current_page.config.page.title }}</h1>
         <div class="page-subtitle">
-            <h4>{{ site.data.pageconfig.innovations.config.page.subtitle }}</h4>
+            <h4>{{ current_page.config.page.subtitle }}</h4>
         </div>
       </div>
 
       <!-- ///////////////////////////////// -->
       <div id="content" class="page-content site-content single-post" role="main">
-      {% assign category_config = site.data.pageconfig.innovations.config.categories %}
-      {% assign data = category_config.data %}
       {% for category_data in data %}
         {% assign title = "" | prepend: category_data[0] %}
         <!-- BEGIN: {{ category_config.titles[title] }} -->
@@ -32,7 +35,6 @@ permalink: /innovations/
                 <h2>{{ category_config.titles[title] }}</h2>
               </div>
               <ul class="portfolio-filters">
-                {% assign config = site.data.pageconfig.innovations.config %}
                 {% assign categories = config.categories.data[title] | where: 'enabled', 'true' %}
                 {% for category in categories %}
                 {% if forloop.first == true %}
