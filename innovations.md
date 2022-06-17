@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Innovations
+title: {{ site.data.pageconfig.innovations.config.page.title }}
 permalink: /innovations/
 ---
 
@@ -44,7 +44,7 @@ permalink: /innovations/
               <div class="portfolio-grid three-columns shuffle">
                 <!-- Sort by video date ASC -->
                 {% assign opensource = site.data.pageconfig.innovations.content.opensource | sort: 'date' %}
-                {% assign params = site.data.pageconfig.publications.config.item_types.direct_url %}
+                {% assign params = site.data.content.config.item_types.direct_url %}
 
                 {% for project in opensource %}
                 {% if project.enabled %}
@@ -100,7 +100,7 @@ permalink: /innovations/
               <div class="portfolio-grid three-columns shuffle">
                 <!-- Sort by video date ASC -->
                 {% assign strategies = site.data.pageconfig.innovations.content.strategies | sort: 'date' %}
-                {% assign params = site.data.pageconfig.publications.config.item_types.direct_url %}
+                {% assign params = site.data.content.config.item_types.video.youtube %}
 
                 {% for strategy in strategies %}
                 {% if strategy.enabled %}
