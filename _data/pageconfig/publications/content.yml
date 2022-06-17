@@ -1,3 +1,16 @@
+strategies:
+  -
+    name: $ICX - Portfolio of FX Volatility Trading Strategies
+    loc: Darwinex
+    date: 2020-07-15
+    url: https://www.darwinex.com/invest/ICX?utm_source=integracore.tech&utm_medium=referral&utm_campaign=shareownlanding&utm_content=integracore2
+    category:
+      slug: quantitative-trading-strategies
+      text: Quantitative Trading Strategies
+    type: direct_url
+    enabled: true
+  -
+
 videos:
   -
     name: Overview | Algorithmic Trading @ Darwinex
@@ -327,4 +340,6 @@ webinars:
     enabled: true
 
 podcasts:
+
+
   
