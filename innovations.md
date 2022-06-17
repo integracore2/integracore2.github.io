@@ -15,6 +15,17 @@ permalink: /innovations/
         </div>
       </div>
 
+      <!-- ///////////////////////////////// -->
+      <div id="content" class="page-content site-content single-post" role="main">
+      {% assign categories = site.data.pageconfig.innovations.config.categories %}
+      {% assign data = categories.data %}
+      {% for category in data %}
+        {% assign title = "" | prepend: category[0] %}
+        <p> BEGIN: {{ category[0] }} -> {{ categories.titles[title] }}</p>
+
+      {% endfor %}
+      </div>
+      <!-- ///////////////////////////////// -->
       <div id="content" class="page-content site-content single-post" role="main">
         
         <!-- BEGIN: Open Source Projects  -->
