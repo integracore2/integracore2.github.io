@@ -32,3 +32,40 @@ strategies:
       text: Volatility Trading
     type: direct_url
     enabled: true
+
+opensource:
+  -
+    name: DWX ZeroMQ Connector
+    loc: GitHub
+    date: 2017-03-01
+    url: https://github.com/darwinex/dwx-zeromq-connector
+    image_url: https://ondemand.bannerbear.com/signedurl/9K5qxXae32jEAGRDkj/image.jpg?modifications=W3sibmFtZSI6InJlcG8iLCJ0ZXh0IjoiZGFyd2luZXggLyAqZHd4LXplcm9tcS1jb25uZWN0b3IqIn0seyJuYW1lIjoiZGVzYyIsInRleHQiOiJXcmFwcGVyIGxpYnJhcnkgZm9yIGFsZ29yaXRobWljIHRyYWRpbmcgaW4gUHl0aG9uIDMsIHByb3ZpZGluZyBETUEvU1RQIGFjY2VzcyB0byBEYXJ3aW5leCBsaXF1aWRpdHkgdmlhIGEgWmVyb01RLWVuYWJsZWQgTWV0YVRyYWRlciBCcmlkZ2UgRUEuIn0seyJuYW1lIjoiYXZhdGFyNSIsImltYWdlX3VybCI6Imh0dHBzOi8vYXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS81NzY5NzI3Mj92PTQifSx7Im5hbWUiOiJhdmF0YXI0IiwiaW1hZ2VfdXJsIjoiaHR0cHM6Ly9hdmF0YXJzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91LzI2NTA5NTA3P3Y9NCJ9LHsibmFtZSI6ImF2YXRhcjMiLCJpbWFnZV91cmwiOiJodHRwczovL2F2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvNjExNjIxMz92PTQifSx7Im5hbWUiOiJhdmF0YXIyIiwiaW1hZ2VfdXJsIjoiaHR0cHM6Ly9hdmF0YXJzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91LzYyNzk2NDUyP3Y9NCJ9LHsibmFtZSI6ImF2YXRhcjEiLCJpbWFnZV91cmwiOiJodHRwczovL2F2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMzMzMDAwNDE_dj00In0seyJuYW1lIjoiY29udHJpYnV0b3JzIiwidGV4dCI6IjYgQ29udHJpYnV0b3JzIn0seyJuYW1lIjoic3RhcnMiLCJ0ZXh0IjoiMjk5In1d&s=8c305a13ff0af90bd7a64d71389d1879b68a4275ad95676e2e768b1eac62dcbd
+    category:
+      slug: integractions-engineering
+      text: Integrations Engineering
+    type: direct_url
+    enabled: true
+  -
+    name: DWX Connect
+    loc: GitHub
+    date: 2021-07-01
+    url: https://github.com/darwinex/dwxconnect
+    image_url: https://ondemand.bannerbear.com/signedurl/9K5qxXae32jEAGRDkj/image.jpg?modifications=W3sibmFtZSI6InJlcG8iLCJ0ZXh0IjoiZGFyd2luZXggLyAqZHd4Y29ubmVjdCoifSx7Im5hbWUiOiJkZXNjIiwidGV4dCI6IlNlYW1sZXNzbHkgbGluayBhbnkgVHJhZGluZyBTdHJhdGVneSBpbiBBTlkgcHJvZ3JhbW1pbmcgbGFuZ3VhZ2UgdG8gRGFyd2luZXggbGlxdWlkaXR5IHZpYSBNZXRhVHJhZGVyIDQgb3IgNS4gRFdYIENvbm5lY3QgaXMgeW91ciB2ZXJ5IG93biwgZnVsbHkgY3VzdG9taXphYmxlIFRyYWRpbmcgQVBJISJ9LHsibmFtZSI6ImF2YXRhcjUiLCJoaWRlIjp0cnVlfSx7Im5hbWUiOiJhdmF0YXI0IiwiaGlkZSI6dHJ1ZX0seyJuYW1lIjoiYXZhdGFyMyIsImhpZGUiOnRydWV9LHsibmFtZSI6ImF2YXRhcjIiLCJoaWRlIjp0cnVlfSx7Im5hbWUiOiJhdmF0YXIxIiwiaW1hZ2VfdXJsIjoiaHR0cHM6Ly9hdmF0YXJzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91LzI2NTA5NTA3P3Y9NCJ9LHsibmFtZSI6ImNvbnRyaWJ1dG9ycyIsInRleHQiOiJkYXJ3aW5leCJ9LHsibmFtZSI6InN0YXJzIiwidGV4dCI6IjQ3In1d&s=96be41ef4116c9e27b4eadc882c26487ebd54b0aa58c106e9ecc4dab1ad9c4c5
+    category:
+      slug: integractions-engineering
+      text: Integrations Engineering
+    type: direct_url
+    enabled: true
+  -
+    name: DWX FIX Connector
+    loc: GitHub
+    date: 2018-01-01
+    url: https://github.com/darwinex/dwx-fix-connector
+    image_url: https://ondemand.bannerbear.com/signedurl/9K5qxXae32jEAGRDkj/image.jpg?modifications=W3sibmFtZSI6InJlcG8iLCJ0ZXh0IjoiZGFyd2luZXggLyAqZHd4LWZpeC1jb25uZWN0b3IqIn0seyJuYW1lIjoiZGVzYyIsInRleHQiOiJRdWlja0ZJWCB3cmFwcGVyIGxpYnJhcnkgZm9yIGFsZ29yaXRobWljIHRyYWRpbmcgaW4gUHl0aG9uIDMsIHByb3ZpZGluZyBETUEvU1RQIGFjY2VzcyB0byBEYXJ3aW5leCBsaXF1aWRpdHkgdmlhIEZJWCBQcm90b2NvbCB2NC40In0seyJuYW1lIjoiYXZhdGFyNSIsImhpZGUiOnRydWV9LHsibmFtZSI6ImF2YXRhcjQiLCJoaWRlIjp0cnVlfSx7Im5hbWUiOiJhdmF0YXIzIiwiaGlkZSI6dHJ1ZX0seyJuYW1lIjoiYXZhdGFyMiIsImhpZGUiOnRydWV9LHsibmFtZSI6ImF2YXRhcjEiLCJpbWFnZV91cmwiOiJodHRwczovL2F2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMjY1MDk1MDc_dj00In0seyJuYW1lIjoiY29udHJpYnV0b3JzIiwidGV4dCI6ImRhcndpbmV4In0seyJuYW1lIjoic3RhcnMiLCJ0ZXh0IjoiNyJ9XQ&s=5f9e083e45fd6cb3b035b1405ecaa31cfcaffd5cb0748a2d20ce77d6c43bc1d3
+    category:
+      slug: api-development
+      text: API Development
+    type: direct_url
+    enabled: true
+  
+  
