@@ -50,7 +50,7 @@ permalink: /innovations/
               <!-- Portfolio Grid (can be three-columns, four-columns, etc -->
               <div class="portfolio-grid three-columns shuffle">
                 <!-- Sort by video date ASC -->
-                {% assign category_items = site.data.pageconfig.innovations.content[title] | sort: 'date' %}
+                {% assign category_items = current_page.content[title] | sort: 'date' %}
                 {% assign item_type = "" | prepend: category_config.item_types[title] | split: "_" %}
                 {% if item_type[0] == "video" %}
                   {% assign item_type_str = "" | prepend: item_type[1] %}
