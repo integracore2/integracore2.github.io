@@ -3,29 +3,36 @@ page:
   subtitle: "<i>~ evolving relentlessly since 1997 ~</i>"
 
 categories:
-  strategies:
-    -
-      name: All
-      data_group: all # this must match with any video's category.slug in content.yml
-      enabled: true
-    -
-      name: Mean Reversion Trading
-      data_group: mean-reversion-trading-strategies
-      enabled: true
-    -
-      name: Volatility Trading
-      data_group: volatility-trading-strategies
-      enabled: true
-  opensource:
-    -
-      name: All
-      data_group: all # this must match with any video's category.slug in content.yml
-      enabled: true
-    -
-      name: Integrations Engineering
-      data_group: integractions-engineering
-      enabled: true
-    -
-      name: API Development
-      data_group: api-development
-      enabled: true
+  
+  titles:
+    strategies: Systematic Trading Strategy Portfolios
+    opensource: Open Source Contributions
+  
+  data:
+    strategies:
+      -
+        name: All
+        data_group: all # this must match with any video's category.slug in content.yml
+        enabled: true
+      -
+        name: Mean Reversion Trading
+        data_group: mean-reversion-trading-strategies
+        enabled: true
+      -
+        name: Volatility Trading
+        data_group: volatility-trading-strategies
+        enabled: true
+
+    opensource:
+      -
+        name: All
+        data_group: all # this must match with any video's category.slug in content.yml
+        enabled: true
+      -
+        name: Integrations Engineering
+        data_group: integractions-engineering
+        enabled: true
+      -
+        name: API Development
+        data_group: api-development
+        enabled: true
