@@ -18,6 +18,10 @@ categories:
       enabled: true
   opensource:
     -
+      name: All
+      data_group: all # this must match with any video's category.slug in content.yml
+      enabled: true
+    -
       name: Integrations Engineering
       data_group: integractions-engineering
       enabled: true
