@@ -8,21 +8,11 @@ categories:
     strategies: Systematic Trading Strategy Portfolios
     opensource: Open Source Contributions
   
+  item_types:
+    strategies: video_youtube
+    opensource: direct_url
+  
   data:
-    strategies:
-      -
-        name: All
-        data_group: all # this must match with any video's category.slug in content.yml
-        enabled: true
-      -
-        name: Mean Reversion Trading
-        data_group: mean-reversion-trading-strategies
-        enabled: true
-      -
-        name: Volatility Trading
-        data_group: volatility-trading-strategies
-        enabled: true
-
     opensource:
       -
         name: All
@@ -35,4 +25,18 @@ categories:
       -
         name: API Development
         data_group: api-development
+        enabled: true
+        
+    strategies:
+      -
+        name: All
+        data_group: all # this must match with any video's category.slug in content.yml
+        enabled: true
+      -
+        name: Mean Reversion Trading
+        data_group: mean-reversion-trading-strategies
+        enabled: true
+      -
+        name: Volatility Trading
+        data_group: volatility-trading-strategies
         enabled: true
