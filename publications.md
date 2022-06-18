@@ -52,9 +52,10 @@ permalink: /publications/
                 <!-- Sort by video date ASC -->
                 {% assign category_items = current_page.content[title] | sort: 'date' %}
                 {% assign item_type = "" | prepend: category_config.item_types[title] | split: "_" %}
-                {% if item_type[0] == "video" %}
-                  {% assign item_type_str = "" | prepend: item_type[1] %}
-                  {% assign params = site.data.content.config.item_types.video[item_type_str] %}
+                {% if item_type.size > 1 %}
+                  {% assign item_parent = "" | prepend: item_type[0] %}
+                  {% assign item_child = "" | prepend: item_type[1] %}
+                  {% assign params = site.data.content.config.item_types[item_parent][item_type_str] %}
                 {% else %}
                   {% assign params = site.data.content.config.item_types[item_type[0]] %}
                 {% endif %}
