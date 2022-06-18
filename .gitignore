@@ -7,3 +7,4 @@ docs
 .sass-cache
 Gemfile.lock
 *.gem
+.DS_store
