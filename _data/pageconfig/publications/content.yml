@@ -543,8 +543,259 @@ videos:
       text: Quantitative Analytics
     type: video_youtube # youtube or vimeo
     enabled: true
+  -
+    name: Downloading Data via FTP in Python | DARWIN Data Analytics
+    loc: Darwinex (YouTube)
+    date: 2019-09-02
+    url: https://youtu.be/_BbYwv8u4eA
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Quant Workflow | Algorithmic Trading Strategy R&D in Python
+    loc: Darwinex (YouTube)
+    date: 2019-09-01
+    url: https://youtu.be/KEtp_fAlDRc
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Optimizing MT4 Performance & Trade Latency on VPS Servers
+    loc: Darwinex (YouTube)
+    date: 2019-08-30
+    url: https://youtu.be/rcy8nxiypo4
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: "Algorithmic Trading Strategies with Python & ZeroMQ: Part 2"
+    loc: Darwinex (YouTube)
+    date: 2019-08-10
+    url: https://youtu.be/VtOfF-nhhj8
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: "Algorithmic Trading Strategies with Python & ZeroMQ: Part 1"
+    loc: Darwinex (YouTube)
+    date: 2019-08-02
+    url: https://youtu.be/4MxjFTQHTfw
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    lowres_thumbnail: true
+    enabled: true
+  -
+    name: Troubleshooting Python, ZeroMQ & MetaTrader Configuration
+    loc: Darwinex (YouTube)
+    date: 2019-08-01
+    url: https://youtu.be/7aAsFZ_r5zU
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Algorithmic Order Management via the DARWIN Trading API
+    loc: Darwinex (YouTube)
+    date: 2019-07-29
+    url: https://youtu.be/U-yUX8AqV6s
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Investor Account Reporting | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-07-26
+    url: https://youtu.be/_KUBlB3a6Ko
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Live Streaming Quotes - 2 | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-07-14
+    url: https://youtu.be/EoCZzRvOMwM
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Building a DARWIN Trading Terminal - Part 1 | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-07-13
+    url: https://youtu.be/scjQXbe8lso
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Streaming Quotes via WebSocket | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-06-25
+    url: https://youtu.be/FEacd_gVbpM
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Live Streaming Quotes - 1 | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-06-14
+    url: https://youtu.be/Q-etnSETgBM
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Visualizing DARWIN Filters | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-06-07
+    url: https://youtu.be/VLpFgBR18ps
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Getting OHLC Candlesticks | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-05-31
+    url: https://youtu.be/kqW8u23gOTI
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Coding Algorithmic DARWIN Filters | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-05-30
+    url: https://youtu.be/YP-8FhtFu64
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Constructing a DARWIN Universe | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-05-28
+    url: https://youtu.be/-1fv2pzJqoE
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Time Series Analysis of Quotes | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-05-22
+    url: https://youtu.be/-1C246UILF8
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Getting DARWIN Scores | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-05-17
+    url: https://youtu.be/shWobd7_VE0
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Getting DARWIN Quotes | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-05-10
+    url: https://youtu.be/4oPRaeU-Frw
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: FIX Trading & SSL Connections | FIX API for Algorithmic Trading @ Darwinex
+    loc: Darwinex (YouTube)
+    date: 2019-05-09
+    url: https://youtu.be/pell_OwOmMw
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Initiating FIX Sessions (Logon 35=A) | FIX API for Algorithmic Trading @ Darwinex
+    loc: Darwinex (YouTube)
+    date: 2019-05-01
+    url: https://youtu.be/tpbzmL19tT4
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Anatomy of the FIX Protocol | FIX API for Algorithmic Trading @ Darwinex
+    loc: Darwinex (YouTube)
+    date: 2019-04-26
+    url: https://youtu.be/wSgAwJyev2Y
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Getting Started | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-04-19
+    url: https://youtu.be/IDDHyjqt_TY
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Writing a REST Wrapper Class | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-04-16
+    url: https://youtu.be/GKHAbct6T6s
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
 
 webinars:
+  -
+    name: Ask Me Anything (DARWIN API Edition) - July 18, 2019 (Webinar)
+    loc: Darwinex (YouTube)
+    date: 2019-07-19
+    url: https://youtu.be/GnySxXYsDNk
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
 
 podcasts:
 
