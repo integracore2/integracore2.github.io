@@ -793,7 +793,7 @@ videos:
       slug: algorithmic-trading-infrastructure
       text: Trading Infrastructure
     type: video_youtube # youtube or vimeo
-    enabled: true
+    enabled: false
   -
     name: Setting up a DARWIN Data Science Environment
     loc: Darwinex (YouTube)
@@ -804,7 +804,7 @@ videos:
       text: Trading Infrastructure
     type: video_youtube # youtube or vimeo
     lowres_thumbnail: true
-    enabled: true
+    enabled: false
   -
     name: Constructing Currency Portfolio Indexes in MetaTrader 4
     loc: Darwinex (YouTube)
@@ -815,7 +815,7 @@ videos:
       text: Algorithmic Trading
     type: video_youtube # youtube or vimeo
     lowres_thumbnail: true
-    enabled: true
+    enabled: false
   -
     name: How To Identify Overfit Trading Strategies
     loc: Darwinex (YouTube)
@@ -826,7 +826,7 @@ videos:
       text: Algorithmic Trading
     type: video_youtube # youtube or vimeo
     lowres_thumbnail: true
-    enabled: true
+    enabled: false
   -
     name: "MetaTrader Backtesting: Best Practices for Algorithmic Traders"
     loc: Darwinex (YouTube)
@@ -836,7 +836,7 @@ videos:
       slug: algorithmic-trading
       text: Algorithmic Trading
     type: video_youtube # youtube or vimeo
-    enabled: true
+    enabled: false
 
 webinars:
   -

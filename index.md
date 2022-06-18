@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /
+image: /assets/img/marvin-meyer-SYTO3xs06fU-unsplash-medium.jpg
 ---
 
 <div id="main" class="site-main">
