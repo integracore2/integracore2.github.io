@@ -306,25 +306,225 @@ videos:
   -
     name: FIX Pricing Class - III | QuickFIX Application R&D for Algorithmic Trading
     loc: Darwinex (YouTube)
-    date: 2019-10-11
+    date: 2019-10-13
     url: https://youtu.be/RjTpi7djKsI
     category:
       slug: fix-protocol
       text: FIX Protocol
     type: video_youtube # youtube or vimeo
     enabled: true
-
-webinars:
   -
-    name: 
+    name: FIX Pricing Class - II | QuickFIX Application R&D for Algorithmic Trading
     loc: Darwinex (YouTube)
-    date: 2020-01-01
-    url: 
+    date: 2019-10-12
+    url: https://youtu.be/YdUS2BqcclQ
     category:
-      slug: algorithmic-trading
-      text: Algorithmic Trading
+      slug: fix-protocol
+      text: FIX Protocol
     type: video_youtube # youtube or vimeo
     enabled: true
+  -
+    name: FIX Pricing Class - I | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-11
+    url: https://youtu.be/ecs5NMNdEoA
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Installing QuickFIX for Python | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-10
+    url: https://youtu.be/pAlrGJDvyYg
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Introduction | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-06
+    url: https://youtu.be/RhPew0ge-kw
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Examples in C++ & Python | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-05
+    url: https://youtu.be/vhwT8UKwKnU
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Logic, Code & Structure | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-04
+    url: https://youtu.be/UA_HIDeABNc
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Variable Definitions | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-03
+    url: https://youtu.be/xV8FRwc5jXI
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: App Configuration | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-02
+    url: https://youtu.be/ZM2IEooF72M
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Coding Setup (in any language!) | DWX ZeroMQ Connector for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-17
+    url: https://youtu.be/ia1E5xczouc
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: MT4 Setup | DWX ZeroMQ Connector for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-16
+    url: https://youtu.be/N0-aYLllK3E
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Dependencies | DWX ZeroMQ Connector for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-15
+    url: https://youtu.be/YdlSwrKt9TU
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: ZeroMQ Client Config | DWX ZeroMQ Connector for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-14
+    url: https://youtu.be/qMNSr-Hiupk
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Example Usage | DWX ZeroMQ Connector for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-13
+    url: https://youtu.be/U2VdXdm2qlM
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: ZeroMQ Server Config | DWX ZeroMQ Connector for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-12
+    url: https://youtu.be/ONBFOGsnijU
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Intro | DWX ZeroMQ Connector for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-11
+    url: https://youtu.be/Qv04zPU7lxQ
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Scheduling Tasks | Automating DARWIN Trading Strategies on VPS Servers
+    loc: Darwinex (YouTube)
+    date: 2019-09-10
+    url: https://youtu.be/GLO7j9RqsV8
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Intro - Automating DARWIN Trading Strategies on VPS Servers
+    loc: Darwinex (YouTube)
+    date: 2019-09-09
+    url: https://youtu.be/b0Qqcb-zP-g
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Setup & Batch Script | Automating DARWIN Trading Strategies on VPS Servers
+    loc: Darwinex (YouTube)
+    date: 2019-09-08
+    url: https://youtu.be/SamhkBT9Haw
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Conda Environment | Automating DARWIN Trading Strategies on VPS Servers
+    loc: Darwinex (YouTube)
+    date: 2019-09-07
+    url: https://youtu.be/99YN4AX5A7s
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Simulated vs Real Investor Divergence | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-06
+    url: https://youtu.be/SYeqgk244Y8
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Order Latency & Divergence | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-05
+    url: https://youtu.be/V8tw3LdsfPQ
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
+
+webinars:
 
 podcasts:
 
