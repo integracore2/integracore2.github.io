@@ -3,6 +3,7 @@ layout: default
 title: {{ site.data.pageconfig.publications.config.page.title }}
 slug: publications
 permalink: /publications/
+image: /assets/img/gabriella-clare-marino-Hx8HaI4ERkA-unsplash-medium.jpg
 ---
 {% assign content_config = site.data.content.config %}
 {% assign current_page = site.data.pageconfig.publications %}
