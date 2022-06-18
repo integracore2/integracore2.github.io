@@ -55,7 +55,7 @@ permalink: /publications/
                 {% if item_type.size > 1 %}
                   {% assign item_parent = "" | prepend: item_type[0] %}
                   {% assign item_child = "" | prepend: item_type[1] %}
-                  {% assign params = site.data.content.config.item_types[item_parent][item_type_str] %}
+                  {% assign params = site.data.content.config.item_types[item_parent][item_child] %}
                 {% else %}
                   {% assign params = site.data.content.config.item_types[item_type[0]] %}
                 {% endif %}
@@ -67,11 +67,11 @@ permalink: /publications/
                   {% if item_type[0] == "video" %}
                     {% assign vid = entry.url | split:'/' | last %}
                     {% if entry.lowres_thumbnail %}
-                    <img src="{{ site.data.content.config.youtube.thumbnail_url.prefix }}{{ vid }}{{ site.data.content.config.youtube.thumbnail_url.lowres_suffix }}" alt="{{ entry.name }}" title="" />
+                    <img src="{{ params.thumbnail_url.prefix }}{{ vid }}{{ params.thumbnail_url.lowres_suffix }}" alt="{{ entry.name }}" title="" />
                     {% else %}
-                    <img src="{{ site.data.content.config.youtube.thumbnail_url.prefix }}{{ vid }}{{ site.data.content.config.youtube.thumbnail_url.maxres_suffix }}" alt="{{ entry.name }}" title="" />
+                    <img src="{{ params.thumbnail_url.prefix }}{{ vid }}{{ params.thumbnail_url.maxres_suffix }}" alt="{{ entry.name }}" title="" />
                     {% endif %}
-                    <a href="{{ site.data.content.config.youtube.embed_prefix }}{{ vid }}?quality=high" class="{{ params.classes.link }}"></a>
+                    <a href="{{ params.embed_prefix }}{{ vid }}?quality=high" class="{{ params.classes.link }}"></a>
                   {% else %}
                     <img src="{{ site.baseurl | append: entry.image_url }}" alt="{{ entry.name }}" title="" />
                     <a href="{{ entry.url }}" target="_blank" class="{{ params.classes.link }}"></a>
