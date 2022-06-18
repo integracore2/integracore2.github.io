@@ -1,34 +1,41 @@
 ---
 layout: default
 title: {{ site.data.pageconfig.publications.config.page.title }}
+slug: publications
 permalink: /publications/
 ---
+{% assign current_page = site.data.pageconfig.publications %}
+
+{% assign config = current_page.config %}
+{% assign category_config = config.categories %}
+{% assign data = category_config.data %}
 
 <div id="main" class="site-main">
   <div id="main-content" class="single-page-content">
     <div id="primary" class="content-area">
 
       <div class="page-title">
-        <h1>{{ site.data.pageconfig.publications.config.page.title }}</h1>
+        <h1>{{ current_page.config.page.title }}</h1>
         <div class="page-subtitle">
-            <h4>{{ site.data.pageconfig.publications.config.page.subtitle }}</h4>
+            <h4>{{ current_page.config.page.subtitle }}</h4>
         </div>
       </div>
 
+      <!-- ///////////////////////////////// -->
       <div id="content" class="page-content site-content single-post" role="main">
-        
-        <!-- BEGIN: Videos -->
+      {% for category_data in data %}
+        {% assign title = "" | prepend: category_data[0] %}
+        <!-- BEGIN: {{ category_config.titles[title] }} -->
         <div class="row">
           <div class=" col-xs-12 col-sm-12 ">
             <!-- Portfolio Content -->
-            <div id="portfolio_content_q" class="portfolio-content">
-              <a name="videos" style="visibility: hidden;"></a>
+            <div id="{{ category_data[0] }}_portfolio" class="portfolio-content">
+              <a name="{{ category_data[0] }}" style="visibility: hidden;"></a>
               <div class="block-title">
-                <h2>Videos</h2>
+                <h2>{{ category_config.titles[title] }}</h2>
               </div>
               <ul class="portfolio-filters">
-                {% assign config = site.data.pageconfig.publications.config %}
-                {% assign categories = config.categories | where: 'enabled', 'true' %}
+                {% assign categories = config.categories.data[title] | where: 'enabled', 'true' %}
                 {% for category in categories %}
                 {% if forloop.first == true %}
                 <li class="active">
@@ -41,27 +48,38 @@ permalink: /publications/
               </ul>
 
               <!-- Portfolio Grid (can be three-columns, four-columns, etc -->
-              <div class="portfolio-grid four-columns shuffle">
+              <div class="portfolio-grid three-columns shuffle">
                 <!-- Sort by video date ASC -->
-                {% assign videos = site.data.pageconfig.publications.content.videos | sort: 'date' %}
-                {% assign params = site.data.content.config.item_types.video.youtube %}
+                {% assign category_items = current_page.content[title] | sort: 'date' %}
+                {% assign item_type = "" | prepend: category_config.item_types[title] | split: "_" %}
+                {% if item_type[0] == "video" %}
+                  {% assign item_type_str = "" | prepend: item_type[1] %}
+                  {% assign params = site.data.content.config.item_types.video[item_type_str] %}
+                {% else %}
+                  {% assign params = site.data.content.config.item_types[item_type[0]] %}
+                {% endif %}
 
-                {% for video in videos %}
-                {% if video.enabled %}
-                <figure class="item {{ params.classes.item }}" data-groups='["all", "{{ video.category.slug }}"]'>
+                {% for entry in category_items %}
+                {% if entry.enabled %}
+                <figure class="item {{ params.classes.item }}" data-groups='["all", "{{ entry.category.slug }}"]'>
                   <div class="portfolio-item-img">
-                    {% assign vid = video.url | split:'/' | last %}
-                    {% if video.lowres_thumbnail %}
-                    <img src="{{ config.youtube.thumbnail_url.prefix }}{{ vid }}{{ config.youtube.thumbnail_url.lowres_suffix }}" alt="{{ video.name }}" title="" />
+                  {% if item_type[0] == "video" %}
+                    {% assign vid = entry.url | split:'/' | last %}
+                    {% if entry.lowres_thumbnail %}
+                    <img src="{{ site.data.content.config.youtube.thumbnail_url.prefix }}{{ vid }}{{ site.data.content.config.youtube.thumbnail_url.lowres_suffix }}" alt="{{ entry.name }}" title="" />
                     {% else %}
-                    <img src="{{ config.youtube.thumbnail_url.prefix }}{{ vid }}{{ config.youtube.thumbnail_url.maxres_suffix }}" alt="{{ video.name }}" title="" />
+                    <img src="{{ site.data.content.config.youtube.thumbnail_url.prefix }}{{ vid }}{{ site.data.content.config.youtube.thumbnail_url.maxres_suffix }}" alt="{{ entry.name }}" title="" />
                     {% endif %}
-                    <a href="{{ config.youtube.embed_prefix }}{{ vid }}?quality=high" class="{{ params.classes.link }}"></a>
+                    <a href="{{ site.data.content.config.youtube.embed_prefix }}{{ vid }}?quality=high" class="{{ params.classes.link }}"></a>
+                  {% else %}
+                    <img src="{{ site.baseurl | append: entry.image_url }}" alt="{{ entry.name }}" title="" />
+                    <a href="{{ entry.url }}" target="_blank" class="{{ params.classes.link }}"></a>
+                  {% endif %}
                   </div>
 
                   <i class="{{ params.classes.fa }}"></i>
-                  <h4 class="name">{{ video.name }}</h4>
-                  <span class="category">{{ video.category.text }}</span>
+                  <h4 class="name">{{ entry.name }}</h4>
+                  <span class="category">{{ entry.category.text }}</span>
                 </figure>
                 {% endif %}
                 {% endfor %}
@@ -70,15 +88,20 @@ permalink: /publications/
             </div>
           </div>
         </div>
-        <!-- END: Videos -->
+        <!-- END: {{ category_config.titles[title] }} -->
 
+        <!-- BEGIN: Spacer -->
         <div class="row">
           <div class=" col-xs-12 col-sm-12 ">
             <div class="p-50"></div>
           </div>
         </div>
+        <!-- END: Spacer -->
 
+      {% endfor %}
       </div>
+      <!-- ///////////////////////////////// -->
+      
     </div>
   </div>
 </div>

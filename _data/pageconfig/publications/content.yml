@@ -7,7 +7,7 @@ videos:
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Momentum vs Volatility (Factor Validation) | Algorithmic Trading Strategies with DARWIN Assets
@@ -17,7 +17,7 @@ videos:
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Critical Evaluation | Algorithmic Trading Strategies with DARWIN Assets
@@ -27,7 +27,7 @@ videos:
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Logarithmic vs Simple Returns | Algorithmic Trading Strategies with DARWIN Assets
@@ -37,7 +37,7 @@ videos:
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Strategy Prototyping | Algorithmic Trading Strategies with DARWIN Assets
@@ -47,7 +47,7 @@ videos:
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Introduction | Algorithmic Trading Strategies with DARWIN Assets
@@ -57,7 +57,7 @@ videos:
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Factor Engineering | Algorithmic Trading Strategies with DARWIN Assets
@@ -67,7 +67,7 @@ videos:
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Avoiding Look-Ahead Bias | Algorithmic Trading Strategies with DARWIN Assets
@@ -77,7 +77,7 @@ videos:
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Portfolio Construction | Algorithmic Trading Strategies with DARWIN Assets
@@ -87,7 +87,7 @@ videos:
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Hypothesis Development | Algorithmic Trading Strategies with DARWIN Assets
@@ -97,7 +97,7 @@ videos:
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Dataset Construction | Algorithmic Trading Strategies with DARWIN Assets
@@ -107,7 +107,7 @@ videos:
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Rollover Interest / Swaps, MarginCost & Leverage | Algorithmic Trading with Zorro @ Darwinex
@@ -117,7 +117,7 @@ videos:
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     lowres_thumbnail: true
     enabled: false
   -
@@ -128,7 +128,7 @@ videos:
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     lowres_thumbnail: true
     enabled: false
   -
@@ -139,7 +139,7 @@ videos:
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     lowres_thumbnail: true
     enabled: false
   -
@@ -150,7 +150,7 @@ videos:
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     lowres_thumbnail: true
     enabled: false
   -
@@ -161,7 +161,7 @@ videos:
     category:
       slug: quantitative-risk-management
       text: Quantitative Risk Management
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: How Darwinex replicates leverage for DARWIN investors
@@ -171,7 +171,7 @@ videos:
     category:
       slug: quantitative-risk-management
       text: Quantitative Risk Management
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: "How Value-at-Risk (VaR) is calculated at Darwinex: Part 2"
@@ -181,7 +181,7 @@ videos:
     category:
       slug: quantitative-risk-management
       text: Quantitative Risk Management
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: "How Value-at-Risk (VaR) is calculated at Darwinex: Part 1"
@@ -191,7 +191,7 @@ videos:
     category:
       slug: quantitative-risk-management
       text: Quantitative Risk Management
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Calculating the Risk (D-Leverage) of a Position
@@ -201,7 +201,7 @@ videos:
     category:
       slug: quantitative-risk-management
       text: Quantitative Risk Management
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Measuring the Risk of a Trading Decision (D-Leverage)
@@ -211,7 +211,7 @@ videos:
     category:
       slug: quantitative-risk-management
       text: Quantitative Risk Management
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Measuring the Risk of a Trading Strategy
@@ -221,7 +221,7 @@ videos:
     category:
       slug: quantitative-risk-management
       text: Quantitative Risk Management
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Money Management & The Risk of a Trading Strategy
@@ -231,7 +231,7 @@ videos:
     category:
       slug: quantitative-risk-management
       text: Quantitative Risk Management
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Daily Rotation Data | DARWIN Data Analytics for Algorithmic Trading
@@ -241,7 +241,7 @@ videos:
     category:
       slug: quantitative-analytics
       text: Quantitative Analytics
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Merging API & FTP Data | DARWIN Data Analytics for Algorithmic Trading
@@ -251,7 +251,7 @@ videos:
     category:
       slug: quantitative-analytics
       text: Quantitative Analytics
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: DARWIN vs Other Asset Classes | A Quant / Algorithmic Trader's Perspective
@@ -261,7 +261,7 @@ videos:
     category:
       slug: quantitative-analytics
       text: Quantitative Analytics
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Time Weighted Order Frequency | DARWIN Data Analytics for Algorithmic Trading
@@ -271,7 +271,7 @@ videos:
     category:
       slug: quantitative-analytics
       text: Quantitative Analytics
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Underlying Strategy Returns | DARWIN Data Analytics for Algorithmic Trading
@@ -281,7 +281,7 @@ videos:
     category:
       slug: quantitative-analytics
       text: Quantitative Analytics
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: DARWIN vs EURUSD Volatility | DARWIN Data Analytics for Algorithmic Trading
@@ -291,7 +291,7 @@ videos:
     category:
       slug: quantitative-analytics
       text: Quantitative Analytics
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: Tick-level Quotes | DARWIN Data Analytics for Algorithmic Trading
@@ -301,7 +301,7 @@ videos:
     category:
       slug: quantitative-analytics
       text: Quantitative Analytics
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
   -
     name: FIX Pricing Class - III | QuickFIX Application R&D for Algorithmic Trading
@@ -311,7 +311,7 @@ videos:
     category:
       slug: fix-protocol
       text: FIX Protocol
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
 
 webinars:
@@ -323,7 +323,7 @@ webinars:
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
-    type: youtube # youtube or vimeo
+    type: video_youtube # youtube or vimeo
     enabled: true
 
 podcasts:

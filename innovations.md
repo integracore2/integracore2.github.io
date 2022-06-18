@@ -63,8 +63,18 @@ permalink: /innovations/
                 {% if entry.enabled %}
                 <figure class="item {{ params.classes.item }}" data-groups='["all", "{{ entry.category.slug }}"]'>
                   <div class="portfolio-item-img">
+                  {% if item_type[0] == "video" %}
+                    {% assign vid = entry.url | split:'/' | last %}
+                    {% if entry.lowres_thumbnail %}
+                    <img src="{{ site.data.content.config.youtube.thumbnail_url.prefix }}{{ vid }}{{ site.data.content.config.youtube.thumbnail_url.lowres_suffix }}" alt="{{ entry.name }}" title="" />
+                    {% else %}
+                    <img src="{{ site.data.content.config.youtube.thumbnail_url.prefix }}{{ vid }}{{ site.data.content.config.youtube.thumbnail_url.maxres_suffix }}" alt="{{ entry.name }}" title="" />
+                    {% endif %}
+                    <a href="{{ site.data.content.config.youtube.embed_prefix }}{{ vid }}?quality=high" class="{{ params.classes.link }}"></a>
+                  {% else %}
                     <img src="{{ site.baseurl | append: entry.image_url }}" alt="{{ entry.name }}" title="" />
                     <a href="{{ entry.url }}" target="_blank" class="{{ params.classes.link }}"></a>
+                  {% endif %}
                   </div>
 
                   <i class="{{ params.classes.fa }}"></i>
