@@ -523,6 +523,26 @@ videos:
       text: Quantitative Analytics
     type: video_youtube # youtube or vimeo
     enabled: true
+  -
+    name: Return & Monthly Divergence | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-04
+    url: https://youtu.be/QqIIz-xMR2I
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: DARWIN Data Analytics - Getting Started
+    loc: Darwinex (YouTube)
+    date: 2019-09-03
+    url: https://youtu.be/lgYEoC5OCfk
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
 
 webinars:
 
