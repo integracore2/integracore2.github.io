@@ -26,6 +26,14 @@ categories:
         name: API Development
         data_group: api-development
         enabled: true
+      - 
+        name: Quant R&D
+        data_group: quantitative-research-development
+        enabled: true
+      -
+        name: Portfolio Management
+        data_group: quantitative-portfolio-management
+        enabled: true
 
     strategies:
       -
