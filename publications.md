@@ -4,6 +4,7 @@ title: {{ site.data.pageconfig.publications.config.page.title }}
 slug: publications
 permalink: /publications/
 ---
+{% assign content_config = site.data.content.config %}
 {% assign current_page = site.data.pageconfig.publications %}
 
 {% assign config = current_page.config %}
@@ -55,9 +56,9 @@ permalink: /publications/
                 {% if item_type.size > 1 %}
                   {% assign item_parent = "" | prepend: item_type[0] %}
                   {% assign item_child = "" | prepend: item_type[1] %}
-                  {% assign params = site.data.content.config.item_types[item_parent][item_child] %}
+                  {% assign params = content_config.item_types[item_parent][item_child] %}
                 {% else %}
-                  {% assign params = site.data.content.config.item_types[item_type[0]] %}
+                  {% assign params = content_config.item_types[item_type[0]] %}
                 {% endif %}
 
                 {% for entry in category_items %}
