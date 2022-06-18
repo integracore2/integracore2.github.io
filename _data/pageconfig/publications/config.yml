@@ -46,6 +46,10 @@ categories:
         name: API Trading
         data_group: algorithmic-api-trading
         enabled: yes
+      -
+        name: Machine Learning
+        data_group: machine-learning
+        enabled: true
     
     webinars:
       -
@@ -76,6 +80,10 @@ categories:
         name: API Trading
         data_group: algorithmic-api-trading
         enabled: yes
+      -
+        name: Machine Learning
+        data_group: machine-learning
+        enabled: true
 
     podcasts:
       -
@@ -106,12 +114,40 @@ categories:
         name: API Trading
         data_group: algorithmic-api-trading
         enabled: yes
+      -
+        name: Machine Learning
+        data_group: machine-learning
+        enabled: true
 
     blogs:
+      -
+        name: All
+        data_group: all # this must match with any video's category.slug in content.yml
+        enabled: true
+      -
+        name: FIX Protocol
+        data_group: fix-protocol
+        enabled: true
+      -
+        name: Quantitative Analytics
+        data_group: quantitative-analytics
+        enabled: true
+      -
+        name: Quantitative Risk Management
+        data_group: quantitative-risk-management
+        enabled: true
       -
         name: Algorithmic Trading
         data_group: algorithmic-trading
         enabled: true
+      -
+        name: Trading Infrastructure
+        data_group: algorithmic-trading-infrastructure
+        enabled: yes
+      -
+        name: API Trading
+        data_group: algorithmic-api-trading
+        enabled: yes
       -
         name: Machine Learning
         data_group: machine-learning
