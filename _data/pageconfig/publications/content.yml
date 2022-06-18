@@ -902,7 +902,7 @@ blogs:
     loc: Darwinex Labs
     date: 2018-06-25
     url: https://blog.darwinex.com/good-traders-use-sensible-leverage-ii/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
@@ -913,7 +913,7 @@ blogs:
     loc: Darwinex Labs
     date: 2018-05-25
     url: https://blog.darwinex.com/good-traders-use-sensible-leverage/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
@@ -924,7 +924,7 @@ blogs:
     loc: Darwinex Labs
     date: 2018-04-13
     url: https://blog.darwinex.com/automated-tick-data-collection-r-metatrader/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: algorithmic-trading-infrastructure
       text: Trading Infrastructure
@@ -935,7 +935,7 @@ blogs:
     loc: Darwinex Labs
     date: 2018-03-28
     url: https://blog.darwinex.com/download-tick-data-metatrader/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: algorithmic-trading-infrastructure
       text: Trading Infrastructure
@@ -946,7 +946,7 @@ blogs:
     loc: Darwinex Labs
     date: 2018-03-08
     url: https://blog.darwinex.com/sharpe-ratio-strategy-performance/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: quantitative-analytics
       text: Quantitative Analytics
@@ -957,7 +957,7 @@ blogs:
     loc: Darwinex Labs
     date: 2018-02-16
     url: https://blog.darwinex.com/zeromq-transaction-reporting-metatrader-zmq3/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: algorithmic-trading-infrastructure
       text: Trading Infrastructure
@@ -968,7 +968,7 @@ blogs:
     loc: Darwinex Labs
     date: 2018-01-31
     url: https://blog.darwinex.com/zeromq-trade-execution-metatrader-zmq2/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: algorithmic-trading-infrastructure
       text: Trading Infrastructure
@@ -979,7 +979,7 @@ blogs:
     loc: Darwinex Labs
     date: 2018-01-24
     url: https://blog.darwinex.com/build-currency-portfolio-metatrader/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
@@ -990,7 +990,7 @@ blogs:
     loc: Darwinex Labs
     date: 2018-01-17
     url: https://blog.darwinex.com/darwin-time-series-data-r-mld2/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: quantitative-analytics
       text: Quantitative Analytics
@@ -1001,7 +1001,7 @@ blogs:
     loc: Darwinex Labs
     date: 2017-12-08
     url: https://blog.darwinex.com/machine-learning-darwin-datasets-1/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: machine-learning
       text: Machine Learning
@@ -1012,7 +1012,7 @@ blogs:
     loc: Darwinex Labs
     date: 2017-11-30
     url: https://blog.darwinex.com/darwin-data-science-environment-setup/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: algorithmic-trading-infrastructure
       text: Trading Infrastructure
@@ -1023,7 +1023,7 @@ blogs:
     loc: Darwinex Labs
     date: 2017-11-15
     url: https://blog.darwinex.com/identify-overfit-trading-strategies/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
@@ -1034,7 +1034,7 @@ blogs:
     loc: Darwinex Labs
     date: 2017-10-20
     url: https://blog.darwinex.com/mt4-indicator-currency-index/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: quantitative-analytics
       text: Quantitative Analytics
@@ -1045,7 +1045,7 @@ blogs:
     loc: Darwinex Labs
     date: 2017-10-16
     url: https://blog.darwinex.com/dos-donts-metatrader-4-backtesting/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
@@ -1056,7 +1056,7 @@ blogs:
     loc: Darwinex Labs
     date: 2017-08-27
     url: https://blog.darwinex.com/zeromq-interface-python-r-metatrader4/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: algorithmic-trading-infrastructure
       text: Trading Infrastructure
@@ -1067,7 +1067,7 @@ blogs:
     loc: Darwinex Labs
     date: 2017-06-17
     url: https://blog.darwinex.com/lvq-machine-learning-algorithmic-traders-part-3/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: machine-learning
       text: Machine Learning
@@ -1078,7 +1078,7 @@ blogs:
     loc: Darwinex Labs
     date: 2017-06-14
     url: https://blog.darwinex.com/lvq-machine-learning-algorithmic-traders-part-2/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: machine-learning
       text: Machine Learning
@@ -1089,7 +1089,7 @@ blogs:
     loc: Darwinex Labs
     date: 2017-06-08
     url: https://blog.darwinex.com/lvq-machine-learning-algorithmic-traders-part-1/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: machine-learning
       text: Machine Learning
@@ -1100,7 +1100,7 @@ blogs:
     loc: Darwinex Labs
     date: 2017-05-03
     url: https://blog.darwinex.com/quantitative-modelling-algorithmic-traders-primer/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: quantitative-analytics
       text: Quantitative Analytics
@@ -1111,7 +1111,7 @@ blogs:
     loc: Darwinex Labs
     date: 2017-04-24
     url: https://blog.darwinex.com/hidden-markov-models-darwins-sp500/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: machine-learning
       text: Machine Learning
@@ -1122,7 +1122,7 @@ blogs:
     loc: Darwinex Labs
     date: 2017-04-14
     url: https://blog.darwinex.com/darwin-filters-alternative-markowitz-portfolio-theory/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: quantitative-analytics
       text: Quantitative Analytics
@@ -1133,7 +1133,7 @@ blogs:
     loc: Darwinex Labs
     date: 2017-03-20
     url: https://blog.darwinex.com/serious-algorithmic-trading-part-2-why-quantitative/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
@@ -1144,7 +1144,7 @@ blogs:
     loc: Darwinex Labs
     date: 2017-03-16
     url: https://blog.darwinex.com/serious-algorithmic-trading-part-1-retail-institutional-competition/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
@@ -1155,7 +1155,7 @@ blogs:
     loc: Darwinex Labs
     date: 2017-03-13
     url: https://blog.darwinex.com/serious-algorithmic-trading-introduction/
-    image_url: 
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
     category:
       slug: algorithmic-trading
       text: Algorithmic Trading
