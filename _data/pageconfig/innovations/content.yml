@@ -67,5 +67,36 @@ opensource:
       text: API Development
     type: direct_url
     enabled: true
-  
-  
+  -
+    name: Darwinex APIs
+    loc: GitHub
+    date: 2018-01-01
+    url: https://github.com/integracore2/darwinexapis
+    image_url: /assets/img/innovations/opensource/darwinexapis-code.jpg
+    category:
+      slug: api-development
+      text: API Development
+    type: direct_url
+    enabled: true
+  -
+    name: Mendel Framework
+    loc: GitHub
+    date: 2018-01-01
+    url: https://github.com/integracore2/mendel-framework
+    image_url: /assets/img/innovations/opensource/mendel-framework-code.jpg
+    category:
+      slug: quantitative-portfolio-management
+      text: Portfolio Management
+    type: direct_url
+    enabled: true
+  -
+    name: Quant Research Environment
+    loc: GitHub
+    date: 2018-01-01
+    url: https://github.com/integracore2/quant-research-env
+    image_url: /assets/img/innovations/opensource/quant-research-env-code.jpg
+    category:
+      slug: quantitative-research-development
+      text: Quant R&D
+    type: direct_url
+    enabled: true
