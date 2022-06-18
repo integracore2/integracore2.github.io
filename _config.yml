@@ -1,18 +1,16 @@
 title: Ali Saif
-logo: /assets/img/profile-picture.jpg
-description: Full-Stack Decision Scientist, Quant & Algorithmic Trader. R&D Stack | C++, Rust, Java, Python, R, Go and Julia.
+logo: 
+    image: /assets/img/profile-picture.jpg
+    symbol: "&Lambda;"
+    text: "Ali <span>Saif</span>"
+description: Contract Consultant | Technical Architect | Startup Advisor
 show_downloads: false
-paginate: 5
+#paginate: 5
 google_analytics:
 # theme: jekyll-theme-integracore2-light
-author:
-    name: Saif (integracore2)
-    darwin_plf: https://www.darwinex.com/darwin/PLF?detail_view=true
-    darwin_lzl: https://www.darwinex.com/darwin/LZL?detail_view=true
-    darwin_icx: https://www.darwinex.com/darwin/ICX?detail_view=true
-    darwin_nfx: https://www.darwinex.com/darwin/NFX?detail_view=true
-    twitter: http://twitter.com/integracore2
-    linkedin: https://www.linkedin.com/in/ali-saif/
+google_recaptcha:
+    site_key: 6LeNlGcgAAAAAI-k3G6BDl_dixxmXKMbIFS8WZih
+
 # Disqus Comments
 disqus:
     # Leave shortname blank to disable comments site-wide.

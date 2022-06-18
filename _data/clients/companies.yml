@@ -1,0 +1,72 @@
+mitmedialab:
+    name: MIT Media Lab
+    image: mit-media-lab.png
+    url: https://www.media.mit.edu/
+zaratemateo:
+    name: Zárate-Mateo Algorithmic Systems
+    image: zarate-mateo-algorithmic-systems.png
+    url: https://www.zaratemateo.com/
+ucl:
+    name: University College London (UCL)
+    image: ucl.png
+    url: https://www.ucl.ac.uk/
+hudson_thames:
+    name: Hudson and Thames
+    image: hudson_and_thames.png
+    url: https://hudsonthames.org/
+iqlink:
+    name: iQlink Limited
+    image: iqlink.png
+    url: https://www.iqlink.co.uk/
+packt:
+    name: Packt Publishing
+    image: packt-publishing.png
+    url: https://www.packtpub.com/
+tradologics:
+    name: Tradologics
+    image: tradologics.png
+    url: https://www.tradologics.com/
+darwinex:
+    name: Darwinex
+    image: darwinex.jpg
+    url: https://www.darwinex.com/
+capriva:
+    name: Capriva Asset Management
+    image: capriva.png
+    url: https://www.capriva.io/
+quantinsti:
+    name: QuantInsti - Algorithmic Trading
+    image: quantinsti.png
+    url: https://www.quantinsti.com/
+tlam:
+    name: Trade Like A Machine Ltd
+    image: trade-like-a-machine.jpg
+    url: https://www.tradelikeamachine.com/
+finbou:
+    name: Finbou AG
+    image: finbou.jpg
+    url: https://www.finbou.com/
+meridiana:
+    name: Meridiana - Multi Family Office
+    image: meridiana.png
+    url: http://meridiana-mfo.com/
+sersansistemas:
+    name: Sersan Sistemas S.L.
+    image: sersan-sistemas.jpg
+    url: https://www.sersansistemas.com/
+accuratequant:
+    name: Accurate Quant - Quant Investment Solutions
+    image: accurate-quant.jpg
+    url: https://accuratequant.com/
+nexdegree:
+    name: NexDegree
+    image: nexdegree.jpg
+    url: https://www.nexdegree.com/
+tekcellent:
+    name: Tekcellent Private Limited
+    image: tekcellent.jpg
+    url: https://www.tekcellent.com/
+albemarle:
+    name: Albemarle Independent colleague
+    image: albemarle.png
+    url: https://www.albemarle.org.uk/

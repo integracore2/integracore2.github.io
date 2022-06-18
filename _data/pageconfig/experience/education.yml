@@ -1,0 +1,36 @@
+entries:
+  -
+    timeline: 2022
+    company: Amazon Web Services (AWS)
+    role: AWS Certified Cloud Practitioner
+    description: Supporting clients with designing and building solution architectures using best practices as per the <a href="https://aws.amazon.com/architecture/well-architected/" target="_blank">AWS Well-Architected Framework</a>.
+  -
+    timeline: 2019
+    company: Udacity
+    role: Artificial Intelligence for Trading (Nanodegree)
+    description:
+  -
+    timeline: 2018
+    company: Udacity
+    role: Machine Learning for Trading (Course)
+    description:
+  -
+    timeline: 2007-2011
+    company: Queen Mary, University of London
+    role: Computer Science with Industrial Experience
+    description:
+  -
+    timeline: 2008
+    company: ExpertRating Inc.
+    role: MySQL Certification
+    description:
+  -
+    timeline: 2007
+    company: Middlesex University, London 
+    role: Certificate of Higher Education in Computing
+    description:
+  -
+    timeline: 2006
+    company: ExpertRating Inc.
+    role: Programming in C Certification
+    description:

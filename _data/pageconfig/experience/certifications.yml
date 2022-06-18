@@ -1,0 +1,27 @@
+-
+  -
+    name: AWS Certified Cloud Practitioner
+    cta: Click to Verify Achievement
+    url: https://www.credly.com/badges/bb4a9846-1b3d-4df1-a104-ba62e2835386?source=linked_in_profile
+    image_url: /assets/img/aws-certified-cloud-practitioner.png
+    validity: Valid from 2022 to 2025
+  -
+    name: Artificial Intelligence for Trading
+    cta: Click to Verify Achievement
+    url: https://confirm.udacity.com/5DVTP4V7
+    image_url: /assets/img/udacity_nanodegree.png
+    validity: Valid from 2019 onwards
+
+-
+  -
+    name: MySQL Certification
+    cta: "Validity: All Time"
+    url:
+    image_url: /assets/img/expertrating_certified_professional.png
+    validity: 2008
+  -
+    name: Programming in C Certification
+    cta: "Validity: All Time"
+    url:
+    image_url: /assets/img/expertrating_certified_professional.png
+    validity: 2006

@@ -1,0 +1,154 @@
+page:
+  title: Publications
+  subtitle: "<i>~ evolving relentlessly since 1997 ~</i>"
+
+categories:
+
+  titles:
+    videos: Videos
+    webinars: Webinars
+    podcasts: Podcasts
+    blogs: Blogs
+  
+  item_types:
+    videos: video_youtube   # video_youtube for YouTube, video_vimeo for Vimeo
+    webinars: video_youtube
+    podcasts: video_youtube
+    blogs: direct_url
+    
+  data:
+    videos:
+      -
+        name: All
+        data_group: all # this must match with any video's category.slug in content.yml
+        enabled: true
+      -
+        name: FIX Protocol
+        data_group: fix-protocol
+        enabled: true
+      -
+        name: Quantitative Analytics
+        data_group: quantitative-analytics
+        enabled: true
+      -
+        name: Quantitative Risk Management
+        data_group: quantitative-risk-management
+        enabled: true
+      -
+        name: Algorithmic Trading
+        data_group: algorithmic-trading
+        enabled: true
+      -
+        name: Trading Infrastructure
+        data_group: algorithmic-trading-infrastructure
+        enabled: yes
+      -
+        name: API Trading
+        data_group: algorithmic-api-trading
+        enabled: yes
+      -
+        name: Machine Learning
+        data_group: machine-learning
+        enabled: true
+    
+    webinars:
+      -
+        name: All
+        data_group: all # this must match with any video's category.slug in content.yml
+        enabled: true
+      -
+        name: FIX Protocol
+        data_group: fix-protocol
+        enabled: true
+      -
+        name: Quantitative Analytics
+        data_group: quantitative-analytics
+        enabled: true
+      -
+        name: Quantitative Risk Management
+        data_group: quantitative-risk-management
+        enabled: true
+      -
+        name: Algorithmic Trading
+        data_group: algorithmic-trading
+        enabled: true
+      -
+        name: Trading Infrastructure
+        data_group: algorithmic-trading-infrastructure
+        enabled: yes
+      -
+        name: API Trading
+        data_group: algorithmic-api-trading
+        enabled: yes
+      -
+        name: Machine Learning
+        data_group: machine-learning
+        enabled: true
+
+    podcasts:
+      -
+        name: All
+        data_group: all # this must match with any video's category.slug in content.yml
+        enabled: true
+      -
+        name: FIX Protocol
+        data_group: fix-protocol
+        enabled: true
+      -
+        name: Quantitative Analytics
+        data_group: quantitative-analytics
+        enabled: true
+      -
+        name: Quantitative Risk Management
+        data_group: quantitative-risk-management
+        enabled: true
+      -
+        name: Algorithmic Trading
+        data_group: algorithmic-trading
+        enabled: true
+      -
+        name: Trading Infrastructure
+        data_group: algorithmic-trading-infrastructure
+        enabled: yes
+      -
+        name: API Trading
+        data_group: algorithmic-api-trading
+        enabled: yes
+      -
+        name: Machine Learning
+        data_group: machine-learning
+        enabled: true
+
+    blogs:
+      -
+        name: All
+        data_group: all # this must match with any video's category.slug in content.yml
+        enabled: true
+      -
+        name: FIX Protocol
+        data_group: fix-protocol
+        enabled: true
+      -
+        name: Quantitative Analytics
+        data_group: quantitative-analytics
+        enabled: true
+      -
+        name: Quantitative Risk Management
+        data_group: quantitative-risk-management
+        enabled: true
+      -
+        name: Algorithmic Trading
+        data_group: algorithmic-trading
+        enabled: true
+      -
+        name: Trading Infrastructure
+        data_group: algorithmic-trading-infrastructure
+        enabled: yes
+      -
+        name: API Trading
+        data_group: algorithmic-api-trading
+        enabled: yes
+      -
+        name: Machine Learning
+        data_group: machine-learning
+        enabled: true

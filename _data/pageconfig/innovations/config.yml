@@ -1,0 +1,50 @@
+page:
+  title: Innovations
+  subtitle: "<i>~ evolving relentlessly since 1997 ~</i>"
+
+categories:
+  
+  titles:
+    opensource: Open Source Contributions
+    strategies: Systematic Trading Portfolios
+  
+  item_types:
+    opensource: direct_url
+    strategies: direct_url # video_youtube for YouTube, video_vimeo for Vimeo
+  
+  data:
+    opensource:
+      -
+        name: All
+        data_group: all # this must match with any video's category.slug in content.yml
+        enabled: true
+      -
+        name: Integrations Engineering
+        data_group: integractions-engineering
+        enabled: true
+      -
+        name: API Development
+        data_group: api-development
+        enabled: true
+      - 
+        name: Quant R&D
+        data_group: quantitative-research-development
+        enabled: true
+      -
+        name: Portfolio Management
+        data_group: quantitative-portfolio-management
+        enabled: true
+
+    strategies:
+      -
+        name: All
+        data_group: all # this must match with any video's category.slug in content.yml
+        enabled: true
+      -
+        name: Mean Reversion Trading
+        data_group: mean-reversion-trading-strategies
+        enabled: true
+      -
+        name: Volatility Trading
+        data_group: volatility-trading-strategies
+        enabled: true

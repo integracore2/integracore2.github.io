@@ -1,0 +1,1163 @@
+videos:
+  -
+    name: Overview | Algorithmic Trading @ Darwinex
+    loc: Darwinex (YouTube)
+    date: 2020-07-15
+    url: https://youtu.be/70ePTzTd9OI
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Momentum vs Volatility (Factor Validation) | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-19
+    url: https://youtu.be/x7i34WBOcw0
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Critical Evaluation | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-19
+    url: https://youtu.be/4XisAIbdF60
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Logarithmic vs Simple Returns | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-15
+    url: https://youtu.be/CiZoWSn-le8
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Strategy Prototyping | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-15
+    url: https://youtu.be/xzGvMTPzFlQ
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Introduction | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-15
+    url: https://youtu.be/HIu-VjPADhE
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Factor Engineering | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-15
+    url: https://youtu.be/cYhKkgjeFCI
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Avoiding Look-Ahead Bias | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-15
+    url: https://youtu.be/4JHxXcFygco
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Portfolio Construction | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-15
+    url: https://youtu.be/j2N2hKnG5u4
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Hypothesis Development | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-15
+    url: https://youtu.be/qw6XO-SFvBA
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Dataset Construction | Algorithmic Trading Strategies with DARWIN Assets
+    loc: Darwinex (YouTube)
+    date: 2020-05-15
+    url: https://youtu.be/XIrTAMCNTc8
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Rollover Interest / Swaps, MarginCost & Leverage | Algorithmic Trading with Zorro @ Darwinex
+    loc: Darwinex (YouTube)
+    date: 2020-03-31
+    url: https://youtu.be/CcVTv_iLnEA
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    lowres_thumbnail: true
+    enabled: false
+  -
+    name: Setup AssetsFix.csv Correctly in Lite-C | Algorithmic Trading with Zorro @ Darwinex
+    loc: Darwinex (YouTube)
+    date: 2020-03-31
+    url: https://youtu.be/yYEG7xCxxTs
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    lowres_thumbnail: true
+    enabled: false
+  -
+    name: Assets & Transaction Costs in Zorro for Algorithmic Trading @ Darwinex (1)
+    loc: Darwinex (YouTube)
+    date: 2020-03-31
+    url: https://youtu.be/AwiPq5ATino
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    lowres_thumbnail: true
+    enabled: false
+  -
+    name: Commissions (FX vs Non-FX) in AssetsFix.csv | Algorithmic Trading with Zorro @ Darwinex
+    loc: Darwinex (YouTube)
+    date: 2020-03-31
+    url: https://youtu.be/VtXr4IBd4tQ
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    lowres_thumbnail: true
+    enabled: false
+  -
+    name: Why High-VaR Trading Strategies Don’t Survive Long-Term
+    loc: Darwinex (YouTube)
+    date: 2020-01-09
+    url: https://youtu.be/hKsE652NDwA
+    category:
+      slug: quantitative-risk-management
+      text: Quantitative Risk Management
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: How Darwinex replicates leverage for DARWIN investors
+    loc: Darwinex (YouTube)
+    date: 2020-01-08
+    url: https://youtu.be/OP-JHLDSqvo
+    category:
+      slug: quantitative-risk-management
+      text: Quantitative Risk Management
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: "How Value-at-Risk (VaR) is calculated at Darwinex: Part 2"
+    loc: Darwinex (YouTube)
+    date: 2020-01-07
+    url: https://youtu.be/_IsLJbn2B1o
+    category:
+      slug: quantitative-risk-management
+      text: Quantitative Risk Management
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: "How Value-at-Risk (VaR) is calculated at Darwinex: Part 1"
+    loc: Darwinex (YouTube)
+    date: 2020-01-06
+    url: https://youtu.be/rgxXjdEnJq8
+    category:
+      slug: quantitative-risk-management
+      text: Quantitative Risk Management
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Calculating the Risk (D-Leverage) of a Position
+    loc: Darwinex (YouTube)
+    date: 2020-01-05
+    url: https://youtu.be/QJMBXabXMLw
+    category:
+      slug: quantitative-risk-management
+      text: Quantitative Risk Management
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Measuring the Risk of a Trading Decision (D-Leverage)
+    loc: Darwinex (YouTube)
+    date: 2020-01-04
+    url: https://youtu.be/eGsr8nZU04Y
+    category:
+      slug: quantitative-risk-management
+      text: Quantitative Risk Management
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Measuring the Risk of a Trading Strategy
+    loc: Darwinex (YouTube)
+    date: 2020-01-02
+    url: https://youtu.be/qSrKBUEaoi4
+    category:
+      slug: quantitative-risk-management
+      text: Quantitative Risk Management
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Money Management & The Risk of a Trading Strategy
+    loc: Darwinex (YouTube)
+    date: 2020-01-01
+    url: https://youtu.be/R9e2ZgyoSxg
+    category:
+      slug: quantitative-risk-management
+      text: Quantitative Risk Management
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Daily Rotation Data | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-11-28
+    url: https://youtu.be/RzfNYbUAhxc
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Merging API & FTP Data | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-11-28
+    url: https://youtu.be/0waqG5bOJV0
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: DARWIN vs Other Asset Classes | A Quant / Algorithmic Trader's Perspective
+    loc: Darwinex (YouTube)
+    date: 2019-10-30
+    url: https://youtu.be/TIv-imF2AHo
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Time Weighted Order Frequency | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-30
+    url: https://youtu.be/inV3yrMhtWo
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Underlying Strategy Returns | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-30
+    url: https://youtu.be/41LFuY8DmNQ
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: DARWIN vs EURUSD Volatility | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-30
+    url: https://youtu.be/h829eaiL1lA
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Tick-level Quotes | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-30
+    url: https://youtu.be/xwFixEKfQOs
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: FIX Pricing Class - III | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-13
+    url: https://youtu.be/RjTpi7djKsI
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: FIX Pricing Class - II | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-12
+    url: https://youtu.be/YdUS2BqcclQ
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: FIX Pricing Class - I | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-11
+    url: https://youtu.be/ecs5NMNdEoA
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Installing QuickFIX for Python | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-10
+    url: https://youtu.be/pAlrGJDvyYg
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Introduction | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-06
+    url: https://youtu.be/RhPew0ge-kw
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Examples in C++ & Python | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-05
+    url: https://youtu.be/vhwT8UKwKnU
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Logic, Code & Structure | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-04
+    url: https://youtu.be/UA_HIDeABNc
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Variable Definitions | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-03
+    url: https://youtu.be/xV8FRwc5jXI
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: App Configuration | QuickFIX Application R&D for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-10-02
+    url: https://youtu.be/ZM2IEooF72M
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Coding Setup (in any language!) | DWX ZeroMQ Connector for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-17
+    url: https://youtu.be/ia1E5xczouc
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: MT4 Setup | DWX ZeroMQ Connector for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-16
+    url: https://youtu.be/N0-aYLllK3E
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Dependencies | DWX ZeroMQ Connector for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-15
+    url: https://youtu.be/YdlSwrKt9TU
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: ZeroMQ Client Config | DWX ZeroMQ Connector for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-14
+    url: https://youtu.be/qMNSr-Hiupk
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Example Usage | DWX ZeroMQ Connector for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-13
+    url: https://youtu.be/U2VdXdm2qlM
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: ZeroMQ Server Config | DWX ZeroMQ Connector for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-12
+    url: https://youtu.be/ONBFOGsnijU
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Intro | DWX ZeroMQ Connector for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-11
+    url: https://youtu.be/Qv04zPU7lxQ
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Scheduling Tasks | Automating DARWIN Trading Strategies on VPS Servers
+    loc: Darwinex (YouTube)
+    date: 2019-09-10
+    url: https://youtu.be/GLO7j9RqsV8
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Intro - Automating DARWIN Trading Strategies on VPS Servers
+    loc: Darwinex (YouTube)
+    date: 2019-09-09
+    url: https://youtu.be/b0Qqcb-zP-g
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Setup & Batch Script | Automating DARWIN Trading Strategies on VPS Servers
+    loc: Darwinex (YouTube)
+    date: 2019-09-08
+    url: https://youtu.be/SamhkBT9Haw
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Conda Environment | Automating DARWIN Trading Strategies on VPS Servers
+    loc: Darwinex (YouTube)
+    date: 2019-09-07
+    url: https://youtu.be/99YN4AX5A7s
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Simulated vs Real Investor Divergence | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-06
+    url: https://youtu.be/SYeqgk244Y8
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Order Latency & Divergence | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-05
+    url: https://youtu.be/V8tw3LdsfPQ
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Return & Monthly Divergence | DARWIN Data Analytics for Algorithmic Trading
+    loc: Darwinex (YouTube)
+    date: 2019-09-04
+    url: https://youtu.be/QqIIz-xMR2I
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: DARWIN Data Analytics - Getting Started
+    loc: Darwinex (YouTube)
+    date: 2019-09-03
+    url: https://youtu.be/lgYEoC5OCfk
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Downloading Data via FTP in Python | DARWIN Data Analytics
+    loc: Darwinex (YouTube)
+    date: 2019-09-02
+    url: https://youtu.be/_BbYwv8u4eA
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Quant Workflow | Algorithmic Trading Strategy R&D in Python
+    loc: Darwinex (YouTube)
+    date: 2019-09-01
+    url: https://youtu.be/KEtp_fAlDRc
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Optimizing MT4 Performance & Trade Latency on VPS Servers
+    loc: Darwinex (YouTube)
+    date: 2019-08-30
+    url: https://youtu.be/rcy8nxiypo4
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: "Algorithmic Trading Strategies with Python & ZeroMQ: Part 2"
+    loc: Darwinex (YouTube)
+    date: 2019-08-10
+    url: https://youtu.be/VtOfF-nhhj8
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: "Algorithmic Trading Strategies with Python & ZeroMQ: Part 1"
+    loc: Darwinex (YouTube)
+    date: 2019-08-02
+    url: https://youtu.be/4MxjFTQHTfw
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    lowres_thumbnail: true
+    enabled: true
+  -
+    name: Troubleshooting Python, ZeroMQ & MetaTrader Configuration
+    loc: Darwinex (YouTube)
+    date: 2019-08-01
+    url: https://youtu.be/7aAsFZ_r5zU
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Algorithmic Order Management via the DARWIN Trading API
+    loc: Darwinex (YouTube)
+    date: 2019-07-29
+    url: https://youtu.be/U-yUX8AqV6s
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Investor Account Reporting | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-07-26
+    url: https://youtu.be/_KUBlB3a6Ko
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Live Streaming Quotes - 2 | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-07-14
+    url: https://youtu.be/EoCZzRvOMwM
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Building a DARWIN Trading Terminal - Part 1 | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-07-13
+    url: https://youtu.be/scjQXbe8lso
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Streaming Quotes via WebSocket | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-06-25
+    url: https://youtu.be/FEacd_gVbpM
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Live Streaming Quotes - 1 | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-06-14
+    url: https://youtu.be/Q-etnSETgBM
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Visualizing DARWIN Filters | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-06-07
+    url: https://youtu.be/VLpFgBR18ps
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Getting OHLC Candlesticks | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-05-31
+    url: https://youtu.be/kqW8u23gOTI
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Coding Algorithmic DARWIN Filters | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-05-30
+    url: https://youtu.be/YP-8FhtFu64
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Constructing a DARWIN Universe | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-05-28
+    url: https://youtu.be/-1fv2pzJqoE
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Time Series Analysis of Quotes | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-05-22
+    url: https://youtu.be/-1C246UILF8
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Getting DARWIN Scores | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-05-17
+    url: https://youtu.be/shWobd7_VE0
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Getting DARWIN Quotes | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-05-10
+    url: https://youtu.be/4oPRaeU-Frw
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: FIX Trading & SSL Connections | FIX API for Algorithmic Trading @ Darwinex
+    loc: Darwinex (YouTube)
+    date: 2019-05-09
+    url: https://youtu.be/pell_OwOmMw
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Initiating FIX Sessions (Logon 35=A) | FIX API for Algorithmic Trading @ Darwinex
+    loc: Darwinex (YouTube)
+    date: 2019-05-01
+    url: https://youtu.be/tpbzmL19tT4
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Anatomy of the FIX Protocol | FIX API for Algorithmic Trading @ Darwinex
+    loc: Darwinex (YouTube)
+    date: 2019-04-26
+    url: https://youtu.be/wSgAwJyev2Y
+    category:
+      slug: fix-protocol
+      text: FIX Protocol
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Getting Started | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-04-19
+    url: https://youtu.be/IDDHyjqt_TY
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Writing a REST Wrapper Class | Algorithmic Trading & Investing with the DARWIN API
+    loc: Darwinex (YouTube)
+    date: 2019-04-16
+    url: https://youtu.be/GKHAbct6T6s
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Importing Darwinex Tick Data into Trading & Backtesting Applications, in Python 3 (part 1)
+    loc: Darwinex (YouTube)
+    date: 2019-03-04
+    url: https://youtu.be/MlVkH27DCgI
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Setting up a DARWIN Data Science Environment
+    loc: Darwinex (YouTube)
+    date: 2017-12-19
+    url: https://youtu.be/6TN3VrlhdU8
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    lowres_thumbnail: true
+    enabled: true
+  -
+    name: Constructing Currency Portfolio Indexes in MetaTrader 4
+    loc: Darwinex (YouTube)
+    date: 2017-11-28
+    url: https://youtu.be/phZGPcd61rM
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    lowres_thumbnail: true
+    enabled: true
+  -
+    name: How To Identify Overfit Trading Strategies
+    loc: Darwinex (YouTube)
+    date: 2017-11-23
+    url: https://youtu.be/Ise2TWgLVBE
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    lowres_thumbnail: true
+    enabled: true
+  -
+    name: "MetaTrader Backtesting: Best Practices for Algorithmic Traders"
+    loc: Darwinex (YouTube)
+    date: 2017-10-18
+    url: https://youtu.be/9ncEbDDgVKw
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+
+webinars:
+  -
+    name: Ask Me Anything (DARWIN API Edition) - July 18, 2019 (Webinar)
+    loc: Darwinex (YouTube)
+    date: 2019-07-19
+    url: https://youtu.be/GnySxXYsDNk
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: "[EN] Darwinex @ ROBOTRADER March 2019 (UPM Madrid - Live Stream)"
+    loc: Darwinex (YouTube)
+    date: 2019-03-19
+    url: https://youtu.be/XlodUPabooc
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    lowres_thumbnail: true
+    enabled: true
+  -
+    name: "Effects of Market Volatility on Trader Performance"
+    loc: Darwinex (YouTube)
+    date: 2017-09-15
+    url: https://youtu.be/dQKmLostOuM
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    lowres_thumbnail: true
+    enabled: true
+  -
+    name: "Interfacing Python/R Algorithmic Trading Strategies with MetaTrader via ZeroMQ"
+    loc: Darwinex (YouTube)
+    date: 2017-03-01
+    url: https://youtu.be/GGOajzvl860
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    lowres_thumbnail: true
+    enabled: true
+
+podcasts:
+  -
+    name: "The Sharpe Ratio Argument: Reliable Measures of Trading Performance (Podcast)"
+    loc: Darwinex (YouTube)
+    date: 2019-03-27
+    url: https://youtu.be/LeBwNFGIiww
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    lowres_thumbnail: true
+    enabled: true
+
+blogs:
+  -
+    name: "How do good traders use leverage? (Part II)"
+    loc: Darwinex Labs
+    date: 2018-06-25
+    url: https://blog.darwinex.com/good-traders-use-sensible-leverage-ii/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "How do good traders use leverage? (Part I)"
+    loc: Darwinex Labs
+    date: 2018-05-25
+    url: https://blog.darwinex.com/good-traders-use-sensible-leverage/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Automated Tick Data Collection & Storage with R, MetaTrader, and a VPS"
+    loc: Darwinex Labs
+    date: 2018-04-13
+    url: https://blog.darwinex.com/automated-tick-data-collection-r-metatrader/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "How To Download Tick Data in MetaTrader 4 & 5"
+    loc: Darwinex Labs
+    date: 2018-03-28
+    url: https://blog.darwinex.com/download-tick-data-metatrader/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Sharpe Ratio – A Reliable Measure of Performance?"
+    loc: Darwinex Labs
+    date: 2018-03-08
+    url: https://blog.darwinex.com/sharpe-ratio-strategy-performance/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "ZeroMQ – Transaction Reporting via MetaTrader (ZMQ-III)"
+    loc: Darwinex Labs
+    date: 2018-02-16
+    url: https://blog.darwinex.com/zeromq-transaction-reporting-metatrader-zmq3/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "ZeroMQ – Trade Execution in MetaTrader (ZMQ-II)"
+    loc: Darwinex Labs
+    date: 2018-01-31
+    url: https://blog.darwinex.com/zeromq-trade-execution-metatrader-zmq2/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Constructing a Currency Portfolio in MetaTrader"
+    loc: Darwinex Labs
+    date: 2018-01-24
+    url: https://blog.darwinex.com/build-currency-portfolio-metatrader/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Working with DARWIN Time Series Data in R (MLD-II)"
+    loc: Darwinex Labs
+    date: 2018-01-17
+    url: https://blog.darwinex.com/darwin-time-series-data-r-mld2/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Machine Learning on DARWIN Datasets (MLD-I)"
+    loc: Darwinex Labs
+    date: 2017-12-08
+    url: https://blog.darwinex.com/machine-learning-darwin-datasets-1/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: machine-learning
+      text: Machine Learning
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Setting up a DARWIN Data Science Environment"
+    loc: Darwinex Labs
+    date: 2017-11-30
+    url: https://blog.darwinex.com/darwin-data-science-environment-setup/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "How To Identify Overfit Trading Strategies"
+    loc: Darwinex Labs
+    date: 2017-11-15
+    url: https://blog.darwinex.com/identify-overfit-trading-strategies/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Currency Index Indicator for MetaTrader 4"
+    loc: Darwinex Labs
+    date: 2017-10-20
+    url: https://blog.darwinex.com/mt4-indicator-currency-index/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "MetaTrader Backtesting – Best Practices for Algorithmic Traders"
+    loc: Darwinex Labs
+    date: 2017-10-16
+    url: https://blog.darwinex.com/dos-donts-metatrader-4-backtesting/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "ZeroMQ – How To Interface Python/R with MetaTrader 4"
+    loc: Darwinex Labs
+    date: 2017-08-27
+    url: https://blog.darwinex.com/zeromq-interface-python-r-metatrader4/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "LVQ and Machine Learning for Algorithmic Traders – Part 3"
+    loc: Darwinex Labs
+    date: 2017-06-17
+    url: https://blog.darwinex.com/lvq-machine-learning-algorithmic-traders-part-3/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: machine-learning
+      text: Machine Learning
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "LVQ and Machine Learning for Algorithmic Traders – Part 2"
+    loc: Darwinex Labs
+    date: 2017-06-14
+    url: https://blog.darwinex.com/lvq-machine-learning-algorithmic-traders-part-2/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: machine-learning
+      text: Machine Learning
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "LVQ and Machine Learning for Algorithmic Traders – Part 1"
+    loc: Darwinex Labs
+    date: 2017-06-08
+    url: https://blog.darwinex.com/lvq-machine-learning-algorithmic-traders-part-1/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: machine-learning
+      text: Machine Learning
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Quantitative Modeling for Algorithmic Traders – Primer"
+    loc: Darwinex Labs
+    date: 2017-05-03
+    url: https://blog.darwinex.com/quantitative-modelling-algorithmic-traders-primer/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Hidden Markov Models & Regime Change: S&P500"
+    loc: Darwinex Labs
+    date: 2017-04-24
+    url: https://blog.darwinex.com/hidden-markov-models-darwins-sp500/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: machine-learning
+      text: Machine Learning
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "DARWIN Filters: A Practical Alternative to Markowitz Portfolio Theory"
+    loc: Darwinex Labs
+    date: 2017-04-14
+    url: https://blog.darwinex.com/darwin-filters-alternative-markowitz-portfolio-theory/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Why Quantitative? – Serious Algorithmic Trading Series (Part 2)"
+    loc: Darwinex Labs
+    date: 2017-03-20
+    url: https://blog.darwinex.com/serious-algorithmic-trading-part-2-why-quantitative/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Serious Algorithmic Trading Series – Part 1"
+    loc: Darwinex Labs
+    date: 2017-03-16
+    url: https://blog.darwinex.com/serious-algorithmic-trading-part-1-retail-institutional-competition/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Serious Algorithmic Trading Series – Introduction"
+    loc: Darwinex Labs
+    date: 2017-03-13
+    url: https://blog.darwinex.com/serious-algorithmic-trading-introduction/
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: direct_url # youtube or vimeo
+    enabled: true

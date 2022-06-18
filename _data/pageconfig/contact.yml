@@ -1,0 +1,13 @@
+contact_form:
+    action_url: https://docs.google.com/forms/u/0/d/e/1FAIpQLSdaB2yDCTffCr6B3DMn76spp4Uy7H6LDNnGgFsGDCgnQVq1rw/formResponse
+    input_firstname: entry.2005620554
+    input_email: entry.1045781291
+    input_subject: entry.1065046570
+    input_message: entry.839337160
+    input_emailauth: entry.1155623029
+    emailauth_text: By checking this box, you grant me permission to store your details securely and contact you via email.
+    emailauth_disclosure: "<strong>Disclosure:</strong> Your details will never be used for any other purpose, nor will they ever be shared with anyone."
+    emailauth_fulltext: By checking this box, you grant me permission to store your details securely and contact you via email. Your details will never be used for any other purpose, nor will they ever be shared with anyone.
+    grecaptcha_error: "<label style='font-size: 0.85em; color: red;'>Please click on (I'm not a robot), and then the Send button below to proceed.</label>"
+
+famous_quote: “Imagination is everything. It is the preview of<br />life’s coming attractions.” – Albert Einstein

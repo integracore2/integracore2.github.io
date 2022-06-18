@@ -1,0 +1,91 @@
+recommendations_enabled: true
+recommendations_title: What Stakeholders Say # Recommendations
+engagements_title: Who I've Worked With # All-Time Engagements
+
+fun_facts_enabled: true
+fun_facts_title: What I've Done # Fun Facts
+fun_facts:
+  -
+      title: Projects Delivered
+      value: 150+
+      icon: calendar
+  -
+      title: Hours Worked
+      value: "25K+"
+      icon: clock
+  -
+      title: Books Read
+      value: 600+
+      icon: study
+  -
+      title: Tea Cups Downed
+      value: "6K+"
+      icon: cup
+
+services_enabled: true
+services_title: What I Do
+services:
+  -
+    -
+      title: Technical and Strategic Advisory Services
+      description: I help clients address technical and strategic challenges across various domains, and help them position strongly for product-market fit.
+      icon: bulb
+    -
+      title: Corporate & Technical Training Workshops
+      description: I'm an effective communicator of knowledge, best practices, and practical solutions, to technical and non-technical audiences alike.
+      icon: display
+  -
+    -
+      title: Data, Software, and Integrations Engineering
+      description: I bring extensive hands-on experience in distributed computing, DevOps, software, data and integrations engineering to your table.
+      icon: data
+    -
+      title: Cloud-Native Solution Architecture
+      description: I help clients design, build, test, and productionize solutions of varying complexities and use cases on Amazon Web Services (AWS).
+      icon: cloud
+
+pricing_enabled: false
+pricing_title: Pricing
+pricing:
+  -
+    name: Silver
+    highlight: highlight-col # set to "highlight-col" if blue underline desired, or "default-col"
+    value: $64
+    frequency: per month
+    button:
+      url: #
+      text: Free Trial
+      status: primary # primary or secondary
+    rows:
+      - row 1
+      - row 2
+      - row 3
+  -
+    name: Gold
+    highlight: default-col # set to "highlight-col" if blue underline desired, or "default-col"
+    value: $128
+    frequency: per month
+    button:
+      url: #
+      text: Free Trial
+      status: primary # primary or secondary
+    rows:
+      - row 1
+      - row 2
+      - row 3
+      - row 4
+  -
+    name: Platinum
+    highlight: default-col # set to "highlight-col" if blue underline desired, or "default-col"
+    value: $256
+    frequency: per month
+    button:
+      url: #
+      text: Free Trial
+      status: primary # primary or secondary
+    rows:
+      - row 1
+      - row 2
+      - row 3
+      - row 4
+      - row 5

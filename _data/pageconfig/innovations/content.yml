@@ -1,0 +1,102 @@
+strategies:
+  -
+    name: $LZL - Systematic Mean Reversion Strategy Portfolio (9+ yrs - retired)
+    loc: Darwinex
+    date: 2013-01-01
+    url: https://www.darwinex.com/invest/LZL?utm_source=integracore.tech&utm_medium=referral&utm_campaign=shareownlanding&utm_content=integracore2
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: mean-reversion-trading-strategies
+      text: Mean Reversion Trading
+    type: direct_url
+    enabled: true
+  -
+    name: $PLF - Systematic Mean Reversion Strategy Portfolio (7+ yrs - active)
+    loc: Darwinex
+    date: 2014-10-01
+    url: https://www.darwinex.com/invest/PLF?utm_source=integracore.tech&utm_medium=referral&utm_campaign=shareownlanding&utm_content=integracore2
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: mean-reversion-trading-strategies
+      text: Mean Reversion
+    type: direct_url
+    enabled: true
+  -
+    name: $ICX - Systematic FX Volatility Strategy Portfolio (7+ yrs - active)
+    loc: Darwinex
+    date: 2015-04-01
+    url: https://www.darwinex.com/invest/ICX?utm_source=integracore.tech&utm_medium=referral&utm_campaign=shareownlanding&utm_content=integracore2
+    image_url: /assets/img/innovations/strategies/darwinex-strategy.jpg
+    category:
+      slug: volatility-trading-strategies
+      text: Volatility
+    type: direct_url
+    enabled: true
+
+opensource:
+  -
+    name: DWX ZeroMQ Connector
+    loc: GitHub
+    date: 2017-03-01
+    url: https://github.com/integracore2/dwx-zeromq-connector
+    image_url: /assets/img/innovations/opensource/dwx-zeromq-connector-code.jpg
+    category:
+      slug: integractions-engineering
+      text: Integrations Engineering
+    type: direct_url
+    enabled: true
+  -
+    name: DWX Connect
+    loc: GitHub
+    date: 2021-07-01
+    url: https://github.com/darwinex/dwxconnect
+    image_url: /assets/img/innovations/opensource/dwxconnect-code.jpg
+    category:
+      slug: integractions-engineering
+      text: Integrations Engineering
+    type: direct_url
+    enabled: true
+  -
+    name: DWX FIX Connector
+    loc: GitHub
+    date: 2018-01-01
+    url: https://github.com/darwinex/dwx-fix-connector
+    image_url: /assets/img/innovations/opensource/dwx-fix-connector-code.jpg
+    category:
+      slug: api-development
+      text: API Development
+    type: direct_url
+    enabled: true
+  -
+    name: Darwinex APIs
+    loc: GitHub
+    date: 2018-01-01
+    url: https://github.com/integracore2/darwinexapis
+    image_url: /assets/img/innovations/opensource/darwinexapis-code.jpg
+    category:
+      slug: api-development
+      text: API Development
+    type: direct_url
+    enabled: true
+  -
+    name: Mendel Framework
+    loc: GitHub
+    date: 2018-01-01
+    url: https://github.com/integracore2/mendel-framework
+    image_url: /assets/img/innovations/opensource/mendel-framework-code.jpg
+    category:
+      slug: quantitative-portfolio-management
+      text: Portfolio Management
+    type: direct_url
+    enabled: true
+  -
+    name: Quant Research Environment
+    loc: GitHub
+    date: 2018-01-01
+    url: https://github.com/integracore2/quant-research-env
+    image_url: /assets/img/innovations/opensource/quant-research-env-code.jpg
+    category:
+      slug: quantitative-research-development
+      text: Quant R&D
+    type: direct_url
+    enabled: true
