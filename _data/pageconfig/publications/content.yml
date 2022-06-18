@@ -784,6 +784,56 @@ videos:
       text: API Trading
     type: video_youtube # youtube or vimeo
     enabled: true
+  -
+    name: Importing Darwinex Tick Data into Trading & Backtesting Applications, in Python 3 (part 1)
+    loc: Darwinex (YouTube)
+    date: 2019-03-04
+    url: https://youtu.be/MlVkH27DCgI
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Setting up a DARWIN Data Science Environment
+    loc: Darwinex (YouTube)
+    date: 2017-12-19
+    url: https://youtu.be/6TN3VrlhdU8
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: Constructing Currency Portfolio Indexes in MetaTrader 4
+    loc: Darwinex (YouTube)
+    date: 2017-11-28
+    url: https://youtu.be/phZGPcd61rM
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: How To Identify Overfit Trading Strategies
+    loc: Darwinex (YouTube)
+    date: 2017-11-23
+    url: https://youtu.be/Ise2TWgLVBE
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
+  -
+    name: "MetaTrader Backtesting: Best Practices for Algorithmic Traders"
+    loc: Darwinex (YouTube)
+    date: 2017-10-18
+    url: https://youtu.be/9ncEbDDgVKw
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: video_youtube # youtube or vimeo
+    enabled: true
 
 webinars:
   -
@@ -796,8 +846,183 @@ webinars:
       text: API Trading
     type: video_youtube # youtube or vimeo
     enabled: true
+  -
+    name: "[EN] Darwinex @ ROBOTRADER March 2019 (UPM Madrid - Live Stream)"
+    loc: Darwinex (YouTube)
+    date: 2019-03-19
+    url: https://youtu.be/XlodUPabooc
+    category:
+      slug: algorithmic-api-trading
+      text: API Trading
+    type: video_youtube # youtube or vimeo
+    lowres_thumbnail: true
+    enabled: true
 
 podcasts:
+  -
+    name: "The Sharpe Ratio Argument: Reliable Measures of Trading Performance (Podcast)"
+    loc: Darwinex (YouTube)
+    date: 2019-03-27
+    url: https://youtu.be/LeBwNFGIiww
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: video_youtube # youtube or vimeo
+    lowres_thumbnail: true
+    enabled: true
 
-
-  
+blogs:
+  -
+    name: "How do good traders use leverage? (Part II)"
+    loc: Darwinex Labs
+    date: 2018-06-25
+    url: https://blog.darwinex.com/good-traders-use-sensible-leverage-ii/
+    image_url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "How do good traders use leverage? (Part I)"
+    loc: Darwinex Labs
+    date: 2018-05-25
+    url: https://blog.darwinex.com/good-traders-use-sensible-leverage/
+    image_url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Automated Tick Data Collection & Storage with R, MetaTrader, and a VPS"
+    loc: Darwinex Labs
+    date: 2018-04-13
+    url: https://blog.darwinex.com/automated-tick-data-collection-r-metatrader/
+    image_url: 
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "How To Download Tick Data in MetaTrader 4 & 5"
+    loc: Darwinex Labs
+    date: 2018-03-28
+    url: https://blog.darwinex.com/download-tick-data-metatrader/
+    image_url: 
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Sharpe Ratio – A Reliable Measure of Performance?"
+    loc: Darwinex Labs
+    date: 2018-03-08
+    url: https://blog.darwinex.com/sharpe-ratio-strategy-performance/
+    image_url: 
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "ZeroMQ – Transaction Reporting via MetaTrader (ZMQ-III)"
+    loc: Darwinex Labs
+    date: 2018-02-16
+    url: https://blog.darwinex.com/zeromq-transaction-reporting-metatrader-zmq3/
+    image_url: 
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "ZeroMQ – Trade Execution in MetaTrader (ZMQ-II)"
+    loc: Darwinex Labs
+    date: 2018-01-31
+    url: https://blog.darwinex.com/zeromq-trade-execution-metatrader-zmq2/
+    image_url: 
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Constructing a Currency Portfolio in MetaTrader"
+    loc: Darwinex Labs
+    date: 2018-01-24
+    url: https://blog.darwinex.com/build-currency-portfolio-metatrader/
+    image_url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Working with DARWIN Time Series Data in R (MLD-II)"
+    loc: Darwinex Labs
+    date: 2018-01-17
+    url: https://blog.darwinex.com/darwin-time-series-data-r-mld2/
+    image_url: 
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Machine Learning on DARWIN Datasets (MLD-I)"
+    loc: Darwinex Labs
+    date: 2017-12-08
+    url: https://blog.darwinex.com/machine-learning-darwin-datasets-1/
+    image_url: 
+    category:
+      slug: machine-learning
+      text: Machine Learning
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Setting up a DARWIN Data Science Environment"
+    loc: Darwinex Labs
+    date: 2017-11-30
+    url: https://blog.darwinex.com/darwin-data-science-environment-setup/
+    image_url: 
+    category:
+      slug: algorithmic-trading-infrastructure
+      text: Trading Infrastructure
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "How To Identify Overfit Trading Strategies"
+    loc: Darwinex Labs
+    date: 2017-11-15
+    url: https://blog.darwinex.com/identify-overfit-trading-strategies/
+    image_url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "Currency Index Indicator for MetaTrader 4"
+    loc: Darwinex Labs
+    date: 2017-10-20
+    url: https://blog.darwinex.com/mt4-indicator-currency-index/
+    image_url: 
+    category:
+      slug: quantitative-analytics
+      text: Quantitative Analytics
+    type: direct_url # youtube or vimeo
+    enabled: true
+  -
+    name: "MetaTrader Backtesting – Best Practices for Algorithmic Traders"
+    loc: Darwinex Labs
+    date: 2017-10-16
+    url: https://blog.darwinex.com/dos-donts-metatrader-4-backtesting/
+    image_url: 
+    category:
+      slug: algorithmic-trading
+      text: Algorithmic Trading
+    type: direct_url # youtube or vimeo
+    enabled: true
