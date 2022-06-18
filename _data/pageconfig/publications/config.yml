@@ -32,3 +32,7 @@ categories:
         name: Algorithmic Trading
         data_group: algorithmic-trading
         enabled: true
+      -
+        name: Trading Infrastructure
+        data_group: algorithmic-trading-infrastructure
+        enabled: yes
