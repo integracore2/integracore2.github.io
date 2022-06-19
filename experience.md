@@ -2,7 +2,7 @@
 layout: default
 title: Experience
 permalink: /experience/
-image: /assets/img/andrew-neel-cckf4TsHAuw-unsplash-medium.jpg
+image: /assets/img/andrew-neel-cckf4TsHAuw-unsplash-medium-1200x630.jpg
 ---
 {% assign page_data = site.data.pageconfig.experience.config %}
 <div id="main" class="site-main">

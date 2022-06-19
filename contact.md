@@ -2,7 +2,7 @@
 layout: default
 title: Contact
 permalink: /contact/
-image: /assets/img/redd-5U_28ojjgms-unsplash-medium.jpg
+image: /assets/img/redd-5U_28ojjgms-unsplash-medium-1200x630.jpg
 ---
 
 <div id="main" class="site-main">
