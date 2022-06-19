@@ -38,7 +38,7 @@
   name: Publications
   url: /publications/
   current: false
-  enabled: true
+  enabled: false
   has_children: true
   children:
     -
