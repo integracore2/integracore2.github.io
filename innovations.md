@@ -1,7 +1,6 @@
 ---
 layout: default
 title: {{ site.data.pageconfig.innovations.config.page.title }}
-slug: innovations
 permalink: /innovations/
 image: /assets/img/absolutvision-82TpEld0_e4-unsplash-medium.jpg
 ---
