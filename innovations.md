@@ -2,7 +2,7 @@
 layout: default
 title: Innovations
 permalink: /innovations/
-image: /assets/img/absolutvision-82TpEld0_e4-unsplash-medium.jpg
+image: /assets/img/absolutvision-82TpEld0_e4-unsplash-medium-1200x630.jpg
 ---
 {% assign content_config = site.data.content.config %}
 {% assign current_page = site.data.pageconfig.innovations %}

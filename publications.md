@@ -2,7 +2,7 @@
 layout: default
 title: Publications
 permalink: /publications/
-image: /assets/img/gabriella-clare-marino-Hx8HaI4ERkA-unsplash-medium.jpg
+image: /assets/img/gabriella-clare-marino-Hx8HaI4ERkA-unsplash-medium-1200x630.jpg
 ---
 {% assign content_config = site.data.content.config %}
 {% assign current_page = site.data.pageconfig.publications %}
