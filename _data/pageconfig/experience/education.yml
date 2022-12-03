@@ -3,7 +3,7 @@ entries:
     timeline: 2022
     company: Amazon Web Services (AWS)
     role: AWS Certified Solutions Architect - SAA
-    description: Helping clients design and build secure, robust, well-architected distributed systems that are scalable, resilient, efficient, and fault-tolerant.
+    description: Helping clients design and build secure, robust, <a href="https://aws.amazon.com/architecture/well-architected/" target="_blank">well-architected</a> distributed systems that are scalable, resilient, efficient, and fault-tolerant.
   
   -
     timeline: 2022
