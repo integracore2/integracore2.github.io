@@ -4,7 +4,8 @@ source 'https://rubygems.org'
 # gemspec
 
 group :jekyll_plugins do
-    gem "liquid-c"
+    # gem "liquid-c"
+    gem 'liquid', '~> 4.0', '>= 4.0.4'
     gem "webrick"
     gem "jekyll-include-cache"
     gem "jekyll-seo-tag"

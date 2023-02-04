@@ -2,7 +2,7 @@ recommendations_enabled: true
 recommendations_title: What Stakeholders Say # Recommendations
 engagements_title: Who I've Worked With # All-Time Engagements
 
-fun_facts_enabled: true
+fun_facts_enabled: false
 fun_facts_title: What I've Done # Fun Facts
 fun_facts:
   -
