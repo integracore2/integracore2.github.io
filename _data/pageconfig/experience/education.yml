@@ -2,8 +2,13 @@ entries:
   -
     timeline: 2023
     company: Amazon Web Services (AWS)
+    role: AWS Certified Developer - DVA
+    description: Helping clients manage application life-cycles, build CI/CD pipelines and applications with AWS APIs, SDKs and Serverless technologies, in accordance with <a href="https://aws.amazon.com/architecture/well-architected/" target="_blank">AWS best practices</a>.
+  -
+    timeline: 2023
+    company: Amazon Web Services (AWS)
     role: AWS Certified SysOps Administrator - SOA
-    description: Helping clients deploy, manage, operate IT systems, and migrate on-premises workloads to AWS, as well as monitor, scale, and secure them in accordance with <a href="https://aws.amazon.com/architecture/well-architected/" target="_blank">AWS best practices</a>.
+    description: Helping clients deploy, manage and operate IT systems, migrate on-premises workloads to AWS, and monitor, scale, and secure them in accordance with <a href="https://aws.amazon.com/architecture/well-architected/" target="_blank">AWS best practices</a>.
   -
     timeline: 2022
     company: Amazon Web Services (AWS)
