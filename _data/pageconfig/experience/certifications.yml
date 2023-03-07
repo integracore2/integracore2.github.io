@@ -1,18 +1,24 @@
 -
   -
-    name: AWS Certified Developer - DVA
+    name: AWS Certified DevOps Engineer - Professional
+    cta: Click to Verify Achievement
+    url: https://www.credly.com/users/ali.saif/badges
+    image_url: /assets/img/aws-certified-devops-engineer-professional.png
+    validity: Valid from 2023 to 2026
+  -
+    name: AWS Certified Developer - Associate
     cta: Click to Verify Achievement
     url: https://www.credly.com/users/ali.saif/badges
     image_url: /assets/img/aws-certified-developer-associate.png
     validity: Valid from 2023 to 2026
   -
-    name: AWS Certified SysOps Administrator - SOA
+    name: AWS Certified SysOps Administrator - Associate
     cta: Click to Verify Achievement
     url: https://www.credly.com/users/ali.saif/badges
     image_url: /assets/img/aws-certified-sysops-administrator-associate.png
     validity: Valid from 2023 to 2026
   -
-    name: AWS Certified Solutions Architect - SAA
+    name: AWS Certified Solutions Architect - Associate
     cta: Click to Verify Achievement
     url: https://www.credly.com/users/ali.saif/badges
     image_url: /assets/img/aws-certified-solutions-architect-associate.png
@@ -25,10 +31,10 @@
     validity: Valid from 2022 to 2025
   -
     name: Artificial Intelligence for Trading
-    cta: Click to Verify Achievement
-    url: https://confirm.udacity.com/5DVTP4V7
+    cta: "Validity: All Time"
+    url: 
     image_url: /assets/img/udacity_nanodegree.png
-    validity: Valid from 2019 onwards
+    validity: 2019
   -
     name: MySQL Certification
     cta: "Validity: All Time"
