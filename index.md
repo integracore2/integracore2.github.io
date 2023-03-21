@@ -38,7 +38,7 @@ image: /assets/img/marvin-meyer-SYTO3xs06fU-unsplash-medium-1200x630.jpg
                           
                     <div class="home-buttons">
                       <a href="{{ site.data.author.config.linkedin }}" target="_blank" class="btn btn-primary">Connect on LinkedIn</a>
-                      <a href="/contact/" target="_self" class="btn btn-secondary">How can I help you?</a>
+                      <!-- <a href="#" target="_self" class="btn btn-secondary">How can I help you?</a> -->
                     </div>
                   </div>
                 </div>
