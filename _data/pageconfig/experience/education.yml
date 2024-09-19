@@ -1,10 +1,14 @@
 entries:
   -
+    timeline: 2024
+    company: Amazon Web Services (AWS)
+    role: AWS Certified Solutions Architect - Professional
+    description: Helping clients design technical strategies and build solutions across multiple platforms and providers to accomplish specific business goals, balancing best practices and trade-offs based on business context.
+  -
     timeline: 2023
     company: Amazon Web Services (AWS)
     role: AWS Certified DevOps Engineer - Professional
     description: Helping clients implement CI/CD systems and methodologies, automate resilient applications and infrastructure deployments, enforce security, automated monitoring, and event-driven environments on the AWS Cloud.
-    
   -
     timeline: 2023
     company: Amazon Web Services (AWS)
