@@ -30,11 +30,47 @@
     image_url: /assets/img/aws-certified-solutions-architect-associate.png
     validity: "Issued: 2022"
   -
+    name: "HashiCorp Certified: Terraform Associate"
+    cta: Click to Verify Achievement
+    url: https://www.credly.com/users/ali.saif/badges
+    image_url: /assets/img/hashicorp-certified-terraform-associate.png
+    validity: "Issued: 2023"
+  -
     name: AWS Certified Cloud Practitioner
     cta: Click to Verify Achievement
     url: https://www.credly.com/users/ali.saif/badges
     image_url: /assets/img/aws-certified-cloud-practitioner.png
     validity: "Issued: 2022"
+  -
+    name: "Microsoft Certified: Azure Fundamentals"
+    cta: Click to Verify Achievement
+    url: https://www.credly.com/users/ali.saif/badges
+    image_url: /assets/img/microsoft-certified-azure-fundamentals.png
+    validity: "Issued: 2023"
+  -
+    name: "AWS Partner Accreditation: Technical"
+    cta: Click to Verify Achievement
+    url: https://www.credly.com/users/ali.saif/badges
+    image_url: /assets/img/aws-partner-accreditation-technical.png
+    validity: "Issued: 2023"
+  -
+    name: "AWS Partner Accreditation: Cloud Economics"
+    cta: Click to Verify Achievement
+    url: https://www.credly.com/users/ali.saif/badges
+    image_url: /assets/img/aws-partner-accreditation-cloud-economics.png
+    validity: "Issued: 2023"
+  -
+    name: "AWS Partner Accreditation: Migration Sales"
+    cta: Click to Verify Achievement
+    url: https://www.credly.com/users/ali.saif/badges
+    image_url: /assets/img/aws-partner-migration-sales-essentials.png
+    validity: "Issued: 2023"
+  -
+    name: "AWS Partner Accreditation: Sales"
+    cta: Click to Verify Achievement
+    url: https://www.credly.com/users/ali.saif/badges
+    image_url: /assets/img/aws-partner-accreditation-sales.png
+    validity: "Issued: 2023"
   -
     name: Artificial Intelligence for Trading
     cta: "Validity: All Time"
